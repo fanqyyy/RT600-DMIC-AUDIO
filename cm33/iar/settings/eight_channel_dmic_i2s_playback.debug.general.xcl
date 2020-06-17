@@ -1,0 +1,15 @@
+"C:\IAR8.50.1\arm\bin\armproc.dll" 
+
+"C:\IAR8.50.1\arm\bin\armJET.dll" 
+
+"C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar\debug\dsp_hello_world_usart_cm33.out" 
+
+--plugin="C:\IAR8.50.1\arm\bin\armbat.dll" 
+
+--device_macro="C:\IAR8.50.1\arm\config\debugger\NXP\iMXRT6xx_CortexM33.dmac" 
+
+--flash_loader="C:\IAR8.50.1\arm\config\flashloader\NXP\FlashIMXRT600_EVK_FLEXSPI.board" 
+
+
+
+

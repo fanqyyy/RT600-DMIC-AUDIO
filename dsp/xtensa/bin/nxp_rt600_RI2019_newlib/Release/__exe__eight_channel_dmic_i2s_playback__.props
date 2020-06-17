@@ -1,0 +1,1 @@
+-mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -lxos --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/config --xtensa-core=nxp_rt600_RI2019_newlib --xtensa-params= 

@@ -1,0 +1,65 @@
+#Generating source browse information for project eight_channel_dmic_i2s_playback
+
+
+#Abbreviations
+cc = C$:\IAR8.50.1\common\bin\SourceIndexer.exe
+ll = C$:\IAR8.50.1\common\bin\PbdLink.exe
+bd = C$:\IAR8.50.1\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build board.pbi : index board.xcl
+build clock_config.pbi : index clock_config.xcl
+build dsp_support.pbi : index dsp_support.xcl
+build pin_mux.pbi : index pin_mux.xcl
+build pmic_support.pbi : index pmic_support.xcl
+build fsl_codec_adapter.pbi : index fsl_codec_adapter.xcl
+build fsl_codec_common.pbi : index fsl_codec_common.xcl
+build fsl_codec_i2c.pbi : index fsl_codec_i2c.xcl
+build fsl_cs42888.pbi : index fsl_cs42888.xcl
+build flexcomm_i2c_adapter.pbi : index flexcomm_i2c_adapter.xcl
+build generic_list.pbi : index generic_list.xcl
+build serial_manager.pbi : index serial_manager.xcl
+build serial_port_uart.pbi : index serial_port_uart.xcl
+build usart_adapter.pbi : index usart_adapter.xcl
+build system_MIMXRT685S_cm33.pbi : index system_MIMXRT685S_cm33.xcl
+build fsl_cache.pbi : index fsl_cache.xcl
+build fsl_clock.pbi : index fsl_clock.xcl
+build fsl_common.pbi : index fsl_common.xcl
+build fsl_dsp.pbi : index fsl_dsp.xcl
+build fsl_flexcomm.pbi : index fsl_flexcomm.xcl
+build fsl_flexspi.pbi : index fsl_flexspi.xcl
+build fsl_gpio.pbi : index fsl_gpio.xcl
+build fsl_i2c.pbi : index fsl_i2c.xcl
+build fsl_inputmux.pbi : index fsl_inputmux.xcl
+build fsl_power.pbi : index fsl_power.xcl
+build fsl_reset.pbi : index fsl_reset.xcl
+build fsl_usart.pbi : index fsl_usart.xcl
+build flash_config.pbi : index flash_config.xcl
+build fsl_pca9420.pbi : index fsl_pca9420.xcl
+build main_cm.pbi : index main_cm.xcl
+build fsl_assert.pbi : index fsl_assert.xcl
+build fsl_debug_console.pbi : index fsl_debug_console.xcl
+build fsl_str.pbi : index fsl_str.xcl
+build eight_channel_dmic_i2s_playback_part0.pbi : link board.pbi clock_config.pbi dsp_support.pbi pin_mux.pbi pmic_support.pbi fsl_codec_adapter.pbi
+build eight_channel_dmic_i2s_playback_part1.pbi : link fsl_codec_common.pbi fsl_codec_i2c.pbi fsl_cs42888.pbi flexcomm_i2c_adapter.pbi generic_list.pbi serial_manager.pbi
+build eight_channel_dmic_i2s_playback_part2.pbi : link serial_port_uart.pbi usart_adapter.pbi system_MIMXRT685S_cm33.pbi fsl_cache.pbi fsl_clock.pbi fsl_common.pbi
+build eight_channel_dmic_i2s_playback_part3.pbi : link fsl_dsp.pbi fsl_flexcomm.pbi fsl_flexspi.pbi fsl_gpio.pbi fsl_i2c.pbi fsl_inputmux.pbi
+build eight_channel_dmic_i2s_playback_part4.pbi : link fsl_power.pbi fsl_reset.pbi fsl_usart.pbi flash_config.pbi fsl_pca9420.pbi main_cm.pbi
+build eight_channel_dmic_i2s_playback_part5.pbi : link fsl_assert.pbi fsl_debug_console.pbi fsl_str.pbi
+build eight_channel_dmic_i2s_playback.pbd : link eight_channel_dmic_i2s_playback_part0.pbi eight_channel_dmic_i2s_playback_part1.pbi eight_channel_dmic_i2s_playback_part2.pbi eight_channel_dmic_i2s_playback_part3.pbi eight_channel_dmic_i2s_playback_part4.pbi eight_channel_dmic_i2s_playback_part5.pbi
+build eight_channel_dmic_i2s_playback.pbw : browsedata eight_channel_dmic_i2s_playback.pbd
+
+

@@ -1,0 +1,1945 @@
+Archive member included because of file (symbol)
+
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                              user/main.o (xos_register_interrupt_handler)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o) (_xos_exc_handler_table)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_table.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o) (xos_intlevel_mask)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+                              user/main.o (xos_start_main)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o) (xos_idle_thread)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                              user/main.o (xos_clock_freq)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o) (xos_hp_dispatch_table)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_stack.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o) (xos_int_stack_end)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o) (_xos_alloca_handler)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o) (xos_clib_init)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o) (_xos_coproc_handler)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o) (xos_mutex_create)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o) (xos_once_init)
+C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+                              C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o) (xos_system_timer_set)
+
+Linker script and memory map
+
+LOAD MIMXRT685S/system_MIMXRT685S_dsp.o
+LOAD board/pin_mux.o
+LOAD component/lists/generic_list.o
+LOAD component/serial_manager/serial_manager.o
+LOAD component/serial_manager/serial_port_uart.o
+LOAD component/uart/usart_adapter.o
+LOAD drivers/fsl_clock.o
+LOAD drivers/fsl_common.o
+LOAD drivers/fsl_flexcomm.o
+LOAD drivers/fsl_gpio.o
+LOAD drivers/fsl_reset.o
+LOAD drivers/fsl_usart.o
+LOAD drivers_audio/fsl_dma.o
+LOAD drivers_audio/fsl_dmic.o
+LOAD drivers_audio/fsl_dmic_dma.o
+LOAD drivers_audio/fsl_i2s.o
+LOAD drivers_audio/fsl_i2s_dma.o
+LOAD drivers_audio/fsl_inputmux.o
+LOAD evkmimxrt685/board_hifi4.o
+LOAD user/main.o
+LOAD user/user_pin_mux.o
+LOAD utilities/fsl_debug_console.o
+LOAD utilities/fsl_str.o
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a
+
+.text           0x00000000     0xc521
+ *(.literal .text)
+ .literal       0x00000000       0x30 MIMXRT685S/system_MIMXRT685S_dsp.o
+                                         0x74 (size before relaxing)
+ .literal       0x00000030        0x4 board/pin_mux.o
+                                          0x8 (size before relaxing)
+ .literal       0x00000034        0xc component/lists/generic_list.o
+                                         0x10 (size before relaxing)
+ .literal       0x00000040       0x54 component/serial_manager/serial_manager.o
+                                        0x118 (size before relaxing)
+ .literal       0x00000094       0x2c component/serial_manager/serial_port_uart.o
+                                         0x90 (size before relaxing)
+ .literal       0x000000c0       0x3c component/uart/usart_adapter.o
+                                         0xb4 (size before relaxing)
+ .literal       0x000000fc       0x64 drivers/fsl_clock.o
+                                        0x230 (size before relaxing)
+ .literal       0x00000160       0x14 drivers/fsl_common.o
+                                         0x24 (size before relaxing)
+ .literal       0x00000174       0xd4 drivers/fsl_flexcomm.o
+                                        0x168 (size before relaxing)
+ .literal       0x00000248       0x30 drivers/fsl_gpio.o
+                                         0x70 (size before relaxing)
+ .literal       0x00000278       0x14 drivers/fsl_reset.o
+                                         0xa8 (size before relaxing)
+ .literal       0x0000028c       0xf4 drivers/fsl_usart.o
+                                        0x1f8 (size before relaxing)
+ .literal       0x00000380      0x120 drivers_audio/fsl_dma.o
+                                        0x2a4 (size before relaxing)
+ .literal       0x000004a0       0x44 drivers_audio/fsl_dmic.o
+                                         0xac (size before relaxing)
+ .literal       0x000004e4       0x54 drivers_audio/fsl_dmic_dma.o
+                                         0xf0 (size before relaxing)
+ .literal       0x00000538       0xa8 drivers_audio/fsl_i2s.o
+                                        0x1e4 (size before relaxing)
+ .literal       0x000005e0       0x80 drivers_audio/fsl_i2s_dma.o
+                                        0x154 (size before relaxing)
+ .literal       0x00000660       0x18 drivers_audio/fsl_inputmux.o
+                                         0x50 (size before relaxing)
+ .literal       0x00000678        0x4 evkmimxrt685/board_hifi4.o
+                                          0x8 (size before relaxing)
+ .literal       0x0000067c      0x1b4 user/main.o
+                                        0x4e0 (size before relaxing)
+ .literal       0x00000830        0x0 user/user_pin_mux.o
+                                         0x40 (size before relaxing)
+ .literal       0x00000830       0x64 utilities/fsl_debug_console.o
+                                        0x120 (size before relaxing)
+ .literal       0x00000894        0x8 utilities/fsl_str.o
+                                         0x10 (size before relaxing)
+ .literal       0x0000089c       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+                                         0x1c (size before relaxing)
+ .literal       0x000008b0       0x64 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+                                         0xd8 (size before relaxing)
+ .literal       0x00000914        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+                                         0x1c (size before relaxing)
+ *fill*         0x00000920        0x0 
+ .text          0x00000920      0x279 MIMXRT685S/system_MIMXRT685S_dsp.o
+                0x00000a38                SystemInit
+                0x00000a40                SystemCoreClockUpdate
+                0x00000b94                SystemInitHook
+ *fill*         0x00000b99        0x7 
+ .text          0x00000ba0       0x59 board/pin_mux.o
+                0x00000bcc                BOARD_InitBootPins
+                0x00000bd4                BOARD_InitPins
+ *fill*         0x00000bf9        0x7 
+ .text          0x00000c00      0x32c component/lists/generic_list.o
+                0x00000c68                LIST_Init
+                0x00000c8c                LIST_GetList
+                0x00000c98                LIST_AddTail
+                0x00000d04                LIST_AddHead
+                0x00000d70                LIST_RemoveHead
+                0x00000dd8                LIST_GetHead
+                0x00000de4                LIST_GetNext
+                0x00000df0                LIST_GetPrev
+                0x00000dfc                LIST_RemoveElement
+                0x00000e88                LIST_AddPrevElement
+                0x00000f0c                LIST_GetSize
+                0x00000f18                LIST_GetAvailableSize
+ *fill*         0x00000f2c        0x4 
+ .text          0x00000f30      0x542 component/serial_manager/serial_manager.o
+                0x000010b0                SerialManager_Init
+                0x00001130                SerialManager_Deinit
+                0x000011a8                SerialManager_OpenWriteHandle
+                0x00001224                SerialManager_CloseWriteHandle
+                0x000012a4                SerialManager_OpenReadHandle
+                0x00001334                SerialManager_CloseReadHandle
+                0x000013ac                SerialManager_WriteBlocking
+                0x000013c4                SerialManager_ReadBlocking
+                0x000013dc                SerialManager_EnterLowpower
+                0x00001428                SerialManager_ExitLowpower
+ *fill*         0x00001472        0xe 
+ .text          0x00001480      0x21a component/serial_manager/serial_port_uart.o
+                0x00001480                Serial_UartInit
+                0x00001514                Serial_UartDeinit
+                0x00001544                Serial_UartWrite
+                0x000015b0                Serial_UartRead
+                0x0000161c                Serial_UartEnterLowpower
+                0x0000165c                Serial_UartExitLowpower
+ *fill*         0x0000169a        0x6 
+ .text          0x000016a0      0x2cc component/uart/usart_adapter.o
+                0x000016c0                HAL_UartInit
+                0x000017f4                HAL_UartDeinit
+                0x0000182c                HAL_UartReceiveBlocking
+                0x000018ac                HAL_UartSendBlocking
+                0x00001924                HAL_UartEnterLowpower
+                0x00001948                HAL_UartExitLowpower
+ *fill*         0x0000196c        0x4 
+ .text          0x00001970     0x12fb drivers/fsl_clock.o
+                0x00001a38                CLOCK_AttachClk
+                0x00001abc                CLOCK_SetClkDiv
+                0x00001b3c                CLOCK_GetFFroFreq
+                0x00001b84                CLOCK_GetSysPllFreq
+                0x00001c24                CLOCK_GetSysPfdFreq
+                0x00001d74                CLOCK_GetAudioPllFreq
+                0x00001e18                CLOCK_GetAudioPfdFreq
+                0x00001f14                CLOCK_GetMainClkFreq
+                0x00001fc4                CLOCK_GetDspMainClkFreq
+                0x00002070                CLOCK_GetAdcClkFreq
+                0x00002138                CLOCK_GetClockOutClkFreq
+                0x00002250                CLOCK_GetFRGClock
+                0x000023f8                CLOCK_GetFlexCommClkFreq
+                0x000024bc                CLOCK_GetCtimerClkFreq
+                0x00002538                CLOCK_GetFlexspiClkFreq
+                0x000025bc                CLOCK_GetSctClkFreq
+                0x0000264c                CLOCK_GetMclkClkFreq
+                0x000026a4                CLOCK_GetWdtClkFreq
+                0x00002718                CLOCK_GetSystickClkFreq
+                0x0000278c                CLOCK_GetSdioClkFreq
+                0x0000283c                CLOCK_GetI3cClkFreq
+                0x00002898                CLOCK_GetUsbClkFreq
+                0x000028f0                CLOCK_GetDmicClkFreq
+                0x00002980                CLOCK_GetAcmpClkFreq
+                0x00002a04                CLOCK_GetFreq
+                0x00002b50                CLOCK_SetFRGClock
+ *fill*         0x00002c6b        0x5 
+ .text          0x00002c70      0x2a1 drivers/fsl_common.o
+                0x00002c70                SDK_Malloc
+                0x00002ce0                SDK_Free
+                0x00002d14                enableCpuCycleCounter
+                0x00002d1c                getCpuCycleCount
+                0x00002d28                SDK_DelayAtLeastUs
+ *fill*         0x00002f11        0xf 
+ .text          0x00002f20      0x505 drivers/fsl_flexcomm.o
+                0x00003084                FLEXCOMM_GetInstance
+                0x00003150                FLEXCOMM_Init
+                0x00003188                FLEXCOMM_SetIRQHandler
+                0x000031c0                FLEXCOMM0_DriverIRQHandler
+                0x000031f8                FLEXCOMM1_DriverIRQHandler
+                0x00003230                FLEXCOMM2_DriverIRQHandler
+                0x00003268                FLEXCOMM3_DriverIRQHandler
+                0x000032a0                FLEXCOMM4_DriverIRQHandler
+                0x000032d8                FLEXCOMM5_DriverIRQHandler
+                0x00003310                FLEXCOMM6_DriverIRQHandler
+                0x00003348                FLEXCOMM7_DriverIRQHandler
+                0x00003380                FLEXCOMM14_DriverIRQHandler
+                0x000033d4                FLEXCOMM15_DriverIRQHandler
+ *fill*         0x00003425        0xb 
+ .text          0x00003430      0x50c drivers/fsl_gpio.o
+                0x00003510                GPIO_PortInit
+                0x0000354c                GPIO_PinInit
+                0x00003604                GPIO_SetPinInterruptConfig
+                0x00003698                GPIO_PortEnableInterrupts
+                0x00003700                GPIO_PortDisableInterrupts
+                0x00003770                GPIO_PortClearInterruptFlags
+                0x000037b0                GPIO_PortGetInterruptStatus
+                0x000037f4                GPIO_PinEnableInterrupt
+                0x0000386c                GPIO_PinDisableInterrupt
+                0x000038ec                GPIO_PinClearInterruptFlag
+ *fill*         0x0000393c        0x4 
+ .text          0x00003940      0x351 drivers/fsl_reset.o
+                0x00003940                RESET_SetPeripheralReset
+                0x00003ae0                RESET_ClearPeripheralReset
+                0x00003c80                RESET_PeripheralReset
+ *fill*         0x00003c91        0xf 
+ .text          0x00003ca0     0x13ad drivers/fsl_usart.o
+                0x00003d24                USART_GetInstance
+                0x00003d68                USART_TransferGetRxRingBufferLength
+                0x00003e0c                USART_TransferStartRingBuffer
+                0x00003e9c                USART_TransferStopRingBuffer
+                0x00003f18                USART_Init
+                0x00004190                USART_Deinit
+                0x00004210                USART_GetDefaultConfig
+                0x00004290                USART_SetBaudRate
+                0x000043c0                USART_Enable32kMode
+                0x00004474                USART_WriteBlocking
+                0x00004544                USART_ReadBlocking
+                0x000046a4                USART_TransferCreateHandle
+                0x00004774                USART_TransferSendNonBlocking
+                0x00004860                USART_TransferAbortSend
+                0x000048c0                USART_TransferGetSendCount
+                0x00004948                USART_TransferReceiveNonBlocking
+                0x00004b44                USART_TransferAbortReceive
+                0x00004bac                USART_TransferGetReceiveCount
+                0x00004c18                USART_TransferHandleIRQ
+ *fill*         0x0000504d        0x3 
+ .text          0x00005050     0x153b drivers_audio/fsl_dma.o
+                0x000054c4                DMA_Init
+                0x00005518                DMA_Deinit
+                0x00005544                DMA_ConfigureChannelTrigger
+                0x000055c0                DMA_GetRemainingBytes
+                0x000057e8                DMA_SetupDescriptor
+                0x000058fc                DMA_SetupChannelDescriptor
+                0x00005af4                DMA_CreateDescriptor
+                0x00005b8c                DMA_AbortTransfer
+                0x00005c60                DMA_CreateHandle
+                0x00005ce0                DMA_SetCallback
+                0x00005d14                DMA_PrepareTransfer
+                0x00005e74                DMA_SetChannelConfig
+                0x00005f10                DMA_PrepareChannelTransfer
+                0x00005fc8                DMA_LoadChannelDescriptor
+                0x00006064                DMA_InstallDescriptorMemory
+                0x000060b0                DMA_SubmitChannelTransferParameter
+                0x00006144                DMA_SubmitChannelDescriptor
+                0x00006180                DMA_SubmitChannelTransfer
+                0x00006288                DMA_SubmitTransfer
+                0x00006364                DMA_StartTransfer
+                0x000063f8                DMA_IRQHandle
+                0x00006574                DMA0_DriverIRQHandler
+                0x00006580                DMA1_DriverIRQHandler
+ *fill*         0x0000658b        0x5 
+ .text          0x00006590      0x6c7 drivers_audio/fsl_dmic.o
+                0x00006788                DMIC_GetInstance
+                0x000067d4                DMIC_Init
+                0x00006864                DMIC_DeInit
+                0x00006898                DMIC_SetOperationMode
+                0x0000690c                DMIC_ConfigChannel
+                0x000069fc                DMIC_CfgChannelDc
+                0x00006a40                DMIC_Use2fs
+                0x00006a60                DMIC_EnableChannnel
+                0x00006a88                DMIC_FifoChannel
+                0x00006ae0                DMIC_ResetChannelDecimator
+                0x00006b78                DMIC_EnableIntCallback
+                0x00006ba4                DMIC_DisableIntCallback
+                0x00006bd0                DMIC_HwvadEnableIntCallback
+                0x00006bfc                DMIC_HwvadDisableIntCallback
+                0x00006c28                DMIC0_DriverIRQHandler
+                0x00006c40                HWVAD0_DriverIRQHandler
+ *fill*         0x00006c57        0x9 
+ .text          0x00006c60      0x67f drivers_audio/fsl_dmic_dma.o
+                0x00006d30                DMIC_InstallDMADescriptorMemory
+                0x00006d64                DMIC_TransferCreateHandleDMA
+                0x00006df4                DMIC_TransferReceiveDMA
+                0x000071f8                DMIC_TransferAbortReceiveDMA
+                0x0000724c                DMIC_TransferGetReceiveCountDMA
+ *fill*         0x000072df        0x1 
+ .text          0x000072e0     0x172e drivers_audio/fsl_i2s.o
+                0x000073c4                I2S_SetBitClockRate
+                0x00007418                I2S_TxInit
+                0x000074b0                I2S_RxInit
+                0x00007534                I2S_TxGetDefaultConfig
+                0x000075a4                I2S_RxGetDefaultConfig
+                0x00007770                I2S_Deinit
+                0x00007a8c                I2S_EnableSecondaryChannel
+                0x00007b48                I2S_TxTransferCreateHandle
+                0x00007c30                I2S_TxTransferNonBlocking
+                0x00007d34                I2S_TxTransferAbort
+                0x00007d88                I2S_RxTransferCreateHandle
+                0x00007e70                I2S_RxTransferNonBlocking
+                0x00007f74                I2S_RxTransferAbort
+                0x00007fc8                I2S_TransferGetCount
+                0x0000804c                I2S_TransferGetErrorCount
+                0x000080d0                I2S_TxHandleIRQ
+                0x000085d4                I2S_RxHandleIRQ
+ *fill*         0x00008a0e        0x2 
+ .text          0x00008a10      0xe8a drivers_audio/fsl_i2s_dma.o
+                0x00008d58                I2S_TxTransferCreateHandleDMA
+                0x00008e3c                I2S_TxTransferSendDMA
+                0x00008eb4                I2S_TransferAbortDMA
+                0x00009008                I2S_RxTransferCreateHandleDMA
+                0x00009024                I2S_RxTransferReceiveDMA
+                0x00009728                I2S_DMACallback
+ *fill*         0x0000989a        0x6 
+ .text          0x000098a0      0x285 drivers_audio/fsl_inputmux.o
+                0x00009a60                INPUTMUX_Init
+                0x00009a70                INPUTMUX_AttachSignal
+                0x00009aa0                INPUTMUX_EnableSignal
+                0x00009b18                INPUTMUX_Deinit
+ *fill*         0x00009b25        0xb 
+ .text          0x00009b30       0x24 evkmimxrt685/board_hifi4.o
+                0x00009b30                BOARD_InitDebugConsole
+ *fill*         0x00009b54        0xc 
+ .text          0x00009b60      0x9e0 user/main.o
+                0x00009d14                dmic_Callback
+                0x00009d3c                DMIC0_3_U16CovU32_Callback
+                0x00009d58                DMIC4_7_U16CovU32_Callback
+                0x00009d74                main
+                0x00009dd0                thread_AudioTask_func
+ .text          0x0000a540      0x13f user/user_pin_mux.o
+                0x0000a56c                BOARD_Init_UserPin
+ *fill*         0x0000a67f        0x1 
+ .text          0x0000a680      0x5a2 utilities/fsl_debug_console.o
+                0x0000a680                DbgConsole_ReadOneCharacter
+                0x0000a6ac                DbgConsole_SendData
+                0x0000a70c                DbgConsole_SendDataReliable
+                0x0000a780                DbgConsole_ReadLine
+                0x0000a834                DbgConsole_ReadCharacter
+                0x0000a8e8                DbgConsole_Init
+                0x0000aa04                DbgConsole_Deinit
+                0x0000aa50                DbgConsole_Flush
+                0x0000aa58                DbgConsole_Printf
+                0x0000aae4                DbgConsole_Putchar
+                0x0000aafc                DbgConsole_Scanf
+                0x0000ab58                DbgConsole_BlockingPrintf
+                0x0000ac10                DbgConsole_Getchar
+ *fill*         0x0000ac22        0xe 
+ .text          0x0000ac30      0xf6d utilities/fsl_str.o
+                0x0000b120                StrFormatPrintf
+                0x0000b874                StrFormatScanf
+ *fill*         0x0000bb9d        0x3 
+ .text          0x0000bba0      0x16d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+                0x0000bbb4                _xos_exc_dispatcher
+                0x0000bc62                _GeneralException
+ *fill*         0x0000bd0d        0x3 
+ .text          0x0000bd10      0x5c9 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+                0x0000bd10                xos_dummy_handler
+                0x0000bd14                xos_level2_interrupt_dispatch
+                0x0000bd30                xos_level3_interrupt_dispatch
+                0x0000bd4c                xos_nmi_dispatch
+                0x0000bd65                xos_dispatch_from_idle
+                0x0000bdb9                xos_dispatch_from_restore
+                0x0000be00                xos_dispatch_from_nest
+                0x0000be1c                xos_dispatch_from_thread
+                0x0000c020                xos_resume_idle_thread
+                0x0000c06e                xos_resume_preempted_thread
+                0x0000c15c                xos_switch_rtc_thread
+                0x0000c1ac                xos_resume_by_restart
+                0x0000c1fb                xos_thread_exit_trap
+                0x0000c208                xos_thread_abort_stub
+                0x0000c214                xos_switch_thread
+                0x0000c284                xos_start_thread
+                0x0000c294                xos_resume_cooperative_thread
+ *fill*         0x0000c2d9        0x3 
+ .text          0x0000c2dc      0x245 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+                0x0000c2dc                _xos_coproc_handler
+                0x0000c4c0                _xos_cp_state
+                0x0000c4d8                _xos_coproc_savecs
+                0x0000c4fc                _xos_coproc_restorecs
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_table.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_stack.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .text          0x0000c521        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.literal.xos_register_interrupt_handler
+                0x00000000        0x8
+ .literal.xos_register_interrupt_handler
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_int_unhandled
+                0x00000000        0x8
+ .literal.xos_int_unhandled
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_unregister_interrupt_handler
+                0x00000000        0x8
+ .literal.xos_unregister_interrupt_handler
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_register_hp_interrupt_handler
+                0x00000000        0x8
+ .literal.xos_register_hp_interrupt_handler
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_interrupt_enable
+                0x00000000        0xc
+ .literal.xos_interrupt_enable
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_interrupt_enabled
+                0x00000000        0x4
+ .literal.xos_interrupt_enabled
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_interrupt_disable
+                0x00000000        0xc
+ .literal.xos_interrupt_disable
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_interrupt_in_use
+                0x00000000        0x8
+ .literal.xos_interrupt_in_use
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_register_fatal_error_handler
+                0x00000000        0x4
+ .literal.xos_register_fatal_error_handler
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_fatal_error
+                0x00000000        0x8
+ .literal.xos_fatal_error
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.literal.xos_default_exception_handler
+                0x00000000       0x14
+ .literal.xos_default_exception_handler
+                0x00000000       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                                         0x18 (size before relaxing)
+
+.literal.xos_register_exception_handler
+                0x00000000        0x8
+ .literal.xos_register_exception_handler
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+
+.text.xos_register_interrupt_handler
+                0x00000000       0x1d
+ .text.xos_register_interrupt_handler
+                0x00000000       0x1d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_register_interrupt_handler
+
+.text.xos_int_unhandled
+                0x00000000       0x11
+ .text.xos_int_unhandled
+                0x00000000       0x11 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_int_unhandled
+
+.text.xos_unregister_interrupt_handler
+                0x00000000       0x15
+ .text.xos_unregister_interrupt_handler
+                0x00000000       0x15 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_unregister_interrupt_handler
+
+.text.xos_register_hp_interrupt_handler
+                0x00000000       0x45
+ .text.xos_register_hp_interrupt_handler
+                0x00000000       0x45 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_register_hp_interrupt_handler
+
+.text.xos_interrupt_enable
+                0x00000000       0x39
+ .text.xos_interrupt_enable
+                0x00000000       0x39 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_interrupt_enable
+
+.text.xos_interrupt_enabled
+                0x00000000       0x18
+ .text.xos_interrupt_enabled
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_interrupt_enabled
+
+.text.xos_interrupt_disable
+                0x00000000       0x40
+ .text.xos_interrupt_disable
+                0x00000000       0x40 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_interrupt_disable
+
+.text.xos_interrupt_in_use
+                0x00000000       0x23
+ .text.xos_interrupt_in_use
+                0x00000000       0x23 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_interrupt_in_use
+
+.text.xos_register_fatal_error_handler
+                0x00000000        0xf
+ .text.xos_register_fatal_error_handler
+                0x00000000        0xf C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_register_fatal_error_handler
+
+.text.xos_fatal_error
+                0x00000000       0x1f
+ .text.xos_fatal_error
+                0x00000000       0x1f C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_fatal_error
+
+.text.xos_default_exception_handler
+                0x00000000       0x2d
+ .text.xos_default_exception_handler
+                0x00000000       0x2d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_default_exception_handler
+
+.text.xos_register_exception_handler
+                0x00000000       0x43
+ .text.xos_register_exception_handler
+                0x00000000       0x43 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00000000                xos_register_exception_handler
+
+.init           0x00000000        0x0
+ .init          0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_table.o)
+
+.literal.xos_start_main
+                0x00000000       0x64
+ .literal.xos_start_main
+                0x00000000       0x64 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+                                         0x68 (size before relaxing)
+
+.text.xos_start_main
+                0x00000000       0xf0
+ .text.xos_start_main
+                0x00000000       0xf0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+                0x00000000                xos_start_main
+
+.literal.xos_q_pop
+                0x00000000        0x4
+ .literal.xos_q_pop
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_create
+                0x00000000       0x44
+ .literal.xos_thread_create
+                0x00000000       0x44 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                                         0x50 (size before relaxing)
+
+.literal.xos_thread_delete
+                0x00000000       0x18
+ .literal.xos_thread_delete
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_init
+                0x00000000       0x2c
+ .literal.xos_init
+                0x00000000       0x2c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_init_done
+                0x00000000        0x4
+ .literal.xos_init_done
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_start
+                0x00000000       0x48
+ .literal.xos_start
+                0x00000000       0x48 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                                         0x50 (size before relaxing)
+
+.literal.xos_started
+                0x00000000        0x4
+ .literal.xos_started
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_schedule
+                0x00000000        0xc
+ .literal.xos_schedule
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                                         0x10 (size before relaxing)
+
+.literal.xos_thread_yield
+                0x00000000       0x18
+ .literal.xos_thread_yield
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_block
+                0x00000000       0x24
+ .literal.xos_block
+                0x00000000       0x24 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_wake
+                0x00000000       0x18
+ .literal.xos_thread_wake
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_set_priority
+                0x00000000       0x1c
+ .literal.xos_thread_set_priority
+                0x00000000       0x1c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                                         0x20 (size before relaxing)
+
+.literal.xos_wake_queue
+                0x00000000        0xc
+ .literal.xos_wake_queue
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_set_exit_handler
+                0x00000000       0x10
+ .literal.xos_thread_set_exit_handler
+                0x00000000       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_exit
+                0x00000000       0x1c
+ .literal.xos_thread_exit
+                0x00000000       0x1c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                                         0x20 (size before relaxing)
+
+.literal.xos_thread_join
+                0x00000000       0x18
+ .literal.xos_thread_join
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_suspend
+                0x00000000       0x24
+ .literal.xos_thread_suspend
+                0x00000000       0x24 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_resume
+                0x00000000       0x10
+ .literal.xos_thread_resume
+                0x00000000       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_abort
+                0x00000000       0x3c
+ .literal.xos_thread_abort
+                0x00000000       0x3c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                                         0x40 (size before relaxing)
+
+.literal.xos_thread_get_state
+                0x00000000        0xc
+ .literal.xos_thread_get_state
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_preemption_disable
+                0x00000000        0x4
+ .literal.xos_preemption_disable
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_preemption_enable
+                0x00000000       0x10
+ .literal.xos_preemption_enable
+                0x00000000       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_mutex_add
+                0x00000000        0x4
+ .literal.xos_thread_mutex_add
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_mutex_rem
+                0x00000000        0x4
+ .literal.xos_thread_mutex_rem
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_thread_mutex_bump
+                0x00000000        0x4
+ .literal.xos_thread_mutex_bump
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_q_move
+                0x00000000       0x10
+ .literal.xos_q_move
+                0x00000000       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_switch_to
+                0x00000000        0x8
+ .literal.xos_switch_to
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.text.xos_q_remove
+                0x00000000       0x1c
+ .text.xos_q_remove
+                0x00000000       0x1c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_q_remove
+
+.text.xos_q_pop
+                0x00000000       0x15
+ .text.xos_q_pop
+                0x00000000       0x15 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_q_pop
+
+.text.xos_q_push
+                0x00000000       0x10
+ .text.xos_q_push
+                0x00000000       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_q_push
+
+.text.xos_q_insert
+                0x00000000       0x19
+ .text.xos_q_insert
+                0x00000000       0x19 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_q_insert
+
+.text.xos_q_pri_insert
+                0x00000000       0x2e
+ .text.xos_q_pri_insert
+                0x00000000       0x2e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_q_pri_insert
+
+.text.xos_thread_setup_tie_save
+                0x00000000       0x4a
+ .text.xos_thread_setup_tie_save
+                0x00000000       0x4a C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_setup_tie_save
+
+.text.xos_thread_create
+                0x00000000      0x211
+ .text.xos_thread_create
+                0x00000000      0x211 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_create
+
+.text.xos_thread_delete
+                0x00000000       0x71
+ .text.xos_thread_delete
+                0x00000000       0x71 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_delete
+
+.text.xos_init  0x00000000       0x79
+ .text.xos_init
+                0x00000000       0x79 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_init
+
+.text.xos_init_done
+                0x00000000        0xb
+ .text.xos_init_done
+                0x00000000        0xb C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_init_done
+
+.text.xos_start
+                0x00000000       0xc2
+ .text.xos_start
+                0x00000000       0xc2 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_start
+
+.text.xos_started
+                0x00000000        0xb
+ .text.xos_started
+                0x00000000        0xb C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_started
+
+.text.xos_schedule
+                0x00000000       0x46
+ .text.xos_schedule
+                0x00000000       0x46 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_schedule
+
+.text.xos_thread_yield
+                0x00000000       0x6c
+ .text.xos_thread_yield
+                0x00000000       0x6c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_yield
+
+.text.xos_block
+                0x00000000       0xd0
+ .text.xos_block
+                0x00000000       0xd0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_block
+
+.text.xos_thread_wake
+                0x00000000       0xcf
+ .text.xos_thread_wake
+                0x00000000       0xcf C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_wake
+
+.text.xos_thread_set_priority
+                0x00000000       0xfd
+ .text.xos_thread_set_priority
+                0x00000000       0xfd C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_set_priority
+
+.text.xos_wake_queue
+                0x00000000       0x54
+ .text.xos_wake_queue
+                0x00000000       0x54 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_wake_queue
+
+.text.xos_thread_set_exit_handler
+                0x00000000       0x2c
+ .text.xos_thread_set_exit_handler
+                0x00000000       0x2c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_set_exit_handler
+
+.text.xos_thread_exit
+                0x00000000       0x62
+ .text.xos_thread_exit
+                0x00000000       0x62 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_exit
+
+.text.xos_thread_join
+                0x00000000       0x80
+ .text.xos_thread_join
+                0x00000000       0x80 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_join
+
+.text.xos_thread_suspend
+                0x00000000       0xa7
+ .text.xos_thread_suspend
+                0x00000000       0xa7 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_suspend
+
+.text.xos_thread_resume
+                0x00000000       0x32
+ .text.xos_thread_resume
+                0x00000000       0x32 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_resume
+
+.text.xos_thread_abort
+                0x00000000       0xed
+ .text.xos_thread_abort
+                0x00000000       0xed C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_abort
+
+.text.xos_thread_get_state
+                0x00000000       0x47
+ .text.xos_thread_get_state
+                0x00000000       0x47 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_get_state
+
+.text.xos_preemption_disable
+                0x00000000       0x19
+ .text.xos_preemption_disable
+                0x00000000       0x19 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_preemption_disable
+
+.text.xos_preemption_enable
+                0x00000000       0x33
+ .text.xos_preemption_enable
+                0x00000000       0x33 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_preemption_enable
+
+.text.xos_thread_mutex_add
+                0x00000000       0x66
+ .text.xos_thread_mutex_add
+                0x00000000       0x66 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_mutex_add
+
+.text.xos_thread_mutex_rem
+                0x00000000       0x67
+ .text.xos_thread_mutex_rem
+                0x00000000       0x67 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_mutex_rem
+
+.text.xos_thread_mutex_bump
+                0x00000000       0x6e
+ .text.xos_thread_mutex_bump
+                0x00000000       0x6e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_thread_mutex_bump
+
+.text.xos_set_sched_interrupt
+                0x00000000        0x7
+ .text.xos_set_sched_interrupt
+                0x00000000        0x7 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00000000                xos_set_sched_interrupt
+
+.text.xos_q_move
+                0x00000000       0x5f
+ .text.xos_q_move
+                0x00000000       0x5f C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.text.xos_switch_to
+                0x00000000       0x35
+ .text.xos_switch_to
+                0x00000000       0x35 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+
+.literal.xos_tick_handler
+                0x00000000       0x20
+ .literal.xos_tick_handler
+                0x00000000       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_start_system_timer
+                0x00000000       0x1c
+ .literal.xos_start_system_timer
+                0x00000000       0x1c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_get_system_timer_num
+                0x00000000        0x4
+ .literal.xos_get_system_timer_num
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_timer_start
+                0x00000000       0x10
+ .literal.xos_timer_start
+                0x00000000       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_timer_stop
+                0x00000000       0x1c
+ .literal.xos_timer_stop
+                0x00000000       0x1c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_timer_restart
+                0x00000000       0x10
+ .literal.xos_timer_restart
+                0x00000000       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_timer_set_period
+                0x00000000        0x4
+ .literal.xos_timer_set_period
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_thread_sleep
+                0x00000000       0x24
+ .literal.xos_thread_sleep
+                0x00000000       0x24 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_timer_wait
+                0x00000000       0x14
+ .literal.xos_timer_wait
+                0x00000000       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.thread_wakeup_cb
+                0x00000000        0x8
+ .literal.thread_wakeup_cb
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.literal.xos_insert_timer
+                0x00000000       0x18
+ .literal.xos_insert_timer
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.text.xos_tick_handler
+                0x00000000      0x205
+ .text.xos_tick_handler
+                0x00000000      0x205 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_tick_handler
+
+.text.xos_start_system_timer
+                0x00000000       0x79
+ .text.xos_start_system_timer
+                0x00000000       0x79 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_start_system_timer
+
+.text.xos_get_system_timer_num
+                0x00000000        0xa
+ .text.xos_get_system_timer_num
+                0x00000000        0xa C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_get_system_timer_num
+
+.text.xos_timer_init
+                0x00000000       0x20
+ .text.xos_timer_init
+                0x00000000       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_timer_init
+
+.text.xos_timer_start
+                0x00000000      0x107
+ .text.xos_timer_start
+                0x00000000      0x107 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_timer_start
+
+.text.xos_timer_stop
+                0x00000000       0x7e
+ .text.xos_timer_stop
+                0x00000000       0x7e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_timer_stop
+
+.text.xos_timer_restart
+                0x00000000       0xcf
+ .text.xos_timer_restart
+                0x00000000       0xcf C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_timer_restart
+
+.text.xos_timer_set_period
+                0x00000000       0x38
+ .text.xos_timer_set_period
+                0x00000000       0x38 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_timer_set_period
+
+.text.xos_thread_sleep
+                0x00000000       0x97
+ .text.xos_thread_sleep
+                0x00000000       0x97 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_thread_sleep
+
+.text.xos_timer_wait
+                0x00000000       0x3a
+ .text.xos_timer_wait
+                0x00000000       0x3a C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00000000                xos_timer_wait
+
+.text.thread_wakeup_cb
+                0x00000000       0x16
+ .text.thread_wakeup_cb
+                0x00000000       0x16 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.text.xos_insert_timer
+                0x00000000       0xb2
+ .text.xos_insert_timer
+                0x00000000       0xb2 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+
+.WindowVectors.text
+                0x00000000      0x16a
+ .WindowVectors.text
+                0x00000000      0x16a C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+                0x00000000                _WindowOverflow4
+                0x00000040                _WindowUnderflow4
+                0x00000050                _xos_alloca_handler
+                0x00000080                _WindowOverflow8
+                0x000000c0                _WindowUnderflow8
+                0x00000100                _WindowOverflow12
+                0x00000140                _WindowUnderflow12
+
+.literal.__malloc_lock
+                0x00000000        0xc
+ .literal.__malloc_lock
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.literal.__malloc_unlock
+                0x00000000        0xc
+ .literal.__malloc_unlock
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.literal.__env_lock
+                0x00000000        0x4
+ .literal.__env_lock
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.literal.__env_unlock
+                0x00000000        0x4
+ .literal.__env_unlock
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.literal._sbrk_r
+                0x00000000        0xc
+ .literal._sbrk_r
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.literal.xos_clib_init
+                0x00000000        0x8
+ .literal.xos_clib_init
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.literal.xos_clib_thread_init
+                0x00000000       0x1c
+ .literal.xos_clib_thread_init
+                0x00000000       0x1c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                                         0x28 (size before relaxing)
+
+.literal.xos_clib_thread_cleanup
+                0x00000000        0x8
+ .literal.xos_clib_thread_cleanup
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.text.__malloc_lock
+                0x00000000       0x2e
+ .text.__malloc_lock
+                0x00000000       0x2e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                __malloc_lock
+
+.text.__malloc_unlock
+                0x00000000       0x2b
+ .text.__malloc_unlock
+                0x00000000       0x2b C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                __malloc_unlock
+
+.text.__env_lock
+                0x00000000        0xd
+ .text.__env_lock
+                0x00000000        0xd C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                __env_lock
+
+.text.__env_unlock
+                0x00000000        0xd
+ .text.__env_unlock
+                0x00000000        0xd C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                __env_unlock
+
+.text._sbrk_r   0x00000000       0x2a
+ .text._sbrk_r  0x00000000       0x2a C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                _sbrk_r
+
+.text.xos_clib_init
+                0x00000000       0x21
+ .text.xos_clib_init
+                0x00000000       0x21 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                xos_clib_init
+
+.text.xos_clib_thread_init
+                0x00000000      0x12e
+ .text.xos_clib_thread_init
+                0x00000000      0x12e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                xos_clib_thread_init
+
+.text.xos_clib_thread_cleanup
+                0x00000000       0x2f
+ .text.xos_clib_thread_cleanup
+                0x00000000       0x2f C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+                0x00000000                xos_clib_thread_cleanup
+
+.literal.xos_mutex_create
+                0x00000000        0x4
+ .literal.xos_mutex_create
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+
+.literal.xos_mutex_delete
+                0x00000000       0x30
+ .literal.xos_mutex_delete
+                0x00000000       0x30 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                                         0x34 (size before relaxing)
+
+.literal.xos_mutex_lock
+                0x00000000       0x28
+ .literal.xos_mutex_lock
+                0x00000000       0x28 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+
+.literal.xos_mutex_lock_timeout
+                0x00000000       0x34
+ .literal.xos_mutex_lock_timeout
+                0x00000000       0x34 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                                         0x38 (size before relaxing)
+
+.literal.xos_mutex_unlock
+                0x00000000       0x2c
+ .literal.xos_mutex_unlock
+                0x00000000       0x2c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+
+.literal.xos_mutex_trylock
+                0x00000000       0x20
+ .literal.xos_mutex_trylock
+                0x00000000       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+
+.literal.mutex_wakeup_cb
+                0x00000000        0xc
+ .literal.mutex_wakeup_cb
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+
+.text.xos_mutex_create
+                0x00000000       0x49
+ .text.xos_mutex_create
+                0x00000000       0x49 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                0x00000000                xos_mutex_create
+
+.text.xos_mutex_delete
+                0x00000000       0x89
+ .text.xos_mutex_delete
+                0x00000000       0x89 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                0x00000000                xos_mutex_delete
+
+.text.xos_mutex_lock
+                0x00000000       0x9d
+ .text.xos_mutex_lock
+                0x00000000       0x9d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                0x00000000                xos_mutex_lock
+
+.text.xos_mutex_lock_timeout
+                0x00000000       0xd7
+ .text.xos_mutex_lock_timeout
+                0x00000000       0xd7 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                0x00000000                xos_mutex_lock_timeout
+
+.text.xos_mutex_unlock
+                0x00000000       0x6d
+ .text.xos_mutex_unlock
+                0x00000000       0x6d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                0x00000000                xos_mutex_unlock
+
+.text.xos_mutex_trylock
+                0x00000000       0x5b
+ .text.xos_mutex_trylock
+                0x00000000       0x5b C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+                0x00000000                xos_mutex_trylock
+
+.text.mutex_wakeup_cb
+                0x00000000       0x17
+ .text.mutex_wakeup_cb
+                0x00000000       0x17 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+
+.literal.xos_once_init
+                0x00000000        0x8
+ .literal.xos_once_init
+                0x00000000        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+
+.literal.xos_once
+                0x00000000       0x18
+ .literal.xos_once
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+
+.text.xos_once_init
+                0x00000000       0x14
+ .text.xos_once_init
+                0x00000000       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+                0x00000000                xos_once_init
+
+.text.xos_once  0x00000000       0x4d
+ .text.xos_once
+                0x00000000       0x4d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+                0x00000000                xos_once
+
+.literal.xos_system_timer_get
+                0x00000000        0xc
+ .literal.xos_system_timer_get
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.literal.xos_system_timer_set
+                0x00000000        0xc
+ .literal.xos_system_timer_set
+                0x00000000        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.literal.xos_system_timer_pending
+                0x00000000        0x4
+ .literal.xos_system_timer_pending
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.literal.xos_system_timer_select
+                0x00000000       0x18
+ .literal.xos_system_timer_select
+                0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.literal.xos_system_timer_init
+                0x00000000       0x14
+ .literal.xos_system_timer_init
+                0x00000000       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.literal.timer_intr_handler
+                0x00000000        0x4
+ .literal.timer_intr_handler
+                0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.text.xos_system_timer_get
+                0x00000000       0x27
+ .text.xos_system_timer_get
+                0x00000000       0x27 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+                0x00000000                xos_system_timer_get
+
+.text.xos_system_timer_set
+                0x00000000       0x60
+ .text.xos_system_timer_set
+                0x00000000       0x60 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+                0x00000000                xos_system_timer_set
+
+.text.xos_system_timer_pending
+                0x00000000       0x26
+ .text.xos_system_timer_pending
+                0x00000000       0x26 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+                0x00000000                xos_system_timer_pending
+
+.text.xos_system_timer_select
+                0x00000000       0x6a
+ .text.xos_system_timer_select
+                0x00000000       0x6a C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+                0x00000000                xos_system_timer_select
+
+.text.xos_system_timer_init
+                0x00000000       0x27
+ .text.xos_system_timer_init
+                0x00000000       0x27 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+                0x00000000                xos_system_timer_init
+
+.text.timer_intr_handler
+                0x00000000        0xb
+ .text.timer_intr_handler
+                0x00000000        0xb C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.rodata         0x00000000     0x3460
+ .rodata        0x00000000      0x25b component/serial_manager/serial_manager.o
+ *fill*         0x0000025b        0x5 
+ .rodata        0x00000260      0x148 component/serial_manager/serial_port_uart.o
+ *fill*         0x000003a8        0x8 
+ .rodata        0x000003b0      0x1b5 component/uart/usart_adapter.o
+ *fill*         0x00000565        0xb 
+ .rodata        0x00000570      0x1d2 drivers/fsl_clock.o
+ *fill*         0x00000742        0xe 
+ .rodata        0x00000750       0xb3 drivers/fsl_common.o
+ *fill*         0x00000803        0xd 
+ .rodata        0x00000810      0x47c drivers/fsl_flexcomm.o
+                0x000008a0                kFlexcommIrqs
+ *fill*         0x00000c8c        0x4 
+ .rodata        0x00000c90      0x18e drivers/fsl_gpio.o
+ *fill*         0x00000e1e        0x2 
+ .rodata        0x00000e20       0xbb drivers/fsl_reset.o
+ *fill*         0x00000edb        0x5 
+ .rodata        0x00000ee0      0x528 drivers/fsl_usart.o
+ *fill*         0x00001408        0x8 
+ .rodata        0x00001410      0xca2 drivers_audio/fsl_dma.o
+ *fill*         0x000020b2        0xe 
+ .rodata        0x000020c0      0x25c drivers_audio/fsl_dmic.o
+ *fill*         0x0000231c        0x4 
+ .rodata        0x00002320      0x260 drivers_audio/fsl_dmic_dma.o
+ .rodata        0x00002580      0x44a drivers_audio/fsl_i2s.o
+ *fill*         0x000029ca        0x6 
+ .rodata        0x000029d0      0x385 drivers_audio/fsl_i2s_dma.o
+ *fill*         0x00002d55        0xb 
+ .rodata        0x00002d60      0x113 drivers_audio/fsl_inputmux.o
+ *fill*         0x00002e73        0xd 
+ .rodata        0x00002e80      0x2d4 user/main.o
+ *fill*         0x00003154        0xc 
+ .rodata        0x00003160      0x2a0 utilities/fsl_debug_console.o
+ .rodata        0x00003400       0x28 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00003400                xos_blkon_idle
+                0x00003404                xos_blkon_suspend
+                0x00003408                xos_blkon_exited
+                0x0000340c                xos_blkon_join
+                0x00003410                xos_blkon_delay
+                0x00003414                xos_blkon_event
+                0x00003418                xos_blkon_condition
+                0x0000341c                xos_blkon_mutex
+                0x00003420                xos_blkon_sem
+                0x00003424                xos_blkon_msgq
+ .rodata        0x00003428        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ *fill*         0x0000342c        0x4 
+ .rodata        0x00003430       0x30 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+                0x00003430                _xt_coproc_mask
+                0x00003440                _xt_coproc_sa_offset
+
+.rodata.str1.4  0x00000000       0x56
+ .rodata.str1.4
+                0x00000000        0x5 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ *fill*         0x00000005        0x3 
+ .rodata.str1.4
+                0x00000008       0x49 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ *fill*         0x00000051        0x3 
+ .rodata.str1.4
+                0x00000054        0x2 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+
+.data           0x00000000      0x53c
+ .data          0x00000000        0x4 MIMXRT685S/system_MIMXRT685S_dsp.o
+                0x00000000                SystemCoreClock
+ .data          0x00000004        0x0 board/pin_mux.o
+ .data          0x00000004        0x0 component/lists/generic_list.o
+ .data          0x00000004        0x0 component/serial_manager/serial_manager.o
+ .data          0x00000004        0x0 component/serial_manager/serial_port_uart.o
+ .data          0x00000004        0x0 component/uart/usart_adapter.o
+ .data          0x00000004        0x0 drivers/fsl_clock.o
+ .data          0x00000004        0x0 drivers/fsl_common.o
+ .data          0x00000004        0x0 drivers/fsl_flexcomm.o
+ .data          0x00000004        0x0 drivers/fsl_gpio.o
+ .data          0x00000004        0x0 drivers/fsl_reset.o
+ .data          0x00000004        0x0 drivers/fsl_usart.o
+ *fill*         0x00000004        0x4 
+ .data          0x00000008        0x8 drivers_audio/fsl_dma.o
+ .data          0x00000010        0x0 drivers_audio/fsl_dmic.o
+ .data          0x00000010        0x0 drivers_audio/fsl_dmic_dma.o
+ .data          0x00000010        0x0 drivers_audio/fsl_i2s.o
+ .data          0x00000010        0x0 drivers_audio/fsl_i2s_dma.o
+ .data          0x00000010        0x0 drivers_audio/fsl_inputmux.o
+ .data          0x00000010        0x0 evkmimxrt685/board_hifi4.o
+ .data          0x00000010      0x1a8 user/main.o
+ .data          0x000001b8        0x0 user/user_pin_mux.o
+ .data          0x000001b8        0x0 utilities/fsl_debug_console.o
+ .data          0x000001b8        0x0 utilities/fsl_str.o
+ .data          0x000001b8        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .data          0x000001b8      0x100 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+                0x000001b8                _xos_exc_handler_table
+ *fill*         0x000002b8        0x8 
+ .data          0x000002c0      0x230 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_table.o)
+                0x000002c0                xos_intlevel_mask
+                0x000002c0                xos_globals
+                0x000002c4                xos_intenable_mask
+                0x000002c8                xos_curr_threadptr
+                0x000002cc                xos_next_threadptr
+                0x000002d0                xos_interrupt_table
+                0x000004d0                _xos_cp_owner_table
+ .data          0x000004f0        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .data          0x000004f0        0x2 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x000004f0                xos_init_flag
+                0x000004f1                xos_start_flag
+ *fill*         0x000004f2        0x2 
+ .data          0x000004f4        0xd C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x000004f4                xos_ticks_per_slice
+ *fill*         0x00000501        0x3 
+ .data          0x00000504       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+                0x00000504                xos_hp_dispatch_table
+                0x00000520                xos_nmi_dispatch_table
+ .data          0x00000524        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_stack.o)
+ .data          0x00000524        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .data          0x00000524        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ *fill*         0x00000524        0xc 
+ .data          0x00000530        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+                0x00000530                _xt_coproc_owner_sa
+ .data          0x00000538        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .data          0x00000538        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .data          0x00000538        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+NonCacheable    0x00000000      0x710
+ NonCacheable   0x00000000      0x610 drivers_audio/fsl_dma.o
+                0x00000000                s_dma_descriptor_table0
+                0x00000400                s_dma_descriptor_table1
+ NonCacheable   0x00000610      0x100 drivers_audio/fsl_i2s_dma.o
+                0x00000610                s_DmaDescriptors
+
+.bss            0x00000000     0x5c10
+ *(.dynsbss)
+ *(.sbss)
+ *(.scommon)
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 MIMXRT685S/system_MIMXRT685S_dsp.o
+ .bss           0x00000000        0x0 board/pin_mux.o
+ .bss           0x00000000        0x0 component/lists/generic_list.o
+ .bss           0x00000000        0x0 component/serial_manager/serial_manager.o
+ .bss           0x00000000        0x0 component/serial_manager/serial_port_uart.o
+ .bss           0x00000000        0x0 component/uart/usart_adapter.o
+ .bss           0x00000000        0xc drivers/fsl_clock.o
+                0x00000000                g_clkinFreq
+                0x00000004                g_xtalFreq
+                0x00000008                g_mclkFreq
+ .bss           0x0000000c        0x0 drivers/fsl_common.o
+ *fill*         0x0000000c        0x4 
+ .bss           0x00000010       0x58 drivers/fsl_flexcomm.o
+ .bss           0x00000068        0x0 drivers/fsl_gpio.o
+ .bss           0x00000068        0x0 drivers/fsl_reset.o
+ .bss           0x00000068        0x0 drivers/fsl_usart.o
+ *fill*         0x00000068        0x8 
+ .bss           0x00000070      0x108 drivers_audio/fsl_dma.o
+ .bss           0x00000178        0x8 drivers_audio/fsl_dmic.o
+ .bss           0x00000180        0x0 drivers_audio/fsl_dmic_dma.o
+ .bss           0x00000180        0x0 drivers_audio/fsl_i2s.o
+ .bss           0x00000180      0x1d0 drivers_audio/fsl_i2s_dma.o
+ .bss           0x00000350        0x0 drivers_audio/fsl_inputmux.o
+ .bss           0x00000350        0x0 evkmimxrt685/board_hifi4.o
+ .bss           0x00000350     0x2c90 user/main.o
+                0x00000360                thread_Audio_tcb
+                0x00001da0                s_dma_table_0
+                0x00001e00                s_dma_table_1
+                0x00001e60                s_destBuffer
+                0x00002ae0                s_dmaDescriptorPingpong_0
+                0x00002b00                s_dmaDescriptorPingpong_1
+                0x00002b20                s_dmaDescriptorPingpong_2
+                0x00002b40                s_dmaDescriptorPingpong_3
+                0x00002b60                s_dmaDescriptorPingpong_4
+                0x00002b80                s_dmaDescriptorPingpong_5
+                0x00002ba0                s_dmaDescriptorPingpong_6
+                0x00002bc0                s_dmaDescriptorPingpong_7
+                0x00002be0                s_buffer_1
+                0x00002de0                s_buffer_0
+ .bss           0x00002fe0        0x0 user/user_pin_mux.o
+ .bss           0x00002fe0       0x21 utilities/fsl_debug_console.o
+                0x00002ffc                g_serialHandle
+ .bss           0x00003001        0x0 utilities/fsl_str.o
+ *fill*         0x00003001        0x3 
+ .bss           0x00003004        0xc C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+                0x00003004                xos_syslog
+                0x00003008                xos_log
+ .bss           0x00003010        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .bss           0x00003010       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_table.o)
+                0x00003010                _xos_inth_cycle_count
+                0x00003018                _xos_inth_start_ccount
+                0x0000301c                _xos_inth_intr_count
+ .bss           0x00003020      0x5d8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ *fill*         0x000035f8        0x8 
+ .bss           0x00003600      0x590 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+                0x00003600                xos_idle_thread
+                0x00003ab8                xos_all_threads
+                0x00003abc                xos_all_threads_tail
+                0x00003ac0                xos_ready_mask
+                0x00003ac4                xos_num_ctx_switches
+                0x00003ad0                xos_ready_threads
+ .bss           0x00003b90       0x2c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+                0x00003b90                xos_clock_freq
+                0x00003b94                xos_tick_period
+                0x00003ba0                xos_system_ticks
+                0x00003ba8                xos_system_cycles
+                0x00003bb0                xos_last_ccount
+ .bss           0x00003bbc        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ *fill*         0x00003bbc        0x4 
+ .bss           0x00003bc0     0x2000 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_stack.o)
+                0x00003bc0                xos_int_stack
+                0x00005bc0                xos_int_stack_end
+ .bss           0x00005bc0        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .bss           0x00005bc0       0x2c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .bss           0x00005bec        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .bss           0x00005bec        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .bss           0x00005bec       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .bss           0x00005c0c        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+ *(COMMON)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x6a8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 MIMXRT685S/system_MIMXRT685S_dsp.o
+ .debug_aranges
+                0x00000020       0x20 board/pin_mux.o
+ .debug_aranges
+                0x00000040       0x20 component/lists/generic_list.o
+ .debug_aranges
+                0x00000060       0x20 component/serial_manager/serial_manager.o
+ .debug_aranges
+                0x00000080       0x20 component/serial_manager/serial_port_uart.o
+ .debug_aranges
+                0x000000a0       0x20 component/uart/usart_adapter.o
+ .debug_aranges
+                0x000000c0       0x20 drivers/fsl_clock.o
+ .debug_aranges
+                0x000000e0       0x20 drivers/fsl_common.o
+ .debug_aranges
+                0x00000100       0x20 drivers/fsl_flexcomm.o
+ .debug_aranges
+                0x00000120       0x20 drivers/fsl_gpio.o
+ .debug_aranges
+                0x00000140       0x20 drivers/fsl_reset.o
+ .debug_aranges
+                0x00000160       0x20 drivers/fsl_usart.o
+ .debug_aranges
+                0x00000180       0x20 drivers_audio/fsl_dma.o
+ .debug_aranges
+                0x000001a0       0x20 drivers_audio/fsl_dmic.o
+ .debug_aranges
+                0x000001c0       0x20 drivers_audio/fsl_dmic_dma.o
+ .debug_aranges
+                0x000001e0       0x20 drivers_audio/fsl_i2s.o
+ .debug_aranges
+                0x00000200       0x20 drivers_audio/fsl_i2s_dma.o
+ .debug_aranges
+                0x00000220       0x20 drivers_audio/fsl_inputmux.o
+ .debug_aranges
+                0x00000240       0x20 evkmimxrt685/board_hifi4.o
+ .debug_aranges
+                0x00000260       0x20 user/main.o
+ .debug_aranges
+                0x00000280       0x20 user/user_pin_mux.o
+ .debug_aranges
+                0x000002a0       0x20 utilities/fsl_debug_console.o
+ .debug_aranges
+                0x000002c0       0x20 utilities/fsl_str.o
+ .debug_aranges
+                0x000002e0       0x78 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .debug_aranges
+                0x00000358       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .debug_aranges
+                0x00000378       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .debug_aranges
+                0x00000398      0x120 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .debug_aranges
+                0x000004b8       0x78 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .debug_aranges
+                0x00000530       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ .debug_aranges
+                0x00000550       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .debug_aranges
+                0x00000570       0x58 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .debug_aranges
+                0x000005c8       0x20 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .debug_aranges
+                0x000005e8       0x50 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .debug_aranges
+                0x00000638       0x28 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .debug_aranges
+                0x00000660       0x48 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.debug_pubnames
+                0x00000000     0x2193
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x62 MIMXRT685S/system_MIMXRT685S_dsp.o
+ .debug_pubnames
+                0x00000062       0x3c board/pin_mux.o
+ .debug_pubnames
+                0x0000009e       0xf4 component/lists/generic_list.o
+ .debug_pubnames
+                0x00000192      0x148 component/serial_manager/serial_manager.o
+ .debug_pubnames
+                0x000002da       0x9e component/serial_manager/serial_port_uart.o
+ .debug_pubnames
+                0x00000378       0x9e component/uart/usart_adapter.o
+ .debug_pubnames
+                0x00000416      0x2be drivers/fsl_clock.o
+ .debug_pubnames
+                0x000006d4       0x74 drivers/fsl_common.o
+ .debug_pubnames
+                0x00000748      0x1a2 drivers/fsl_flexcomm.o
+ .debug_pubnames
+                0x000008ea      0x12a drivers/fsl_gpio.o
+ .debug_pubnames
+                0x00000a14       0x68 drivers/fsl_reset.o
+ .debug_pubnames
+                0x00000a7c      0x229 drivers/fsl_usart.o
+ .debug_pubnames
+                0x00000ca5      0x295 drivers_audio/fsl_dma.o
+ .debug_pubnames
+                0x00000f3a      0x197 drivers_audio/fsl_dmic.o
+ .debug_pubnames
+                0x000010d1       0xb8 drivers_audio/fsl_dmic_dma.o
+ .debug_pubnames
+                0x00001189      0x1b5 drivers_audio/fsl_i2s.o
+ .debug_pubnames
+                0x0000133e       0xcf drivers_audio/fsl_i2s_dma.o
+ .debug_pubnames
+                0x0000140d       0x6c drivers_audio/fsl_inputmux.o
+ .debug_pubnames
+                0x00001479       0x2d evkmimxrt685/board_hifi4.o
+ .debug_pubnames
+                0x000014a6      0x1dd user/main.o
+ .debug_pubnames
+                0x00001683       0x29 user/user_pin_mux.o
+ .debug_pubnames
+                0x000016ac      0x168 utilities/fsl_debug_console.o
+ .debug_pubnames
+                0x00001814       0x39 utilities/fsl_str.o
+ .debug_pubnames
+                0x0000184d      0x195 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .debug_pubnames
+                0x000019e2       0x25 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .debug_pubnames
+                0x00001a07      0x416 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .debug_pubnames
+                0x00001e1d      0x16e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .debug_pubnames
+                0x00001f8b       0xab C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .debug_pubnames
+                0x00002036       0x95 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .debug_pubnames
+                0x000020cb       0x31 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .debug_pubnames
+                0x000020fc       0x97 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.debug_info     0x00000000    0x4d51a
+ *(.debug_info)
+ .debug_info    0x00000000     0x1181 MIMXRT685S/system_MIMXRT685S_dsp.o
+ .debug_info    0x00001181      0xb42 board/pin_mux.o
+ .debug_info    0x00001cc3     0x106a component/lists/generic_list.o
+ .debug_info    0x00002d2d     0x18ba component/serial_manager/serial_manager.o
+ .debug_info    0x000045e7     0x153f component/serial_manager/serial_port_uart.o
+ .debug_info    0x00005b26     0x198a component/uart/usart_adapter.o
+ .debug_info    0x000074b0     0x3c9e drivers/fsl_clock.o
+ .debug_info    0x0000b14e      0xd1f drivers/fsl_common.o
+ .debug_info    0x0000be6d     0x2ad2 drivers/fsl_flexcomm.o
+ .debug_info    0x0000e93f     0x289b drivers/fsl_gpio.o
+ .debug_info    0x000111da     0x142f drivers/fsl_reset.o
+ .debug_info    0x00012609     0x2914 drivers/fsl_usart.o
+ .debug_info    0x00014f1d     0x4397 drivers_audio/fsl_dma.o
+ .debug_info    0x000192b4     0x337e drivers_audio/fsl_dmic.o
+ .debug_info    0x0001c632     0x1ddd drivers_audio/fsl_dmic_dma.o
+ .debug_info    0x0001e40f     0x2486 drivers_audio/fsl_i2s.o
+ .debug_info    0x00020895     0x21fb drivers_audio/fsl_i2s_dma.o
+ .debug_info    0x00022a90     0x6ddb drivers_audio/fsl_inputmux.o
+ .debug_info    0x0002986b     0x293e evkmimxrt685/board_hifi4.o
+ .debug_info    0x0002c1a9     0xb19c user/main.o
+ .debug_info    0x00037345      0xcd3 user/user_pin_mux.o
+ .debug_info    0x00038018     0x18dd utilities/fsl_debug_console.o
+ .debug_info    0x000398f5     0x16c8 utilities/fsl_str.o
+ .debug_info    0x0003afbd     0x249c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .debug_info    0x0003d459       0xea C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .debug_info    0x0003d543     0x2036 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .debug_info    0x0003f579     0x31c0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .debug_info    0x00042739     0x26aa C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .debug_info    0x00044de3       0xe7 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ .debug_info    0x00044eca       0xed C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .debug_info    0x00044fb7     0x21d5 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .debug_info    0x0004718c       0xed C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .debug_info    0x00047279     0x22f2 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .debug_info    0x0004956b     0x1f50 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .debug_info    0x0004b4bb     0x205f C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.debug_abbrev   0x00000000     0x43a3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x12a MIMXRT685S/system_MIMXRT685S_dsp.o
+ .debug_abbrev  0x0000012a      0x139 board/pin_mux.o
+ .debug_abbrev  0x00000263      0x1f7 component/lists/generic_list.o
+ .debug_abbrev  0x0000045a      0x1b8 component/serial_manager/serial_manager.o
+ .debug_abbrev  0x00000612      0x1af component/serial_manager/serial_port_uart.o
+ .debug_abbrev  0x000007c1      0x1db component/uart/usart_adapter.o
+ .debug_abbrev  0x0000099c      0x240 drivers/fsl_clock.o
+ .debug_abbrev  0x00000bdc      0x1ab drivers/fsl_common.o
+ .debug_abbrev  0x00000d87      0x274 drivers/fsl_flexcomm.o
+ .debug_abbrev  0x00000ffb      0x221 drivers/fsl_gpio.o
+ .debug_abbrev  0x0000121c      0x161 drivers/fsl_reset.o
+ .debug_abbrev  0x0000137d      0x2b3 drivers/fsl_usart.o
+ .debug_abbrev  0x00001630      0x2d3 drivers_audio/fsl_dma.o
+ .debug_abbrev  0x00001903      0x263 drivers_audio/fsl_dmic.o
+ .debug_abbrev  0x00001b66      0x21b drivers_audio/fsl_dmic_dma.o
+ .debug_abbrev  0x00001d81      0x26a drivers_audio/fsl_i2s.o
+ .debug_abbrev  0x00001feb      0x267 drivers_audio/fsl_i2s_dma.o
+ .debug_abbrev  0x00002252      0x1d2 drivers_audio/fsl_inputmux.o
+ .debug_abbrev  0x00002424      0x101 evkmimxrt685/board_hifi4.o
+ .debug_abbrev  0x00002525      0x270 user/main.o
+ .debug_abbrev  0x00002795      0x12b user/user_pin_mux.o
+ .debug_abbrev  0x000028c0      0x1aa utilities/fsl_debug_console.o
+ .debug_abbrev  0x00002a6a      0x1a5 utilities/fsl_str.o
+ .debug_abbrev  0x00002c0f      0x38a C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .debug_abbrev  0x00002f99       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .debug_abbrev  0x00002fad      0x217 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .debug_abbrev  0x000031c4      0x3c4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .debug_abbrev  0x00003588      0x346 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .debug_abbrev  0x000038ce       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ .debug_abbrev  0x000038e2       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .debug_abbrev  0x000038f6      0x31e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .debug_abbrev  0x00003c14       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .debug_abbrev  0x00003c28      0x2de C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .debug_abbrev  0x00003f06      0x206 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .debug_abbrev  0x0000410c      0x297 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.debug_line     0x00000000     0xb760
+ *(.debug_line)
+ .debug_line    0x00000000      0x20c MIMXRT685S/system_MIMXRT685S_dsp.o
+ .debug_line    0x0000020c      0x1ef board/pin_mux.o
+ .debug_line    0x000003fb      0x413 component/lists/generic_list.o
+ .debug_line    0x0000080e      0x468 component/serial_manager/serial_manager.o
+ .debug_line    0x00000c76      0x27a component/serial_manager/serial_port_uart.o
+ .debug_line    0x00000ef0      0x2af component/uart/usart_adapter.o
+ .debug_line    0x0000119f      0xc98 drivers/fsl_clock.o
+ .debug_line    0x00001e37      0x171 drivers/fsl_common.o
+ .debug_line    0x00001fa8      0x2ec drivers/fsl_flexcomm.o
+ .debug_line    0x00002294      0x27c drivers/fsl_gpio.o
+ .debug_line    0x00002510      0x1f9 drivers/fsl_reset.o
+ .debug_line    0x00002709      0x924 drivers/fsl_usart.o
+ .debug_line    0x0000302d      0xa03 drivers_audio/fsl_dma.o
+ .debug_line    0x00003a30      0x4f0 drivers_audio/fsl_dmic.o
+ .debug_line    0x00003f20      0x3b7 drivers_audio/fsl_dmic_dma.o
+ .debug_line    0x000042d7      0xcf6 drivers_audio/fsl_i2s.o
+ .debug_line    0x00004fcd      0x7c6 drivers_audio/fsl_i2s_dma.o
+ .debug_line    0x00005793      0x2ef drivers_audio/fsl_inputmux.o
+ .debug_line    0x00005a82      0x1ba evkmimxrt685/board_hifi4.o
+ .debug_line    0x00005c3c      0x771 user/main.o
+ .debug_line    0x000063ad      0x295 user/user_pin_mux.o
+ .debug_line    0x00006642      0x45f utilities/fsl_debug_console.o
+ .debug_line    0x00006aa1      0x94a utilities/fsl_str.o
+ .debug_line    0x000073eb      0x46e C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .debug_line    0x00007859      0x320 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .debug_line    0x00007b79      0x2a5 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .debug_line    0x00007e1e     0x13f0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .debug_line    0x0000920e      0x975 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .debug_line    0x00009b83      0x90c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ .debug_line    0x0000a48f      0x245 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .debug_line    0x0000a6d4      0x32d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .debug_line    0x0000aa01      0x29f C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .debug_line    0x0000aca0      0x535 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .debug_line    0x0000b1d5      0x1c8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .debug_line    0x0000b39d      0x3c3 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.xt.insn
+ *(.xt.insn)
+ *(.gnu.linkonce.x.*)
+
+.xt.prop        0x00000000     0xcc30
+ *(.xt.prop)
+ .xt.prop       0x00000000      0x2e8 MIMXRT685S/system_MIMXRT685S_dsp.o
+ .xt.prop       0x000002e8       0x54 board/pin_mux.o
+ .xt.prop       0x0000033c      0x30c component/lists/generic_list.o
+ .xt.prop       0x00000648      0x7bc component/serial_manager/serial_manager.o
+ .xt.prop       0x00000e04      0x36c component/serial_manager/serial_port_uart.o
+ .xt.prop       0x00001170      0x468 component/uart/usart_adapter.o
+ .xt.prop       0x000015d8     0x18cc drivers/fsl_clock.o
+ .xt.prop       0x00002ea4      0x234 drivers/fsl_common.o
+ .xt.prop       0x000030d8      0x768 drivers/fsl_flexcomm.o
+ .xt.prop       0x00003840      0x3b4 drivers/fsl_gpio.o
+ .xt.prop       0x00003bf4      0x378 drivers/fsl_reset.o
+ .xt.prop       0x00003f6c     0x1098 drivers/fsl_usart.o
+ .xt.prop       0x00005004     0x1464 drivers_audio/fsl_dma.o
+ .xt.prop       0x00006468      0x5c4 drivers_audio/fsl_dmic.o
+ .xt.prop       0x00006a2c      0x684 drivers_audio/fsl_dmic_dma.o
+ .xt.prop       0x000070b0      0xfa8 drivers_audio/fsl_i2s.o
+ .xt.prop       0x00008058      0x9e4 drivers_audio/fsl_i2s_dma.o
+ .xt.prop       0x00008a3c      0x270 drivers_audio/fsl_inputmux.o
+ .xt.prop       0x00008cac       0x24 evkmimxrt685/board_hifi4.o
+ .xt.prop       0x00008cd0      0x6b4 user/main.o
+ .xt.prop       0x00009384       0x3c user/user_pin_mux.o
+ .xt.prop       0x000093c0      0x690 utilities/fsl_debug_console.o
+ .xt.prop       0x00009a50      0xac8 utilities/fsl_str.o
+ .xt.prop       0x0000a518      0x2c4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .xt.prop       0x0000a7dc       0xa8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .xt.prop       0x0000a884       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_table.o)
+ .xt.prop       0x0000a89c       0x6c C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .xt.prop       0x0000a908      0xec4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .xt.prop       0x0000b7cc      0x744 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .xt.prop       0x0000bf10      0x2f4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ .xt.prop       0x0000c204       0xe4 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .xt.prop       0x0000c2e8      0x1ec C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .xt.prop       0x0000c4d4      0x108 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .xt.prop       0x0000c5dc      0x3a8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .xt.prop       0x0000c984       0xa8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .xt.prop       0x0000ca2c      0x204 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+ *(.xt.prop.*)
+ *(.gnu.linkonce.prop.*)
+
+.xt.lit         0x00000000      0x318
+ *(.xt.lit)
+ .xt.lit        0x00000000        0x8 MIMXRT685S/system_MIMXRT685S_dsp.o
+ .xt.lit        0x00000008        0x8 board/pin_mux.o
+ .xt.lit        0x00000010        0x8 component/lists/generic_list.o
+ .xt.lit        0x00000018        0x8 component/serial_manager/serial_manager.o
+ .xt.lit        0x00000020        0x8 component/serial_manager/serial_port_uart.o
+ .xt.lit        0x00000028        0x8 component/uart/usart_adapter.o
+ .xt.lit        0x00000030        0x8 drivers/fsl_clock.o
+ .xt.lit        0x00000038        0x8 drivers/fsl_common.o
+ .xt.lit        0x00000040        0x8 drivers/fsl_flexcomm.o
+ .xt.lit        0x00000048        0x8 drivers/fsl_gpio.o
+ .xt.lit        0x00000050        0x8 drivers/fsl_reset.o
+ .xt.lit        0x00000058        0x8 drivers/fsl_usart.o
+ .xt.lit        0x00000060        0x8 drivers_audio/fsl_dma.o
+ .xt.lit        0x00000068        0x8 drivers_audio/fsl_dmic.o
+ .xt.lit        0x00000070        0x8 drivers_audio/fsl_dmic_dma.o
+ .xt.lit        0x00000078        0x8 drivers_audio/fsl_i2s.o
+ .xt.lit        0x00000080        0x8 drivers_audio/fsl_i2s_dma.o
+ .xt.lit        0x00000088        0x8 drivers_audio/fsl_inputmux.o
+ .xt.lit        0x00000090        0x8 evkmimxrt685/board_hifi4.o
+ .xt.lit        0x00000098        0x8 user/main.o
+ .xt.lit        0x000000a0        0x0 user/user_pin_mux.o
+                                          0x8 (size before relaxing)
+ .xt.lit        0x000000a0        0x8 utilities/fsl_debug_console.o
+ .xt.lit        0x000000a8        0x8 utilities/fsl_str.o
+ .xt.lit        0x000000b0       0x60 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .xt.lit        0x00000110        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .xt.lit        0x00000118        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .xt.lit        0x00000120       0xd8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .xt.lit        0x000001f8       0x58 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .xt.lit        0x00000250        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ .xt.lit        0x00000258       0x40 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .xt.lit        0x00000298        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .xt.lit        0x000002a0       0x38 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .xt.lit        0x000002d8       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .xt.lit        0x000002e8       0x30 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+ *(.xt.lit.*)
+ *(.gnu.linkonce.p.*)
+
+.comment        0x00000000     0x1664
+ .comment       0x00000000       0xaf MIMXRT685S/system_MIMXRT685S_dsp.o
+ .comment       0x000000af       0xd3 board/pin_mux.o
+ .comment       0x00000182       0xa4 component/lists/generic_list.o
+ .comment       0x00000226       0xaf component/serial_manager/serial_manager.o
+ .comment       0x000002d5       0xb1 component/serial_manager/serial_port_uart.o
+ .comment       0x00000386       0xa4 component/uart/usart_adapter.o
+ .comment       0x0000042a       0xab drivers/fsl_clock.o
+ .comment       0x000004d5       0xac drivers/fsl_common.o
+ .comment       0x00000581       0xae drivers/fsl_flexcomm.o
+ .comment       0x0000062f       0xaa drivers/fsl_gpio.o
+ .comment       0x000006d9       0xab drivers/fsl_reset.o
+ .comment       0x00000784       0xab drivers/fsl_usart.o
+ .comment       0x0000082f       0xe7 drivers_audio/fsl_dma.o
+ .comment       0x00000916       0xe8 drivers_audio/fsl_dmic.o
+ .comment       0x000009fe       0xec drivers_audio/fsl_dmic_dma.o
+ .comment       0x00000aea       0xe7 drivers_audio/fsl_i2s.o
+ .comment       0x00000bd1       0xeb drivers_audio/fsl_i2s_dma.o
+ .comment       0x00000cbc       0xec drivers_audio/fsl_inputmux.o
+ .comment       0x00000da8       0xd7 evkmimxrt685/board_hifi4.o
+ .comment       0x00000e7f       0xdb user/main.o
+ .comment       0x00000f5a       0xe3 user/user_pin_mux.o
+ .comment       0x0000103d       0xc3 utilities/fsl_debug_console.o
+ .comment       0x00001100       0xaf utilities/fsl_str.o
+ .comment       0x000011af       0x90 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .comment       0x0000123f       0x9b C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .comment       0x000012da       0x97 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .comment       0x00001371       0x96 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .comment       0x00001407       0x95 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .comment       0x0000149c       0x96 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .comment       0x00001532       0x95 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .comment       0x000015c7       0x9d C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.xtensa.info    0x00000000      0x214
+ .xtensa.info   0x00000000      0x214 MIMXRT685S/system_MIMXRT685S_dsp.o
+ .xtensa.info   0x00000000        0x0 board/pin_mux.o
+ .xtensa.info   0x00000000        0x0 component/lists/generic_list.o
+ .xtensa.info   0x00000000        0x0 component/serial_manager/serial_manager.o
+ .xtensa.info   0x00000000        0x0 component/serial_manager/serial_port_uart.o
+ .xtensa.info   0x00000000        0x0 component/uart/usart_adapter.o
+ .xtensa.info   0x00000000        0x0 drivers/fsl_clock.o
+ .xtensa.info   0x00000000        0x0 drivers/fsl_common.o
+ .xtensa.info   0x00000000        0x0 drivers/fsl_flexcomm.o
+ .xtensa.info   0x00000000        0x0 drivers/fsl_gpio.o
+ .xtensa.info   0x00000000        0x0 drivers/fsl_reset.o
+ .xtensa.info   0x00000000        0x0 drivers/fsl_usart.o
+ .xtensa.info   0x00000000        0x0 drivers_audio/fsl_dma.o
+ .xtensa.info   0x00000000        0x0 drivers_audio/fsl_dmic.o
+ .xtensa.info   0x00000000        0x0 drivers_audio/fsl_dmic_dma.o
+ .xtensa.info   0x00000000        0x0 drivers_audio/fsl_i2s.o
+ .xtensa.info   0x00000000        0x0 drivers_audio/fsl_i2s_dma.o
+ .xtensa.info   0x00000000        0x0 drivers_audio/fsl_inputmux.o
+ .xtensa.info   0x00000000        0x0 evkmimxrt685/board_hifi4.o
+ .xtensa.info   0x00000000        0x0 user/main.o
+ .xtensa.info   0x00000000        0x0 user/user_pin_mux.o
+ .xtensa.info   0x00000000        0x0 utilities/fsl_debug_console.o
+ .xtensa.info   0x00000000        0x0 utilities/fsl_str.o
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_exc_handler.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_table.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_start_main.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_thread.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_timer.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_handlers.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_int_stack.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_window_vectors.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_clib.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_coproc_handler.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_mutex.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_once.o)
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/arch/lib/\libxos.a(xos_system_timer.o)
+
+.debug.xt.callgraph
+ *(.debug.xt.callgraph .debug.xt.callgraph.* .gnu.linkonce.xt.callgraph.*)
+OUTPUT(eight_channel_dmic_i2s_playback.minsize elf32-xtensa-le)
+
+Memory Configuration
+
+Name             Origin          Length          Used            Unused          Attributes
+*default*        0x00000000      0xffffffff      

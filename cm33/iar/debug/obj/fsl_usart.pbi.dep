@@ -1,0 +1,27 @@
+fsl_usart.pbi: \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices\MIMXRT685S\drivers\fsl_usart.c \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices\MIMXRT685S\drivers/fsl_usart.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices\MIMXRT685S\drivers/fsl_common.h \
+  C:\IAR8.50.1\arm\inc\c\assert.h C:\IAR8.50.1\arm\inc\c\ycheck.h \
+  C:\IAR8.50.1\arm\inc\c\yvals.h C:\IAR8.50.1\arm\inc\c\DLib_Defaults.h \
+  C:\IAR8.50.1\arm\inc\c\DLib_Config_Normal.h \
+  C:\IAR8.50.1\arm\inc\c\DLib_Product.h C:\IAR8.50.1\arm\inc\c\stdbool.h \
+  C:\IAR8.50.1\arm\inc\c\stdint.h C:\IAR8.50.1\arm\inc\c\string.h \
+  C:\IAR8.50.1\arm\inc\c\ysizet.h \
+  C:\IAR8.50.1\arm\inc\c\DLib_Product_string.h \
+  C:\IAR8.50.1\arm\inc\c\stdlib.h \
+  C:\IAR8.50.1\arm\inc\c\DLib_Product_stdlib.h \
+  C:\IAR8.50.1\arm\inc\c\stddef.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../devices/MIMXRT685S\fsl_device_registers.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../devices/MIMXRT685S/MIMXRT685S_cm33.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../CMSIS/Include\core_cm33.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../CMSIS/Include/cmsis_version.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../CMSIS/Include/cmsis_compiler.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../CMSIS/Include\cmsis_iccarm.h \
+  C:\IAR8.50.1\arm\inc\c\iccarm_builtin.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../CMSIS/Include/mpu_armv8.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../devices/MIMXRT685S/system_MIMXRT685S_cm33.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\cm33\iar/../../../../../../devices/MIMXRT685S/MIMXRT685S_cm33_features.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices\MIMXRT685S\drivers/fsl_clock.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices\MIMXRT685S\drivers/fsl_reset.h \
+  C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices\MIMXRT685S\drivers/fsl_flexcomm.h
