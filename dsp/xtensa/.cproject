@@ -82,7 +82,7 @@
 									<listOptionValue builtIn="false" value="__GNUC_MINOR__=2"/>
 									<listOptionValue builtIn="false" value="__XTENSA_EL__=1"/>
 									<listOptionValue builtIn="false" value="__GNUC_GNU_INLINE__=1"/>
-									<listOptionValue builtIn="false" value="DEBUG=1"/>
+									<listOptionValue builtIn="false" value="NDEBUG=1"/>
 									<listOptionValue builtIn="false" value="SERIAL_PORT_TYPE_UART=1"/>
 									<listOptionValue builtIn="false" value="CPU_MIMXRT685SFVKB_dsp=1"/>
 								</option>
@@ -157,7 +157,7 @@
 									<listOptionValue builtIn="false" value="__GNUC_MINOR__=2"/>
 									<listOptionValue builtIn="false" value="__XTENSA_EL__=1"/>
 									<listOptionValue builtIn="false" value="__GNUC_GNU_INLINE__=1"/>
-									<listOptionValue builtIn="false" value="DEBUG=1"/>
+									<listOptionValue builtIn="false" value="NDEBUG=1"/>
 									<listOptionValue builtIn="false" value="SERIAL_PORT_TYPE_UART=1"/>
 									<listOptionValue builtIn="false" value="CPU_MIMXRT685SFVKB_dsp=1"/>
 								</option>
@@ -232,7 +232,7 @@
 									<listOptionValue builtIn="false" value="__GNUC_MINOR__=2"/>
 									<listOptionValue builtIn="false" value="__XTENSA_EL__=1"/>
 									<listOptionValue builtIn="false" value="__GNUC_GNU_INLINE__=1"/>
-									<listOptionValue builtIn="false" value="DEBUG=1"/>
+									<listOptionValue builtIn="false" value="NDEBUG=1"/>
 									<listOptionValue builtIn="false" value="SERIAL_PORT_TYPE_UART=1"/>
 									<listOptionValue builtIn="false" value="CPU_MIMXRT685SFVKB_dsp=1"/>
 								</option>
