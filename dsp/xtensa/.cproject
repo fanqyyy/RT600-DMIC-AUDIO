@@ -22,17 +22,17 @@
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++/xtensa-elf"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++/backward"/>
-									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp"/>
+									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/board"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/lists"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/serial_manager"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/uart"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/drivers"/>
-									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/drivers_audio"/>
+									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/drivers_audio"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/utilities/debug_console"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/utilities/str"/>
-									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\dsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\RT600_DMIC_AUDIO\dsp&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\CMSIS\Include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices&quot;"/>
@@ -97,17 +97,17 @@
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++/xtensa-elf"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++/backward"/>
-									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp"/>
+									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/board"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/lists"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/serial_manager"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/uart"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/drivers"/>
-									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/drivers_audio"/>
+									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/drivers_audio"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/utilities/debug_console"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/utilities/str"/>
-									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\dsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\RT600_DMIC_AUDIO\dsp&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\CMSIS\Include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices&quot;"/>
@@ -172,17 +172,17 @@
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++/xtensa-elf"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/xcc/c++/backward"/>
-									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp"/>
+									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/board"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/lists"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/serial_manager"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/components/uart"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/drivers"/>
-									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/drivers_audio"/>
+									<listOptionValue builtIn="false" value="C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/drivers_audio"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/utilities/debug_console"/>
 									<listOptionValue builtIn="false" value="C://Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/utilities/str"/>
-									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\eight_channel_dmic_i2s_playback\dsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685\dsp_examples\RT600_DMIC_AUDIO\dsp&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\boards\evkmimxrt685&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\CMSIS\Include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\nxf55062\Documents\MCU_SDK\RT600\SDK_2.8.0_EVK-MIMXRT685_RC2_0\devices&quot;"/>

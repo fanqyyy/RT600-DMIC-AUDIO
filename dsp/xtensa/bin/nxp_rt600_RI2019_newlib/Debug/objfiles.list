@@ -1,4 +1,5 @@
 MIMXRT685S/system_MIMXRT685S_dsp.o
+board/board_hifi4.o
 board/pin_mux.o
 component/lists/generic_list.o
 component/serial_manager/serial_manager.o
@@ -16,7 +17,6 @@ drivers_audio/fsl_dmic_dma.o
 drivers_audio/fsl_i2s.o
 drivers_audio/fsl_i2s_dma.o
 drivers_audio/fsl_inputmux.o
-evkmimxrt685/board_hifi4.o
 user/main.o
 user/user_pin_mux.o
 utilities/fsl_debug_console.o

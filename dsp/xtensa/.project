@@ -38,17 +38,7 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>board</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
 			<name>drivers</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>evkmimxrt685</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
@@ -91,21 +81,6 @@
 			<name>MIMXRT685S/system_MIMXRT685S_dsp.h</name>
 			<type>1</type>
 			<locationURI>copy_PARENT/devices/MIMXRT685S/system_MIMXRT685S_dsp.h</locationURI>
-		</link>
-		<link>
-			<name>board/core_dsp.h</name>
-			<type>1</type>
-			<locationURI>copy_PARENT1/core_dsp.h</locationURI>
-		</link>
-		<link>
-			<name>board/pin_mux.c</name>
-			<type>1</type>
-			<locationURI>copy_PARENT12/pin_mux.c</locationURI>
-		</link>
-		<link>
-			<name>board/pin_mux.h</name>
-			<type>1</type>
-			<locationURI>copy_PARENT123/pin_mux.h</locationURI>
 		</link>
 		<link>
 			<name>component/lists</name>
@@ -186,16 +161,6 @@
 			<name>drivers/fsl_usart.h</name>
 			<type>1</type>
 			<locationURI>copy_PARENT/devices/MIMXRT685S/drivers/fsl_usart.h</locationURI>
-		</link>
-		<link>
-			<name>evkmimxrt685/board_hifi4.c</name>
-			<type>1</type>
-			<locationURI>copy_PARENT1234/board_hifi4.c</locationURI>
-		</link>
-		<link>
-			<name>evkmimxrt685/board_hifi4.h</name>
-			<type>1</type>
-			<locationURI>copy_PARENT12345/board_hifi4.h</locationURI>
 		</link>
 		<link>
 			<name>utilities/fsl_debug_console.c</name>

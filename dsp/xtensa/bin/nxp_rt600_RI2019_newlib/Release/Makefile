@@ -12,10 +12,10 @@
 COREFLAG_nxp_rt600_RI2019_newlib_TC = --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/config --xtensa-core=nxp_rt600_RI2019_newlib
 COREFLAG_nxp_rt600_RI2019_newlib = --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/config --xtensa-core=nxp_rt600_RI2019_newlib --xtensa-params=
 
-FEEDBACK_CREATE = C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release_Feedback/feedback
-FEEDBACK_OPT =  -fb_opt C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release_Feedback/feedback
+FEEDBACK_CREATE = C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release_Feedback/feedback
+FEEDBACK_OPT =  -fb_opt C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release_Feedback/feedback
 
-VPATH = C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa
+VPATH = C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa
 .PHONY:all clean submake 
 .PHONY:pre-all pre-link post-all pre-clean  
 all:pre-all eight_channel_dmic_i2s_playback post-all 
@@ -23,7 +23,7 @@ all:pre-all eight_channel_dmic_i2s_playback post-all
 # Variables
 PERL = C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/Tools/perl/bin/MSWin32-x86/perl.exe
 WORKSPACE_ROOT = C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace
-PROJECT_HOME = C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa
+PROJECT_HOME = C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa
 PROJECT_NAME = eight_channel_dmic_i2s_playback
 TARGET_CONFIG = nxp_rt600_RI2019_newlib
 TARGET_BUILD = nxp_rt600_RI2019_newlib
@@ -36,39 +36,39 @@ STAMP = echo timestamp >
 
 # Link command
 eight_channel_dmic_i2s_playback:__exe__eight_channel_dmic_i2s_playback__.pstamp MIMXRT685S/system_MIMXRT685S_dsp.o \
-	board/pin_mux.o component/lists/generic_list.o component/serial_manager/serial_manager.o \
+	board/board_hifi4.o board/pin_mux.o component/lists/generic_list.o component/serial_manager/serial_manager.o \
 	component/serial_manager/serial_port_uart.o component/uart/usart_adapter.o drivers/fsl_clock.o \
 	drivers/fsl_common.o drivers/fsl_flexcomm.o drivers/fsl_gpio.o drivers/fsl_reset.o \
 	drivers/fsl_usart.o drivers_audio/fsl_dma.o drivers_audio/fsl_dmic.o drivers_audio/fsl_dmic_dma.o \
 	drivers_audio/fsl_i2s.o drivers_audio/fsl_i2s_dma.o drivers_audio/fsl_inputmux.o \
-	evkmimxrt685/board_hifi4.o user/main.o user/user_pin_mux.o utilities/fsl_debug_console.o \
-	utilities/fsl_str.o C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/objfiles.list \
+	user/main.o user/user_pin_mux.o utilities/fsl_debug_console.o utilities/fsl_str.o \
+	C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/objfiles.list \
 	C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/xtensa/min-rt/ldscripts/elf32xtensa.x \
 	C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/devices/MIMXRT685S/xtensa/min-rt/specs \
 	pre-link 
 	@-echo " "
-	C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/bin/xt-xc++ -Wl,@C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/objfiles.list -o eight_channel_dmic_i2s_playback -mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) 
+	C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/bin/xt-xc++ -Wl,@C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/objfiles.list -o eight_channel_dmic_i2s_playback -mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) 
 	@-echo " "
-	C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/bin/xt-xc++ -Wl,@C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/objfiles.list -o eight_channel_dmic_i2s_playback.minsize -mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -Wl,-r -nostdlib -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) 
+	C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/bin/xt-xc++ -Wl,@C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/objfiles.list -o eight_channel_dmic_i2s_playback.minsize -mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -Wl,-r -nostdlib -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) 
 	@-echo " "
-	-@$(PERL) -e 'open(O, ">__exe__eight_channel_dmic_i2s_playback__.props"); print O "-mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) ";'
+	-@$(PERL) -e 'open(O, ">__exe__eight_channel_dmic_i2s_playback__.props"); print O "-mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) ";'
 
 	@echo ***** Code size summary ************
-	C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/bin/xt-size C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/eight_channel_dmic_i2s_playback -C 
+	C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/bin/xt-size C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/bin/nxp_rt600_RI2019_newlib/Release/eight_channel_dmic_i2s_playback -C 
 	@echo ************************************
 __exe__eight_channel_dmic_i2s_playback__.pstamp:__exe__eight_channel_dmic_i2s_playback__.props \
 	FORCE 
-	-@$(PERL) -e 'open(I, "$<"); while (<I>) { chomp; if ("-mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) " ne $$_) { open(O, ">$@"); print O "timestamp"; unlink "__exe__eight_channel_dmic_i2s_playback__.d"; } exit 0; }'
+	-@$(PERL) -e 'open(I, "$<"); while (<I>) { chomp; if ("-mlsp=C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/xtensa/min-rt -lxos $(COREFLAG_nxp_rt600_RI2019_newlib) " ne $$_) { open(O, ">$@"); print O "timestamp"; unlink "__exe__eight_channel_dmic_i2s_playback__.d"; } exit 0; }'
 
 
 
-MIMXRT685S/system_MIMXRT685S_dsp.o board/pin_mux.o component/lists/generic_list.o \
+MIMXRT685S/system_MIMXRT685S_dsp.o board/board_hifi4.o board/pin_mux.o component/lists/generic_list.o \
 	component/serial_manager/serial_manager.o component/serial_manager/serial_port_uart.o \
 	component/uart/usart_adapter.o drivers/fsl_clock.o drivers/fsl_common.o drivers/fsl_flexcomm.o \
 	drivers/fsl_gpio.o drivers/fsl_reset.o drivers/fsl_usart.o drivers_audio/fsl_dma.o \
 	drivers_audio/fsl_dmic.o drivers_audio/fsl_dmic_dma.o drivers_audio/fsl_i2s.o drivers_audio/fsl_i2s_dma.o \
-	drivers_audio/fsl_inputmux.o evkmimxrt685/board_hifi4.o user/main.o user/user_pin_mux.o \
-	utilities/fsl_debug_console.o utilities/fsl_str.o :submake 
+	drivers_audio/fsl_inputmux.o user/main.o user/user_pin_mux.o utilities/fsl_debug_console.o \
+	utilities/fsl_str.o :submake 
 	
 
 submake:FORCE 
@@ -77,7 +77,6 @@ submake:FORCE
 	$(MAKE) -C drivers_audio all 
 	$(MAKE) -C component\uart all 
 	$(MAKE) -C drivers all 
-	$(MAKE) -C evkmimxrt685 all 
 	$(MAKE) -C utilities all 
 	$(MAKE) -C component\lists all 
 	$(MAKE) -C user all 
@@ -103,6 +102,9 @@ clean:pre-clean
 	"MIMXRT685S\system_MIMXRT685S_dsp.pstamp" "MIMXRT685S\system_MIMXRT685S_dsp.props" \
 	"MIMXRT685S\system_MIMXRT685S_dsp.B" "MIMXRT685S\system_MIMXRT685S_dsp.i" "MIMXRT685S\system_MIMXRT685S_dsp.spin" \
 	"MIMXRT685S\system_MIMXRT685S_dsp.opt"  >NUL 2>&1
+	-@del "board\board_hifi4.o" "board\board_hifi4.d" "board\board_hifi4.pstamp" "board\board_hifi4.props" \
+	"board\board_hifi4.B" "board\board_hifi4.i" "board\board_hifi4.spin" "board\board_hifi4.opt" \
+	 >NUL 2>&1
 	-@del "board\pin_mux.o" "board\pin_mux.d" "board\pin_mux.pstamp" "board\pin_mux.props" \
 	"board\pin_mux.B" "board\pin_mux.i" "board\pin_mux.spin" "board\pin_mux.opt"  >NUL 2>&1
 	-@del "component\lists\generic_list.o" "component\lists\generic_list.d" "component\lists\generic_list.pstamp" \
@@ -157,9 +159,6 @@ clean:pre-clean
 	-@del "drivers_audio\fsl_inputmux.o" "drivers_audio\fsl_inputmux.d" "drivers_audio\fsl_inputmux.pstamp" \
 	"drivers_audio\fsl_inputmux.props" "drivers_audio\fsl_inputmux.B" "drivers_audio\fsl_inputmux.i" \
 	"drivers_audio\fsl_inputmux.spin" "drivers_audio\fsl_inputmux.opt"  >NUL 2>&1
-	-@del "evkmimxrt685\board_hifi4.o" "evkmimxrt685\board_hifi4.d" "evkmimxrt685\board_hifi4.pstamp" \
-	"evkmimxrt685\board_hifi4.props" "evkmimxrt685\board_hifi4.B" "evkmimxrt685\board_hifi4.i" \
-	"evkmimxrt685\board_hifi4.spin" "evkmimxrt685\board_hifi4.opt"  >NUL 2>&1
 	-@del "user\main.o" "user\main.d" "user\main.pstamp" "user\main.props" "user\main.B" \
 	"user\main.i" "user\main.spin" "user\main.opt"  >NUL 2>&1
 	-@del "user\user_pin_mux.o" "user\user_pin_mux.d" "user\user_pin_mux.pstamp" "user\user_pin_mux.props" \

@@ -5875,7 +5875,7 @@
    <key value="0x6b0"/>
   </keys>
  </isa>
- <function name="_vfiprintf_r" addr="0x00212960">
+ <function name="_vfiprintf_r" addr="0x002128c0">
   <sample key="0x4f8" count="210"/>
   <sample key="0x5000509" count="182"/>
   <sample key="0x50404fe" count="129"/>
@@ -5993,7 +5993,7 @@
   <sample key="0x50404d1" count="1"/>
   <sample key="0x50404d7" count="1"/>
  </function>
- <function name="I2S_TxHandleIRQ" addr="0x0020bd10">
+ <function name="I2S_TxHandleIRQ" addr="0x0020bca0">
   <sample key="0x10004c3" count="165"/>
   <sample key="0x518" count="86"/>
   <sample key="0x10004c8" count="65"/>
@@ -6030,7 +6030,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_malloc_r" addr="0x00211f70">
+ <function name="_malloc_r" addr="0x00211ed0">
   <sample key="0x5000509" count="32"/>
   <sample key="0x10004c8" count="31"/>
   <sample key="0x10004c3" count="28"/>
@@ -6118,7 +6118,7 @@
   <sample key="0x50004d1" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="_realloc_r" addr="0x00214e50">
+ <function name="_realloc_r" addr="0x00214db0">
   <sample key="0x10004c3" count="40"/>
   <sample key="0x5000509" count="36"/>
   <sample key="0x10004c8" count="36"/>
@@ -6189,7 +6189,7 @@
   <sample key="0x50004f2" count="1"/>
   <sample key="0x50004fe" count="1"/>
  </function>
- <function name="I2S_RxHandleIRQ" addr="0x0020c214">
+ <function name="I2S_RxHandleIRQ" addr="0x0020c1a4">
   <sample key="0x10004c3" count="153"/>
   <sample key="0x518" count="69"/>
   <sample key="0x10004c8" count="54"/>
@@ -6225,7 +6225,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferHandleIRQ" addr="0x00208858">
+ <function name="USART_TransferHandleIRQ" addr="0x002087e8">
   <sample key="0x10004c3" count="144"/>
   <sample key="0x518" count="74"/>
   <sample key="0x20004c5" count="36"/>
@@ -6262,7 +6262,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_TransferReceiveDMA" addr="0x0020aa34">
+ <function name="DMIC_TransferReceiveDMA" addr="0x0020a9c4">
   <sample key="0x4f8" count="51"/>
   <sample key="0x10004c3" count="49"/>
   <sample key="0x20004c5" count="47"/>
@@ -6298,7 +6298,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="StrFormatPrintf" addr="0x0020ed60">
+ <function name="StrFormatPrintf" addr="0x0020ecc0">
   <sample key="0x4f8" count="70"/>
   <sample key="0x20004c5" count="47"/>
   <sample key="0x509" count="37"/>
@@ -6329,7 +6329,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="StrFormatScanf" addr="0x0020f4b4">
+ <function name="StrFormatScanf" addr="0x0020f414">
   <sample key="0x10004c3" count="70"/>
   <sample key="0x10004c8" count="49"/>
   <sample key="0x20004c5" count="27"/>
@@ -6363,7 +6363,7 @@
   <sample key="0x576" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sfvwrite_r" addr="0x00214820">
+ <function name="__sfvwrite_r" addr="0x00214780">
   <sample key="0x50404f8" count="22"/>
   <sample key="0x5000509" count="21"/>
   <sample key="0x50404c4" count="17"/>
@@ -6437,7 +6437,7 @@
   <sample key="0x5000516" count="1"/>
   <sample key="0x50404d1" count="1"/>
  </function>
- <function name="I2S_StartTransferDMA" addr="0x0020ce44">
+ <function name="I2S_StartTransferDMA" addr="0x0020cdd4">
   <sample key="0x10004c3" count="57"/>
   <sample key="0x10004c8" count="33"/>
   <sample key="0x20004c5" count="21"/>
@@ -6472,7 +6472,7 @@
   <sample key="0x4d1" count="1"/>
   <sample key="0x4d4" count="1"/>
  </function>
- <function name="I2S_AddTransferDMA" addr="0x0020d0d8">
+ <function name="I2S_AddTransferDMA" addr="0x0020d068">
   <sample key="0x10004c3" count="54"/>
   <sample key="0x10004c8" count="28"/>
   <sample key="0x518" count="27"/>
@@ -6509,7 +6509,7 @@
   <sample key="0x4d1" count="1"/>
   <sample key="0x4d4" count="1"/>
  </function>
- <function name="I2S_ValidateBuffer" addr="0x0020b458">
+ <function name="I2S_ValidateBuffer" addr="0x0020b3e8">
   <sample key="0x10004c3" count="55"/>
   <sample key="0x20004c5" count="48"/>
   <sample key="0x4f9" count="33"/>
@@ -6533,7 +6533,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_Init" addr="0x00207b58">
+ <function name="USART_Init" addr="0x00207ae8">
   <sample key="0x10004c3" count="69"/>
   <sample key="0x518" count="34"/>
   <sample key="0x10004c8" count="20"/>
@@ -6558,7 +6558,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="thread_AudioTask_func" addr="0x0020da10">
+ <function name="thread_AudioTask_func" addr="0x0020d970">
   <sample key="0x4f9" count="80"/>
   <sample key="0x4aa" count="28"/>
   <sample key="0x518" count="26"/>
@@ -6582,7 +6582,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__umoddi3" addr="0x00216d70">
+ <function name="__umoddi3" addr="0x00216cd0">
   <sample key="0x10004be" count="13"/>
   <sample key="0x60404c4" count="10"/>
   <sample key="0x20004b3" count="10"/>
@@ -6645,7 +6645,7 @@
   <sample key="0x50e" count="1"/>
   <sample key="0x50f" count="1"/>
  </function>
- <function name="USART_TransferReceiveNonBlocking" addr="0x00208588">
+ <function name="USART_TransferReceiveNonBlocking" addr="0x00208518">
   <sample key="0x10004c3" count="78"/>
   <sample key="0x10004c8" count="30"/>
   <sample key="0x20004c5" count="29"/>
@@ -6674,7 +6674,7 @@
   <sample key="0x508" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="__udivdi3" addr="0x002165b0">
+ <function name="__udivdi3" addr="0x00216510">
   <sample key="0x600067a" count="10"/>
   <sample key="0x4e6" count="9"/>
   <sample key="0x60404c4" count="9"/>
@@ -6733,7 +6733,7 @@
   <sample key="0x50f" count="1"/>
   <sample key="0x504050f" count="1"/>
  </function>
- <function name="DMA_SetupChannelDescriptor" addr="0x0020953c">
+ <function name="DMA_SetupChannelDescriptor" addr="0x002094cc">
   <sample key="0x10004c3" count="70"/>
   <sample key="0x10004c8" count="31"/>
   <sample key="0x20004c5" count="21"/>
@@ -6761,7 +6761,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_free_r" addr="0x00214510">
+ <function name="_free_r" addr="0x00214470">
   <sample key="0x10004c8" count="25"/>
   <sample key="0x10004c3" count="17"/>
   <sample key="0x5000509" count="16"/>
@@ -6824,7 +6824,7 @@
   <sample key="0x60404c4" count="1"/>
   <sample key="0x50004fe" count="1"/>
  </function>
- <function name="DEMO_DMICChannelConfigurations" addr="0x0020dd9c">
+ <function name="DEMO_DMICChannelConfigurations" addr="0x0020dcfc">
   <sample key="0x4f9" count="91"/>
   <sample key="0x20004c5" count="64"/>
   <sample key="0x4aa" count="43"/>
@@ -6832,7 +6832,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SDK_DelayAtLeastUs" addr="0x00206968">
+ <function name="SDK_DelayAtLeastUs" addr="0x002068f8">
   <sample key="0x10004c3" count="32"/>
   <sample key="0x509" count="30"/>
   <sample key="0x20004c5" count="29"/>
@@ -6854,7 +6854,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="StrFormatScanfStringHandling" addr="0x0020f2dc">
+ <function name="StrFormatScanfStringHandling" addr="0x0020f23c">
   <sample key="0x10004c3" count="60"/>
   <sample key="0x20004c5" count="24"/>
   <sample key="0x10004c8" count="19"/>
@@ -6880,7 +6880,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_thread_create" addr="0x0020fc30">
+ <function name="xos_thread_create" addr="0x0020fb90">
   <sample key="0x4f9" count="12"/>
   <sample key="0x10004c8" count="11"/>
   <sample key="0x50404fe" count="9"/>
@@ -6950,7 +6950,7 @@
   <sample key="0x5040659" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="xos_tick_handler" addr="0x002108a8">
+ <function name="xos_tick_handler" addr="0x00210808">
   <sample key="0x10004c3" count="13"/>
   <sample key="0x50004f8" count="8"/>
   <sample key="0x50404fe" count="8"/>
@@ -7013,7 +7013,7 @@
   <sample key="0x5000517" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="_xos_coproc_handler" addr="0x0021172c">
+ <function name="_xos_coproc_handler" addr="0x0021168c">
   <sample key="0x90" count="14"/>
   <sample key="0x10004c3" count="10"/>
   <sample key="0x10004c8" count="9"/>
@@ -7092,7 +7092,7 @@
   <sample key="0x4d7" count="1"/>
   <sample key="0x50404d7" count="1"/>
  </function>
- <function name="CLOCK_GetFRGClock" addr="0x00205e90">
+ <function name="CLOCK_GetFRGClock" addr="0x00205e20">
   <sample key="0x10004c8" count="27"/>
   <sample key="0x10004c3" count="24"/>
   <sample key="0x518" count="17"/>
@@ -7119,7 +7119,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_SetupXferCFG" addr="0x0020927c">
+ <function name="DMA_SetupXferCFG" addr="0x0020920c">
   <sample key="0x10004c3" count="35"/>
   <sample key="0x10004c8" count="20"/>
   <sample key="0x4f9" count="17"/>
@@ -7142,7 +7142,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="RESET_ClearPeripheralReset" addr="0x00207720">
+ <function name="RESET_ClearPeripheralReset" addr="0x002076b0">
   <sample key="0x10004c3" count="53"/>
   <sample key="0x4f9" count="21"/>
   <sample key="0x518" count="18"/>
@@ -7166,7 +7166,7 @@
   <sample key="0x517" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="RESET_SetPeripheralReset" addr="0x00207580">
+ <function name="RESET_SetPeripheralReset" addr="0x00207510">
   <sample key="0x10004c3" count="41"/>
   <sample key="0x4f9" count="21"/>
   <sample key="0x518" count="18"/>
@@ -7189,7 +7189,7 @@
   <sample key="0x517" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="DMA_IRQHandle" addr="0x0020a038">
+ <function name="DMA_IRQHandle" addr="0x00209fc8">
   <sample key="0x10004c3" count="50"/>
   <sample key="0x20004c5" count="17"/>
   <sample key="0x4fa" count="13"/>
@@ -7220,7 +7220,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="_strtoul_r" addr="0x00212600">
+ <function name="_strtoul_r" addr="0x00212560">
   <sample key="0x4f4" count="14"/>
   <sample key="0x20004c5" count="13"/>
   <sample key="0x4fa" count="10"/>
@@ -7281,7 +7281,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x666" count="1"/>
  </function>
- <function name="I2S_DMACallback" addr="0x0020d368">
+ <function name="I2S_DMACallback" addr="0x0020d2f8">
   <sample key="0x10004c3" count="45"/>
   <sample key="0x518" count="19"/>
   <sample key="0x4fa" count="15"/>
@@ -7307,7 +7307,7 @@
   <sample key="0x508" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="ConvertRadixNumToString" addr="0x0020ec14">
+ <function name="ConvertRadixNumToString" addr="0x0020eb74">
   <sample key="0x10004c3" count="51"/>
   <sample key="0x10004c8" count="32"/>
   <sample key="0x20004c5" count="15"/>
@@ -7334,7 +7334,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="DMA_PrepareTransfer" addr="0x00209954">
+ <function name="DMA_PrepareTransfer" addr="0x002098e4">
   <sample key="0x10004c3" count="39"/>
   <sample key="0x20004c5" count="28"/>
   <sample key="0x50b" count="16"/>
@@ -7357,7 +7357,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="I2S_EnqueueUserBuffer" addr="0x0020c7b4">
+ <function name="I2S_EnqueueUserBuffer" addr="0x0020c744">
   <sample key="0x10004c3" count="29"/>
   <sample key="0x20004c5" count="18"/>
   <sample key="0x10004c8" count="16"/>
@@ -7379,7 +7379,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x4d4" count="1"/>
  </function>
- <function name="USART_ReadBlocking" addr="0x00208184">
+ <function name="USART_ReadBlocking" addr="0x00208114">
   <sample key="0x10004c3" count="37"/>
   <sample key="0x518" count="21"/>
   <sample key="0x10004c8" count="17"/>
@@ -7404,7 +7404,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="I2S_Config" addr="0x0020b254">
+ <function name="I2S_Config" addr="0x0020b1e4">
   <sample key="0x10004c3" count="33"/>
   <sample key="0x10004c8" count="20"/>
   <sample key="0x4d6" count="11"/>
@@ -7427,7 +7427,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_TransferAbortDMA" addr="0x0020caf4">
+ <function name="I2S_TransferAbortDMA" addr="0x0020ca84">
   <sample key="0x10004c3" count="35"/>
   <sample key="0x20004c5" count="25"/>
   <sample key="0x518" count="18"/>
@@ -7450,7 +7450,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d4" count="1"/>
  </function>
- <function name="USART_SetBaudRate" addr="0x00207ed0">
+ <function name="USART_SetBaudRate" addr="0x00207e60">
   <sample key="0x10004c3" count="44"/>
   <sample key="0x10004c8" count="23"/>
   <sample key="0x20004c5" count="13"/>
@@ -7476,7 +7476,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="__sflush_r" addr="0x00213f80">
+ <function name="__sflush_r" addr="0x00213ee0">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x6040505" count="8"/>
   <sample key="0x50404fe" count="6"/>
@@ -7531,7 +7531,7 @@
   <sample key="0x50404d1" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="CLOCK_GetFreq" addr="0x00206644">
+ <function name="CLOCK_GetFreq" addr="0x002065d4">
   <sample key="0x10004c8" count="31"/>
   <sample key="0x4f4" count="27"/>
   <sample key="0x4aa" count="26"/>
@@ -7550,7 +7550,7 @@
   <sample key="0x6040505" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SystemCoreClockUpdate" addr="0x00204680">
+ <function name="SystemCoreClockUpdate" addr="0x002045e0">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x10004c8" count="15"/>
   <sample key="0x4f9" count="14"/>
@@ -7573,7 +7573,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="memcpy" addr="0x00216830">
+ <function name="memcpy" addr="0x00216790">
   <sample key="0x50404cb" count="18"/>
   <sample key="0x5000509" count="9"/>
   <sample key="0x20004b3" count="8"/>
@@ -7621,7 +7621,7 @@
   <sample key="0x504050d" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="_fstat_r" addr="0x00215af0">
+ <function name="_fstat_r" addr="0x00215a50">
   <sample key="0x50404f8" count="25"/>
   <sample key="0x5000509" count="23"/>
   <sample key="0x4aa" count="17"/>
@@ -7646,7 +7646,7 @@
   <sample key="0x6040505" count="1"/>
   <sample key="0x4d6" count="1"/>
  </function>
- <function name="xthal_set_region_attribute" addr="0x00216260">
+ <function name="xthal_set_region_attribute" addr="0x002161c0">
   <sample key="0x4aa" count="6"/>
   <sample key="0x20004c5" count="6"/>
   <sample key="0x50004cb" count="5"/>
@@ -7717,7 +7717,7 @@
   <sample key="0x504050f" count="1"/>
   <sample key="0x50404d7" count="1"/>
  </function>
- <function name="_xos_exc_dispatcher" addr="0x0020f9d8">
+ <function name="_xos_exc_dispatcher" addr="0x0020f938">
   <sample key="0x50004f8" count="12"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x50404f8" count="10"/>
@@ -7774,7 +7774,7 @@
   <sample key="0x53c" count="1"/>
   <sample key="0x524" count="1"/>
  </function>
- <function name="DMA_SetupDescriptor" addr="0x00209428">
+ <function name="DMA_SetupDescriptor" addr="0x002093b8">
   <sample key="0x10004c3" count="36"/>
   <sample key="0x10004c8" count="24"/>
   <sample key="0x20004c5" count="16"/>
@@ -7797,7 +7797,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="HAL_UartInit" addr="0x00205300">
+ <function name="HAL_UartInit" addr="0x00205290">
   <sample key="0x20004c5" count="20"/>
   <sample key="0x4f8" count="14"/>
   <sample key="0x4f9" count="14"/>
@@ -7819,7 +7819,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="BOARD_Init_UserPin" addr="0x0020e1ac">
+ <function name="BOARD_Init_UserPin" addr="0x0020e10c">
   <sample key="0x20004c5" count="38"/>
   <sample key="0x10004c8" count="18"/>
   <sample key="0x10004c3" count="16"/>
@@ -7831,7 +7831,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="strcmp" addr="0x00215630">
+ <function name="strcmp" addr="0x00215590">
   <sample key="0x4eb" count="12"/>
   <sample key="0x10004bf" count="8"/>
   <sample key="0x20004b3" count="6"/>
@@ -7867,7 +7867,7 @@
   <sample key="0x505" count="1"/>
   <sample key="0x20004c6" count="1"/>
  </function>
- <function name="DMA_SubmitChannelTransfer" addr="0x00209dc0">
+ <function name="DMA_SubmitChannelTransfer" addr="0x00209d50">
   <sample key="0x10004c3" count="44"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x20004c5" count="10"/>
@@ -7890,7 +7890,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="DbgConsole_Init" addr="0x0020e528">
+ <function name="DbgConsole_Init" addr="0x0020e488">
   <sample key="0x4f9" count="24"/>
   <sample key="0x10004c8" count="19"/>
   <sample key="0x10004c3" count="16"/>
@@ -7910,7 +7910,7 @@
   <sample key="0x6040505" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetClockOutClkFreq" addr="0x00205d78">
+ <function name="CLOCK_GetClockOutClkFreq" addr="0x00205d08">
   <sample key="0x4f4" count="17"/>
   <sample key="0x10004c8" count="17"/>
   <sample key="0x10004c3" count="14"/>
@@ -7930,7 +7930,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_SetFRGClock" addr="0x00206790">
+ <function name="CLOCK_SetFRGClock" addr="0x00206720">
   <sample key="0x10004c3" count="20"/>
   <sample key="0x4f9" count="18"/>
   <sample key="0x518" count="10"/>
@@ -7953,7 +7953,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_RxTransferNonBlocking" addr="0x0020bab0">
+ <function name="I2S_RxTransferNonBlocking" addr="0x0020ba40">
   <sample key="0x10004c3" count="23"/>
   <sample key="0x518" count="13"/>
   <sample key="0x10004c8" count="13"/>
@@ -7979,7 +7979,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="I2S_TxTransferNonBlocking" addr="0x0020b870">
+ <function name="I2S_TxTransferNonBlocking" addr="0x0020b800">
   <sample key="0x10004c3" count="23"/>
   <sample key="0x518" count="13"/>
   <sample key="0x10004c8" count="13"/>
@@ -8005,7 +8005,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="xthal_spill_registers_into_stack_nw" addr="0x00216120">
+ <function name="xthal_spill_registers_into_stack_nw" addr="0x00216080">
   <sample key="0x10004c8" count="20"/>
   <sample key="0x4cb" count="6"/>
   <sample key="0x4b1" count="6"/>
@@ -8049,7 +8049,7 @@
   <sample key="0x50e" count="1"/>
   <sample key="0x50f" count="1"/>
  </function>
- <function name="DMIC_ConfigChannel" addr="0x0020a54c">
+ <function name="DMIC_ConfigChannel" addr="0x0020a4dc">
   <sample key="0x10004c3" count="37"/>
   <sample key="0x515" count="13"/>
   <sample key="0x10004be" count="9"/>
@@ -8066,7 +8066,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferSendNonBlocking" addr="0x002083b4">
+ <function name="USART_TransferSendNonBlocking" addr="0x00208344">
   <sample key="0x10004c3" count="28"/>
   <sample key="0x20004c5" count="17"/>
   <sample key="0x10004c8" count="12"/>
@@ -8084,7 +8084,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xos_clib_thread_init" addr="0x002115d4">
+ <function name="xos_clib_thread_init" addr="0x00211534">
   <sample key="0x509" count="40"/>
   <sample key="0x50404fe" count="9"/>
   <sample key="0x5000509" count="8"/>
@@ -8105,7 +8105,7 @@
   <sample key="0x50004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_gdbio_to_xtensa_errno" addr="0x00215d90">
+ <function name="_gdbio_to_xtensa_errno" addr="0x00215cf0">
   <sample key="0x20004b3" count="20"/>
   <sample key="0x20004c5" count="15"/>
   <sample key="0x20004c4" count="14"/>
@@ -8126,7 +8126,7 @@
   <sample key="0x50004fe" count="1"/>
   <sample key="0x50404fe" count="1"/>
  </function>
- <function name="I2S_TxTransferCreateHandleDMA" addr="0x0020c998">
+ <function name="I2S_TxTransferCreateHandleDMA" addr="0x0020c928">
   <sample key="0x10004c3" count="28"/>
   <sample key="0x10004c8" count="13"/>
   <sample key="0x20004c5" count="11"/>
@@ -8150,7 +8150,7 @@
   <sample key="0x517" count="1"/>
   <sample key="0x4d4" count="1"/>
  </function>
- <function name="I2S_RxTransferCreateHandle" addr="0x0020b9c8">
+ <function name="I2S_RxTransferCreateHandle" addr="0x0020b958">
   <sample key="0x10004c3" count="25"/>
   <sample key="0x20004c5" count="11"/>
   <sample key="0x518" count="8"/>
@@ -8171,7 +8171,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_TxTransferCreateHandle" addr="0x0020b788">
+ <function name="I2S_TxTransferCreateHandle" addr="0x0020b718">
   <sample key="0x10004c3" count="25"/>
   <sample key="0x20004c5" count="11"/>
   <sample key="0x518" count="8"/>
@@ -8192,7 +8192,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_timer_start" addr="0x00210b30">
+ <function name="xos_timer_start" addr="0x00210a90">
   <sample key="0x4d6" count="6"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x534" count="5"/>
@@ -8238,7 +8238,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="__sinit" addr="0x00214280">
+ <function name="__sinit" addr="0x002141e0">
   <sample key="0x5000509" count="18"/>
   <sample key="0x50404fe" count="16"/>
   <sample key="0x509" count="15"/>
@@ -8258,7 +8258,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="DMA_SubmitTransfer" addr="0x00209ec8">
+ <function name="DMA_SubmitTransfer" addr="0x00209e58">
   <sample key="0x10004c3" count="32"/>
   <sample key="0x4f9" count="8"/>
   <sample key="0x4aa" count="7"/>
@@ -8281,7 +8281,7 @@
   <sample key="0x4f2" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__smakebuf_r" addr="0x00214cb0">
+ <function name="__smakebuf_r" addr="0x00214c10">
   <sample key="0x4f7" count="6"/>
   <sample key="0x508" count="5"/>
   <sample key="0x50404fe" count="4"/>
@@ -8370,7 +8370,7 @@
   <sample key="0x4b9" count="1"/>
   <sample key="0x4bc" count="1"/>
  </function>
- <function name="CLOCK_GetAudioPfdFreq" addr="0x00205a58">
+ <function name="CLOCK_GetAudioPfdFreq" addr="0x002059e8">
   <sample key="0x20004c5" count="20"/>
   <sample key="0x10004c3" count="10"/>
   <sample key="0x4aa" count="9"/>
@@ -8389,7 +8389,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_GetSysPfdFreq" addr="0x00205864">
+ <function name="CLOCK_GetSysPfdFreq" addr="0x002057f4">
   <sample key="0x20004c5" count="20"/>
   <sample key="0x10004c3" count="10"/>
   <sample key="0x4aa" count="9"/>
@@ -8408,7 +8408,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="_fputwc_r" addr="0x002143d0">
+ <function name="_fputwc_r" addr="0x00214330">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x50404fe" count="6"/>
   <sample key="0x10004bf" count="4"/>
@@ -8452,7 +8452,7 @@
   <sample key="0x50404d6" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="USART_TransferCreateHandle" addr="0x002082e4">
+ <function name="USART_TransferCreateHandle" addr="0x00208274">
   <sample key="0x10004c3" count="24"/>
   <sample key="0x20004c5" count="12"/>
   <sample key="0x10004c8" count="11"/>
@@ -8472,7 +8472,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="USART_WriteBlocking" addr="0x002080b4">
+ <function name="USART_WriteBlocking" addr="0x00208044">
   <sample key="0x10004c3" count="21"/>
   <sample key="0x20004c5" count="14"/>
   <sample key="0x518" count="10"/>
@@ -8493,7 +8493,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_DisableClock" addr="0x0020a2b0">
+ <function name="CLOCK_DisableClock" addr="0x0020d550">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8512,7 +8512,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_DisableClock" addr="0x0020d5c0">
+ <function name="CLOCK_DisableClock" addr="0x0020a240">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8531,7 +8531,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_DisableClock" addr="0x00208d70">
+ <function name="CLOCK_DisableClock" addr="0x00208d00">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8550,7 +8550,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_EnableClock" addr="0x00206b60">
+ <function name="CLOCK_EnableClock" addr="0x0020a160">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8569,7 +8569,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_EnableClock" addr="0x00207070">
+ <function name="CLOCK_EnableClock" addr="0x00208c20">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8588,7 +8588,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_EnableClock" addr="0x00208c90">
+ <function name="CLOCK_EnableClock" addr="0x00207000">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8607,7 +8607,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_EnableClock" addr="0x0020d4e0">
+ <function name="CLOCK_EnableClock" addr="0x0020d700">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8626,7 +8626,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_EnableClock" addr="0x0020d7a0">
+ <function name="CLOCK_EnableClock" addr="0x0020d470">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8645,7 +8645,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_EnableClock" addr="0x0020a1d0">
+ <function name="CLOCK_EnableClock" addr="0x00206af0">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x4f2" count="7"/>
@@ -8664,7 +8664,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="return_from_interrupt" addr="0x00211177">
+ <function name="return_from_interrupt" addr="0x002110d7">
   <sample key="0x10004c8" count="14"/>
   <sample key="0x10004c3" count="7"/>
   <sample key="0x509" count="5"/>
@@ -8714,7 +8714,7 @@
   <sample key="0x650" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="DMA_AbortTransfer" addr="0x002097cc">
+ <function name="DMA_AbortTransfer" addr="0x0020975c">
   <sample key="0x10004c3" count="24"/>
   <sample key="0x4fa" count="9"/>
   <sample key="0x4f2" count="5"/>
@@ -8741,7 +8741,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="xos_thread_set_priority" addr="0x00210240">
+ <function name="xos_thread_set_priority" addr="0x002101a0">
   <sample key="0x4aa" count="5"/>
   <sample key="0x4f4" count="4"/>
   <sample key="0x4fa" count="4"/>
@@ -8781,7 +8781,7 @@
   <sample key="0x5000659" count="1"/>
   <sample key="0x5040659" count="1"/>
  </function>
- <function name="memmove" addr="0x00216b60">
+ <function name="memmove" addr="0x00216ac0">
   <sample key="0x50404cb" count="8"/>
   <sample key="0x50404c4" count="6"/>
   <sample key="0x50004cd" count="4"/>
@@ -8823,7 +8823,7 @@
   <sample key="0x5000517" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="xos_thread_abort" addr="0x00210560">
+ <function name="xos_thread_abort" addr="0x002104c0">
   <sample key="0x4f9" count="8"/>
   <sample key="0x4aa" count="7"/>
   <sample key="0x4f4" count="5"/>
@@ -8860,7 +8860,7 @@
   <sample key="0x4080505" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="StrFormatScanFillInteger" addr="0x0020f234">
+ <function name="StrFormatScanFillInteger" addr="0x0020f194">
   <sample key="0x10004c3" count="37"/>
   <sample key="0x10004c8" count="17"/>
   <sample key="0x20004c5" count="7"/>
@@ -8873,7 +8873,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetFlexCommClkFreq" addr="0x00206038">
+ <function name="CLOCK_GetFlexCommClkFreq" addr="0x00205fc8">
   <sample key="0x10004c3" count="13"/>
   <sample key="0x10004c8" count="13"/>
   <sample key="0x4f4" count="10"/>
@@ -8893,7 +8893,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="DMA_PrepareChannelTransfer" addr="0x00209b50">
+ <function name="DMA_PrepareChannelTransfer" addr="0x00209ae0">
   <sample key="0x10004c3" count="20"/>
   <sample key="0x20004c5" count="13"/>
   <sample key="0x10004c8" count="13"/>
@@ -8910,7 +8910,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_ReadLine" addr="0x0020e3c0">
+ <function name="DbgConsole_ReadLine" addr="0x0020e320">
   <sample key="0x10004c3" count="22"/>
   <sample key="0x20004c5" count="12"/>
   <sample key="0x10004c8" count="7"/>
@@ -8929,7 +8929,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_EnableSecondaryChannel" addr="0x0020b6cc">
+ <function name="I2S_EnableSecondaryChannel" addr="0x0020b65c">
   <sample key="0x10004c3" count="18"/>
   <sample key="0x10004c8" count="11"/>
   <sample key="0x4f9" count="9"/>
@@ -8949,7 +8949,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="__swsetup_r" addr="0x00213d90">
+ <function name="__swsetup_r" addr="0x00213cf0">
   <sample key="0x4f4" count="6"/>
   <sample key="0x10004c3" count="5"/>
   <sample key="0x50404fe" count="5"/>
@@ -8989,7 +8989,7 @@
   <sample key="0x4080505" count="1"/>
   <sample key="0x50404d6" count="1"/>
  </function>
- <function name="CLOCK_GetAdcClkFreq" addr="0x00205cb0">
+ <function name="CLOCK_GetAdcClkFreq" addr="0x00205c40">
   <sample key="0x4f4" count="12"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x10004c3" count="9"/>
@@ -9007,7 +9007,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_Enable32kMode" addr="0x00208000">
+ <function name="USART_Enable32kMode" addr="0x00207f90">
   <sample key="0x10004c3" count="22"/>
   <sample key="0x10004c8" count="13"/>
   <sample key="0x518" count="9"/>
@@ -9030,7 +9030,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xos_start_main" addr="0x0020fb34">
+ <function name="xos_start_main" addr="0x0020fa94">
   <sample key="0x50404fe" count="14"/>
   <sample key="0x4f9" count="12"/>
   <sample key="0x5000509" count="12"/>
@@ -9054,7 +9054,7 @@
   <sample key="0x50404d1" count="1"/>
   <sample key="0x5d7" count="1"/>
  </function>
- <function name="GPIO_PinInit" addr="0x0020718c">
+ <function name="GPIO_PinInit" addr="0x0020711c">
   <sample key="0x10004c3" count="21"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x20004c5" count="7"/>
@@ -9074,7 +9074,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="__call_exitprocs" addr="0x00213ea0">
+ <function name="__call_exitprocs" addr="0x00213e00">
   <sample key="0x4f8" count="9"/>
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4f4" count="4"/>
@@ -9114,7 +9114,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x504050e" count="1"/>
  </function>
- <function name="xos_timer_restart" addr="0x00210cb4">
+ <function name="xos_timer_restart" addr="0x00210c14">
   <sample key="0x4d6" count="7"/>
   <sample key="0x534" count="4"/>
   <sample key="0x51d" count="4"/>
@@ -9158,7 +9158,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="__swbuf_r" addr="0x00215780">
+ <function name="__swbuf_r" addr="0x002156e0">
   <sample key="0x4f8" count="5"/>
   <sample key="0x4aa" count="4"/>
   <sample key="0x10004c3" count="4"/>
@@ -9200,7 +9200,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x50004d1" count="1"/>
  </function>
- <function name="xos_mutex_lock_timeout" addr="0x00211ad0">
+ <function name="xos_mutex_lock_timeout" addr="0x00211a30">
   <sample key="0x4aa" count="8"/>
   <sample key="0x50404fe" count="5"/>
   <sample key="0x4cb" count="4"/>
@@ -9235,7 +9235,7 @@
   <sample key="0x534" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="CLOCK_GetSdioClkFreq" addr="0x002063cc">
+ <function name="CLOCK_GetSdioClkFreq" addr="0x0020635c">
   <sample key="0x10004c8" count="13"/>
   <sample key="0x10004c3" count="12"/>
   <sample key="0x4f4" count="9"/>
@@ -9254,7 +9254,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_BlockingPrintf" addr="0x0020e798">
+ <function name="DbgConsole_BlockingPrintf" addr="0x0020e6f8">
   <sample key="0x4cb" count="13"/>
   <sample key="0x509" count="11"/>
   <sample key="0x10004c3" count="7"/>
@@ -9271,7 +9271,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetMainClkFreq" addr="0x00205b54">
+ <function name="CLOCK_GetMainClkFreq" addr="0x00205ae4">
   <sample key="0x4f4" count="12"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x10004c3" count="11"/>
@@ -9287,7 +9287,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="xos_block" addr="0x002100ac">
+ <function name="xos_block" addr="0x0021000c">
   <sample key="0x4aa" count="5"/>
   <sample key="0x50404c4" count="4"/>
   <sample key="0x50404fe" count="4"/>
@@ -9328,7 +9328,7 @@
   <sample key="0x504050e" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="xos_thread_wake" addr="0x00210174">
+ <function name="xos_thread_wake" addr="0x002100d4">
   <sample key="0x50004d5" count="4"/>
   <sample key="0x4fa" count="4"/>
   <sample key="0x4d6" count="4"/>
@@ -9368,7 +9368,7 @@
   <sample key="0x5040511" count="1"/>
   <sample key="0x504050e" count="1"/>
  </function>
- <function name="CLOCK_GetDspMainClkFreq" addr="0x00205c04">
+ <function name="CLOCK_GetDspMainClkFreq" addr="0x00205b94">
   <sample key="0x4f4" count="12"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x10004c3" count="11"/>
@@ -9383,7 +9383,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="PrintGetPrecision" addr="0x0020e8e8">
+ <function name="PrintGetPrecision" addr="0x0020e848">
   <sample key="0x10004c3" count="13"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x20004c5" count="10"/>
@@ -9402,7 +9402,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_malloc_trim_r" addr="0x00214750">
+ <function name="_malloc_trim_r" addr="0x002146b0">
   <sample key="0x4aa" count="8"/>
   <sample key="0x4f8" count="5"/>
   <sample key="0x4d6" count="5"/>
@@ -9435,7 +9435,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x50404d1" count="1"/>
  </function>
- <function name="getSpllFreq" addr="0x002045d0">
+ <function name="getSpllFreq" addr="0x00204530">
   <sample key="0x10004c8" count="11"/>
   <sample key="0x10004c3" count="9"/>
   <sample key="0x20004c5" count="8"/>
@@ -9455,7 +9455,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="CLOCK_GetAudioPllFreq" addr="0x002059b4">
+ <function name="CLOCK_GetAudioPllFreq" addr="0x00205944">
   <sample key="0x10004c8" count="10"/>
   <sample key="0x10004c3" count="9"/>
   <sample key="0x20004c5" count="7"/>
@@ -9475,7 +9475,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="DMA_LoadChannelDescriptor" addr="0x00209c08">
+ <function name="DMA_LoadChannelDescriptor" addr="0x00209b98">
   <sample key="0x10004c3" count="22"/>
   <sample key="0x10004c8" count="10"/>
   <sample key="0x4f9" count="7"/>
@@ -9493,7 +9493,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_SetChannelConfig" addr="0x00209ab4">
+ <function name="DMA_SetChannelConfig" addr="0x00209a44">
   <sample key="0x10004c3" count="19"/>
   <sample key="0x10004c8" count="9"/>
   <sample key="0x20004c5" count="6"/>
@@ -9516,7 +9516,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="DMIC_ResetChannelDecimator" addr="0x0020a720">
+ <function name="DMIC_ResetChannelDecimator" addr="0x0020a6b0">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x10004c8" count="10"/>
   <sample key="0x20004c5" count="9"/>
@@ -9535,7 +9535,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="LIST_RemoveElement" addr="0x00204a3c">
+ <function name="LIST_RemoveElement" addr="0x002049cc">
   <sample key="0x10004c3" count="33"/>
   <sample key="0x10004c8" count="9"/>
   <sample key="0x20004c5" count="7"/>
@@ -9550,7 +9550,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="xos_insert_timer" addr="0x00210e98">
+ <function name="xos_insert_timer" addr="0x00210df8">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x6000669" count="3"/>
   <sample key="0x600067c" count="3"/>
@@ -9588,7 +9588,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x50404d1" count="1"/>
  </function>
- <function name="CLOCK_GetSysPllFreq" addr="0x002057c4">
+ <function name="CLOCK_GetSysPllFreq" addr="0x00205754">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x10004c8" count="9"/>
   <sample key="0x4f9" count="6"/>
@@ -9608,7 +9608,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="I2S_TxInit" addr="0x0020b058">
+ <function name="I2S_TxInit" addr="0x0020afe8">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x20004c5" count="7"/>
@@ -9623,7 +9623,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sfp" addr="0x002141a0">
+ <function name="__sfp" addr="0x00214100">
   <sample key="0x509" count="7"/>
   <sample key="0x4aa" count="6"/>
   <sample key="0x10004c3" count="5"/>
@@ -9657,7 +9657,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004c5" count="1"/>
  </function>
- <function name="_gdbio_from_xtensa_mode" addr="0x00215ec8">
+ <function name="_gdbio_from_xtensa_mode" addr="0x00215e28">
   <sample key="0x50404f2" count="12"/>
   <sample key="0x50004d6" count="12"/>
   <sample key="0x50404fe" count="9"/>
@@ -9675,7 +9675,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x5040515" count="1"/>
  </function>
- <function name="DMA_CreateDescriptor" addr="0x00209734">
+ <function name="DMA_CreateDescriptor" addr="0x002096c4">
   <sample key="0x10004c3" count="13"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x20004c5" count="9"/>
@@ -9691,7 +9691,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_SubmitChannelTransferParameter" addr="0x00209cf0">
+ <function name="DMA_SubmitChannelTransferParameter" addr="0x00209c80">
   <sample key="0x10004c3" count="17"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x4f9" count="7"/>
@@ -9711,7 +9711,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="LIST_AddPrevElement" addr="0x00204ac8">
+ <function name="LIST_AddPrevElement" addr="0x00204a58">
   <sample key="0x10004c3" count="30"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x20004c5" count="4"/>
@@ -9725,7 +9725,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="Serial_UartInit" addr="0x002050c0">
+ <function name="Serial_UartInit" addr="0x00205050">
   <sample key="0x10004c3" count="17"/>
   <sample key="0x10004c8" count="10"/>
   <sample key="0x4f9" count="7"/>
@@ -9741,7 +9741,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_start" addr="0x0020ff40">
+ <function name="xos_start" addr="0x0020fea0">
   <sample key="0x50404fe" count="11"/>
   <sample key="0x4aa" count="8"/>
   <sample key="0x5000509" count="7"/>
@@ -9768,7 +9768,7 @@
   <sample key="0x500050b" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="DMIC_TransferCreateHandleDMA" addr="0x0020a9a4">
+ <function name="DMIC_TransferCreateHandleDMA" addr="0x0020a934">
   <sample key="0x10004c3" count="13"/>
   <sample key="0x20004c5" count="13"/>
   <sample key="0x4f9" count="10"/>
@@ -9781,7 +9781,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="DMIC_TransferGetReceiveCountDMA" addr="0x0020ae8c">
+ <function name="DMIC_TransferGetReceiveCountDMA" addr="0x0020ae1c">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x20004c5" count="9"/>
@@ -9796,7 +9796,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="__sbprintf" addr="0x00212880">
+ <function name="__sbprintf" addr="0x002127e0">
   <sample key="0x5000509" count="11"/>
   <sample key="0x50404cb" count="5"/>
   <sample key="0x50404f8" count="4"/>
@@ -9822,7 +9822,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x502" count="1"/>
  </function>
- <function name="_start" addr="0x00204450">
+ <function name="_start" addr="0x002043b0">
   <sample key="0x4f9" count="17"/>
   <sample key="0x4ab" count="4"/>
   <sample key="0x10004c3" count="4"/>
@@ -9847,7 +9847,7 @@
   <sample key="0x4d1" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="DMA_StartTransfer" addr="0x00209fa4">
+ <function name="DMA_StartTransfer" addr="0x00209f34">
   <sample key="0x10004c3" count="17"/>
   <sample key="0x4f9" count="6"/>
   <sample key="0x20004c5" count="5"/>
@@ -9867,7 +9867,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="GPIO_SetPinInterruptConfig" addr="0x00207244">
+ <function name="GPIO_SetPinInterruptConfig" addr="0x002071d4">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4cf" count="4"/>
@@ -9885,7 +9885,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_OpenReadHandle" addr="0x00204ee4">
+ <function name="SerialManager_OpenReadHandle" addr="0x00204e74">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="9"/>
   <sample key="0x4f9" count="7"/>
@@ -9900,7 +9900,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_thread_suspend" addr="0x0021048c">
+ <function name="xos_thread_suspend" addr="0x002103ec">
   <sample key="0x4f9" count="6"/>
   <sample key="0x4fa" count="3"/>
   <sample key="0x50404fe" count="3"/>
@@ -9938,7 +9938,7 @@
   <sample key="0x504050e" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="SerialManager_Read" addr="0x00204c60">
+ <function name="SerialManager_Read" addr="0x00204bf0">
   <sample key="0x4f9" count="12"/>
   <sample key="0x10004c3" count="11"/>
   <sample key="0x20004c5" count="8"/>
@@ -9951,7 +9951,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_Write" addr="0x00204bd0">
+ <function name="SerialManager_Write" addr="0x00204b60">
   <sample key="0x4f9" count="12"/>
   <sample key="0x10004c3" count="11"/>
   <sample key="0x20004c5" count="8"/>
@@ -9964,7 +9964,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_GetDefaultConfig" addr="0x00207e50">
+ <function name="USART_GetDefaultConfig" addr="0x00207de0">
   <sample key="0x20004c5" count="16"/>
   <sample key="0x10004c3" count="15"/>
   <sample key="0x10004c8" count="9"/>
@@ -9977,7 +9977,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferStartRingBuffer" addr="0x00207a4c">
+ <function name="USART_TransferStartRingBuffer" addr="0x002079dc">
   <sample key="0x10004c3" count="10"/>
   <sample key="0x4f9" count="9"/>
   <sample key="0x20004c5" count="9"/>
@@ -9992,7 +9992,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetDmicClkFreq" addr="0x00206530">
+ <function name="CLOCK_GetDmicClkFreq" addr="0x002064c0">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x10004c8" count="9"/>
   <sample key="0x4f4" count="8"/>
@@ -10009,7 +10009,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetSctClkFreq" addr="0x002061fc">
+ <function name="CLOCK_GetSctClkFreq" addr="0x0020618c">
   <sample key="0x10004c8" count="9"/>
   <sample key="0x4f4" count="8"/>
   <sample key="0x10004c3" count="7"/>
@@ -10027,21 +10027,21 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DEMO_DMA_Memory_to_Momery_Configurations_Channel0_3" addr="0x0020dfb8">
+ <function name="DEMO_DMA_Memory_to_Momery_Configurations_Channel0_3" addr="0x0020df18">
   <sample key="0x4f9" count="37"/>
   <sample key="0x4aa" count="11"/>
   <sample key="0x20004c5" count="5"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DEMO_DMA_Memory_to_Momery_Configurations_Channel4_7" addr="0x0020e058">
+ <function name="DEMO_DMA_Memory_to_Momery_Configurations_Channel4_7" addr="0x0020dfb8">
   <sample key="0x4f9" count="37"/>
   <sample key="0x4aa" count="11"/>
   <sample key="0x20004c5" count="5"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_Init" addr="0x0020a414">
+ <function name="DMIC_Init" addr="0x0020a3a4">
   <sample key="0x10004c3" count="10"/>
   <sample key="0x20004c5" count="10"/>
   <sample key="0x518" count="7"/>
@@ -10057,7 +10057,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="CLOCK_AttachClk" addr="0x00205678">
+ <function name="CLOCK_AttachClk" addr="0x00205608">
   <sample key="0x10004c3" count="11"/>
   <sample key="0x20004c5" count="7"/>
   <sample key="0x10004c8" count="7"/>
@@ -10081,7 +10081,7 @@
   <sample key="0x517" count="1"/>
   <sample key="0x50f" count="1"/>
  </function>
- <function name="DMA_CreateHandle" addr="0x002098a0">
+ <function name="DMA_CreateHandle" addr="0x00209830">
   <sample key="0x10004c3" count="17"/>
   <sample key="0x10004c8" count="12"/>
   <sample key="0x4aa" count="5"/>
@@ -10097,7 +10097,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="FLEXCOMM_PeripheralIsPresent" addr="0x00206c40">
+ <function name="FLEXCOMM_PeripheralIsPresent" addr="0x00206bd0">
   <sample key="0x20004c5" count="10"/>
   <sample key="0x10004c8" count="10"/>
   <sample key="0x10004c3" count="9"/>
@@ -10117,7 +10117,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="I2S_RxInit" addr="0x0020b0f0">
+ <function name="I2S_RxInit" addr="0x0020b080">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="11"/>
   <sample key="0x20004c5" count="6"/>
@@ -10132,7 +10132,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_SetClkDiv" addr="0x002056fc">
+ <function name="CLOCK_SetClkDiv" addr="0x0020568c">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x518" count="7"/>
   <sample key="0x10004c8" count="7"/>
@@ -10149,7 +10149,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_Config" addr="0x0020dcf4">
+ <function name="DMA_Config" addr="0x0020dc54">
   <sample key="0x4f9" count="13"/>
   <sample key="0x4aa" count="10"/>
   <sample key="0x20004c5" count="10"/>
@@ -10164,7 +10164,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="DbgConsole_Printf" addr="0x0020e698">
+ <function name="DbgConsole_Printf" addr="0x0020e5f8">
   <sample key="0x4cb" count="13"/>
   <sample key="0x10004c8" count="7"/>
   <sample key="0x10004c3" count="6"/>
@@ -10180,7 +10180,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_TransferGetCount" addr="0x0020bc08">
+ <function name="I2S_TransferGetCount" addr="0x0020bb98">
   <sample key="0x20004c5" count="11"/>
   <sample key="0x10004c3" count="10"/>
   <sample key="0x10004c8" count="8"/>
@@ -10193,7 +10193,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_TransferGetErrorCount" addr="0x0020bc8c">
+ <function name="I2S_TransferGetErrorCount" addr="0x0020bc1c">
   <sample key="0x20004c5" count="11"/>
   <sample key="0x10004c3" count="10"/>
   <sample key="0x10004c8" count="8"/>
@@ -10206,7 +10206,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_Init" addr="0x00204cf0">
+ <function name="SerialManager_Init" addr="0x00204c80">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="11"/>
   <sample key="0x4f9" count="7"/>
@@ -10220,7 +10220,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferGetSendCount" addr="0x00208500">
+ <function name="USART_TransferGetSendCount" addr="0x00208490">
   <sample key="0x10004c3" count="11"/>
   <sample key="0x4f9" count="7"/>
   <sample key="0x20004c5" count="7"/>
@@ -10238,7 +10238,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="__sprint_r" addr="0x002127e0">
+ <function name="__sprint_r" addr="0x00212740">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004b3" count="4"/>
   <sample key="0x5000509" count="4"/>
@@ -10269,7 +10269,7 @@
   <sample key="0x517" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="_fclose_r" addr="0x002159a0">
+ <function name="_fclose_r" addr="0x00215900">
   <sample key="0x4aa" count="7"/>
   <sample key="0x20004c4" count="5"/>
   <sample key="0x4ec" count="3"/>
@@ -10301,7 +10301,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="GPIO_PinDisableInterrupt" addr="0x002074ac">
+ <function name="GPIO_PinDisableInterrupt" addr="0x0020743c">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x20004c5" count="5"/>
@@ -10320,7 +10320,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_RxTransferReceiveDMA" addr="0x0020cc64">
+ <function name="I2S_RxTransferReceiveDMA" addr="0x0020cbf4">
   <sample key="0x10004c3" count="20"/>
   <sample key="0x10004c8" count="10"/>
   <sample key="0x4aa" count="7"/>
@@ -10334,7 +10334,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_TxTransferSendDMA" addr="0x0020ca7c">
+ <function name="I2S_TxTransferSendDMA" addr="0x0020ca0c">
   <sample key="0x10004c3" count="20"/>
   <sample key="0x10004c8" count="10"/>
   <sample key="0x4aa" count="7"/>
@@ -10348,7 +10348,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_ConfigureChannelTrigger" addr="0x00209184">
+ <function name="DMA_ConfigureChannelTrigger" addr="0x00209114">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x10004c8" count="7"/>
   <sample key="0x4f9" count="4"/>
@@ -10368,7 +10368,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="SerialManager_CloseWriteHandle" addr="0x00204e64">
+ <function name="SerialManager_CloseWriteHandle" addr="0x00204df4">
   <sample key="0x10004c3" count="12"/>
   <sample key="0x20004c5" count="7"/>
   <sample key="0x4f9" count="6"/>
@@ -10384,7 +10384,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_reclaim_reent" addr="0x002124c0">
+ <function name="_reclaim_reent" addr="0x00212420">
   <sample key="0x4f8" count="8"/>
   <sample key="0x4aa" count="6"/>
   <sample key="0x4ec" count="4"/>
@@ -10409,7 +10409,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="interrupt_dispatch" addr="0x0021106b">
+ <function name="interrupt_dispatch" addr="0x00210fcb">
   <sample key="0x10004c8" count="18"/>
   <sample key="0x509" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -10436,7 +10436,7 @@
   <sample key="0x53c" count="1"/>
   <sample key="0x524" count="1"/>
  </function>
- <function name="CLOCK_GetAcmpClkFreq" addr="0x002065c0">
+ <function name="CLOCK_GetAcmpClkFreq" addr="0x00206550">
   <sample key="0x10004c8" count="8"/>
   <sample key="0x4f4" count="7"/>
   <sample key="0x10004c3" count="6"/>
@@ -10454,7 +10454,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetFlexspiClkFreq" addr="0x00206178">
+ <function name="CLOCK_GetFlexspiClkFreq" addr="0x00206108">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x4f4" count="7"/>
@@ -10471,7 +10471,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DEMO_I2SConfigurations" addr="0x0020e0f8">
+ <function name="DEMO_I2SConfigurations" addr="0x0020e058">
   <sample key="0x4f9" count="15"/>
   <sample key="0x20004c5" count="13"/>
   <sample key="0x4aa" count="7"/>
@@ -10483,7 +10483,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="DMIC_TransferReceiveDMACallback" addr="0x0020a8f4">
+ <function name="DMIC_TransferReceiveDMACallback" addr="0x0020a884">
   <sample key="0x10004c3" count="15"/>
   <sample key="0x20004c5" count="9"/>
   <sample key="0x4f9" count="7"/>
@@ -10499,7 +10499,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM_SetPeriph" addr="0x00206d14">
+ <function name="FLEXCOMM_SetPeriph" addr="0x00206ca4">
   <sample key="0x10004c3" count="11"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x518" count="6"/>
@@ -10517,7 +10517,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="USART_Deinit" addr="0x00207dd0">
+ <function name="USART_Deinit" addr="0x00207d60">
   <sample key="0x10004c3" count="12"/>
   <sample key="0x518" count="10"/>
   <sample key="0x20004c5" count="6"/>
@@ -10534,7 +10534,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="memchr" addr="0x00214dc0">
+ <function name="memchr" addr="0x00214d20">
   <sample key="0x10004bf" count="3"/>
   <sample key="0x20004c5" count="3"/>
   <sample key="0x20004b3" count="3"/>
@@ -10570,7 +10570,7 @@
   <sample key="0x4d7" count="1"/>
   <sample key="0x50404d7" count="1"/>
  </function>
- <function name="xos_mutex_lock" addr="0x00211a3c">
+ <function name="xos_mutex_lock" addr="0x0021199c">
   <sample key="0x4aa" count="6"/>
   <sample key="0x50404fe" count="5"/>
   <sample key="0x4f4" count="3"/>
@@ -10604,7 +10604,7 @@
   <sample key="0x5040659" count="1"/>
   <sample key="0x5000659" count="1"/>
  </function>
- <function name="HAL_UartReceiveBlocking" addr="0x0020546c">
+ <function name="HAL_UartReceiveBlocking" addr="0x002053fc">
   <sample key="0x4f9" count="10"/>
   <sample key="0x10004c3" count="9"/>
   <sample key="0x20004c5" count="6"/>
@@ -10619,7 +10619,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="INPUTMUX_EnableSignal" addr="0x0020d6e0">
+ <function name="INPUTMUX_EnableSignal" addr="0x0020d670">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x10004be" count="3"/>
@@ -10640,7 +10640,7 @@
   <sample key="0x517" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="PrintGetWidth" addr="0x0020e870">
+ <function name="PrintGetWidth" addr="0x0020e7d0">
   <sample key="0x10004c3" count="11"/>
   <sample key="0x20004c5" count="7"/>
   <sample key="0x4fa" count="6"/>
@@ -10659,7 +10659,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_OpenWriteHandle" addr="0x00204de8">
+ <function name="SerialManager_OpenWriteHandle" addr="0x00204d78">
   <sample key="0x10004c3" count="11"/>
   <sample key="0x10004c8" count="7"/>
   <sample key="0x4f9" count="6"/>
@@ -10674,7 +10674,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetCtimerClkFreq" addr="0x002060fc">
+ <function name="CLOCK_GetCtimerClkFreq" addr="0x0020608c">
   <sample key="0x10004c8" count="10"/>
   <sample key="0x10004c3" count="9"/>
   <sample key="0x4f4" count="8"/>
@@ -10689,7 +10689,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_GetRemainingBytes" addr="0x00209200">
+ <function name="DMA_GetRemainingBytes" addr="0x00209190">
   <sample key="0x10004c3" count="10"/>
   <sample key="0x4f9" count="5"/>
   <sample key="0x20004c5" count="4"/>
@@ -10709,7 +10709,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="GPIO_PinEnableInterrupt" addr="0x00207434">
+ <function name="GPIO_PinEnableInterrupt" addr="0x002073c4">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4cf" count="4"/>
@@ -10727,7 +10727,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_RxGetDefaultConfig" addr="0x0020b1e4">
+ <function name="I2S_RxGetDefaultConfig" addr="0x0020b174">
   <sample key="0x10004c3" count="15"/>
   <sample key="0x20004c5" count="15"/>
   <sample key="0x50b" count="10"/>
@@ -10736,7 +10736,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_TxGetDefaultConfig" addr="0x0020b174">
+ <function name="I2S_TxGetDefaultConfig" addr="0x0020b104">
   <sample key="0x10004c3" count="15"/>
   <sample key="0x20004c5" count="15"/>
   <sample key="0x50b" count="10"/>
@@ -10745,7 +10745,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="LIST_AddHead" addr="0x00204944">
+ <function name="LIST_AddHead" addr="0x002048d4">
   <sample key="0x10004c3" count="21"/>
   <sample key="0x10004c8" count="11"/>
   <sample key="0x20004c5" count="4"/>
@@ -10758,7 +10758,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="LIST_AddTail" addr="0x002048d8">
+ <function name="LIST_AddTail" addr="0x00204868">
   <sample key="0x10004c3" count="21"/>
   <sample key="0x10004c8" count="11"/>
   <sample key="0x20004c5" count="4"/>
@@ -10771,7 +10771,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="SDK_Malloc" addr="0x002068b0">
+ <function name="SDK_Malloc" addr="0x00206840">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x10004c8" count="9"/>
   <sample key="0x10004be" count="3"/>
@@ -10789,7 +10789,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="SerialManager_CloseReadHandle" addr="0x00204f74">
+ <function name="SerialManager_CloseReadHandle" addr="0x00204f04">
   <sample key="0x10004c3" count="11"/>
   <sample key="0x20004c5" count="7"/>
   <sample key="0x4f9" count="6"/>
@@ -10804,7 +10804,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_Deinit" addr="0x00204d70">
+ <function name="SerialManager_Deinit" addr="0x00204d00">
   <sample key="0x10004c3" count="13"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4aa" count="5"/>
@@ -10820,7 +10820,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferStopRingBuffer" addr="0x00207adc">
+ <function name="USART_TransferStopRingBuffer" addr="0x00207a6c">
   <sample key="0x20004c5" count="9"/>
   <sample key="0x10004c3" count="8"/>
   <sample key="0x4f9" count="6"/>
@@ -10837,7 +10837,7 @@
   <sample key="0x4fa" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_thread_sleep" addr="0x00210dbc">
+ <function name="xos_thread_sleep" addr="0x00210d1c">
   <sample key="0x50404fe" count="6"/>
   <sample key="0x4aa" count="4"/>
   <sample key="0x4f9" count="4"/>
@@ -10867,7 +10867,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="DbgConsole_SendDataReliable" addr="0x0020e34c">
+ <function name="DbgConsole_SendDataReliable" addr="0x0020e2ac">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x4f9" count="8"/>
   <sample key="0x20004c5" count="8"/>
@@ -10879,7 +10879,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="memset" addr="0x002169b0">
+ <function name="memset" addr="0x00216910">
   <sample key="0x50404cb" count="7"/>
   <sample key="0x4dc" count="5"/>
   <sample key="0x5000509" count="3"/>
@@ -10903,7 +10903,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="GPIO_PortDisableInterrupts" addr="0x00207340">
+ <function name="GPIO_PortDisableInterrupts" addr="0x002072d0">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4cf" count="4"/>
@@ -10920,7 +10920,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="HAL_UartSendBlocking" addr="0x002054ec">
+ <function name="HAL_UartSendBlocking" addr="0x0020547c">
   <sample key="0x4f9" count="10"/>
   <sample key="0x10004c3" count="8"/>
   <sample key="0x20004c5" count="7"/>
@@ -10934,7 +10934,7 @@
   <sample key="0x4fa" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="LIST_RemoveHead" addr="0x002049b0">
+ <function name="LIST_RemoveHead" addr="0x00204940">
   <sample key="0x10004c3" count="16"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x20004c5" count="7"/>
@@ -10948,7 +10948,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="xos_mutex_delete" addr="0x002119c0">
+ <function name="xos_mutex_delete" addr="0x00211920">
   <sample key="0x4aa" count="7"/>
   <sample key="0x4f9" count="5"/>
   <sample key="0x10004c8" count="5"/>
@@ -10978,7 +10978,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xos_timer_stop" addr="0x00210c38">
+ <function name="xos_timer_stop" addr="0x00210b98">
   <sample key="0x4f9" count="5"/>
   <sample key="0x20004c0" count="3"/>
   <sample key="0x4f4" count="3"/>
@@ -11006,7 +11006,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="CLOCK_GetSystickClkFreq" addr="0x00206358">
+ <function name="CLOCK_GetSystickClkFreq" addr="0x002062e8">
   <sample key="0x10004c8" count="7"/>
   <sample key="0x4f4" count="6"/>
   <sample key="0x10004c3" count="5"/>
@@ -11024,7 +11024,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetWdtClkFreq" addr="0x002062e4">
+ <function name="CLOCK_GetWdtClkFreq" addr="0x00206274">
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4aa" count="5"/>
   <sample key="0x4f9" count="5"/>
@@ -11042,7 +11042,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_SetOperationMode" addr="0x0020a4d8">
+ <function name="DMIC_SetOperationMode" addr="0x0020a468">
   <sample key="0x10004c3" count="10"/>
   <sample key="0x518" count="8"/>
   <sample key="0x4cc" count="4"/>
@@ -11055,7 +11055,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_PrintCallback" addr="0x0020e4c4">
+ <function name="DbgConsole_PrintCallback" addr="0x0020e424">
   <sample key="0x10004c3" count="17"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x10004bf" count="3"/>
@@ -11072,7 +11072,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_GetTransferBytes" addr="0x0020cdcc">
+ <function name="I2S_GetTransferBytes" addr="0x0020cd5c">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x4f9" count="7"/>
   <sample key="0x518" count="4"/>
@@ -11091,7 +11091,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x517" count="1"/>
  </function>
- <function name="I2S_RxEnableDMA" addr="0x0020cd54">
+ <function name="I2S_RxEnableDMA" addr="0x0020cce4">
   <sample key="0x518" count="12"/>
   <sample key="0x10004c3" count="9"/>
   <sample key="0x4cc" count="6"/>
@@ -11107,7 +11107,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="I2S_TxEnableDMA" addr="0x0020ccdc">
+ <function name="I2S_TxEnableDMA" addr="0x0020cc6c">
   <sample key="0x518" count="12"/>
   <sample key="0x10004c3" count="9"/>
   <sample key="0x4cc" count="6"/>
@@ -11123,7 +11123,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xos_thread_join" addr="0x0021040c">
+ <function name="xos_thread_join" addr="0x0021036c">
   <sample key="0x50404fe" count="4"/>
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4f9" count="3"/>
@@ -11154,7 +11154,7 @@
   <sample key="0x505" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="USART_TransferGetReceiveCount" addr="0x002087ec">
+ <function name="USART_TransferGetReceiveCount" addr="0x0020877c">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x4f9" count="6"/>
   <sample key="0x20004c5" count="6"/>
@@ -11170,7 +11170,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="GPIO_PortEnableInterrupts" addr="0x002072d8">
+ <function name="GPIO_PortEnableInterrupts" addr="0x00207268">
   <sample key="0x10004c3" count="14"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4cf" count="4"/>
@@ -11186,7 +11186,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="Serial_UartRead" addr="0x002051f0">
+ <function name="Serial_UartRead" addr="0x00205180">
   <sample key="0x4f9" count="9"/>
   <sample key="0x10004c3" count="7"/>
   <sample key="0x20004c5" count="6"/>
@@ -11199,7 +11199,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="Serial_UartWrite" addr="0x00205184">
+ <function name="Serial_UartWrite" addr="0x00205114">
   <sample key="0x4f9" count="9"/>
   <sample key="0x10004c3" count="7"/>
   <sample key="0x20004c5" count="6"/>
@@ -11212,7 +11212,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferAbortReceive" addr="0x00208784">
+ <function name="USART_TransferAbortReceive" addr="0x00208714">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x518" count="6"/>
   <sample key="0x20004c5" count="6"/>
@@ -11228,7 +11228,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="_close_r" addr="0x00215a70">
+ <function name="_close_r" addr="0x002159d0">
   <sample key="0x20004b3" count="5"/>
   <sample key="0x4aa" count="3"/>
   <sample key="0x50404fe" count="3"/>
@@ -11251,7 +11251,7 @@
   <sample key="0x505" count="1"/>
   <sample key="0x507" count="1"/>
  </function>
- <function name="_lseek_r" addr="0x00215ca0">
+ <function name="_lseek_r" addr="0x00215c00">
   <sample key="0x4aa" count="4"/>
   <sample key="0x50404c4" count="4"/>
   <sample key="0x20004b3" count="4"/>
@@ -11276,7 +11276,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x507" count="1"/>
  </function>
- <function name="xos_switch_thread" addr="0x0021144c">
+ <function name="xos_switch_thread" addr="0x002113ac">
   <sample key="0x10004c8" count="5"/>
   <sample key="0x509" count="4"/>
   <sample key="0x10004c3" count="3"/>
@@ -11303,7 +11303,7 @@
   <sample key="0x650" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="xos_thread_delete" addr="0x0020fe40">
+ <function name="xos_thread_delete" addr="0x0020fda0">
   <sample key="0x4f9" count="5"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4d6" count="3"/>
@@ -11331,7 +11331,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="_read_r" addr="0x00215d20">
+ <function name="_read_r" addr="0x00215c80">
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4aa" count="3"/>
   <sample key="0x50004c4" count="3"/>
@@ -11356,7 +11356,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x507" count="1"/>
  </function>
- <function name="_write_r" addr="0x00216090">
+ <function name="_write_r" addr="0x00215ff0">
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4aa" count="3"/>
   <sample key="0x50004c4" count="3"/>
@@ -11381,7 +11381,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x507" count="1"/>
  </function>
- <function name="xos_init" addr="0x0020fec0">
+ <function name="xos_init" addr="0x0020fe20">
   <sample key="0x4f9" count="7"/>
   <sample key="0x5000509" count="5"/>
   <sample key="0x509" count="4"/>
@@ -11402,7 +11402,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x53b" count="1"/>
  </function>
- <function name="xos_start_system_timer" addr="0x00210aac">
+ <function name="xos_start_system_timer" addr="0x00210a0c">
   <sample key="0x4aa" count="4"/>
   <sample key="0x50404fe" count="3"/>
   <sample key="0x600066c" count="2"/>
@@ -11431,7 +11431,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x500050b" count="1"/>
  </function>
- <function name="strlen" addr="0x00212590">
+ <function name="strlen" addr="0x002124f0">
   <sample key="0x10004bf" count="7"/>
   <sample key="0x4eb" count="5"/>
   <sample key="0x20004b3" count="4"/>
@@ -11453,7 +11453,7 @@
   <sample key="0x50404fe" count="1"/>
   <sample key="0x20004c5" count="1"/>
  </function>
- <function name="take_interrupt_from_idle" addr="0x0021110b">
+ <function name="take_interrupt_from_idle" addr="0x0021106b">
   <sample key="0x50004f9" count="4"/>
   <sample key="0x10004bf" count="3"/>
   <sample key="0x10004c3" count="3"/>
@@ -11482,7 +11482,7 @@
   <sample key="0x535" count="1"/>
   <sample key="0x536" count="1"/>
  </function>
- <function name="xos_thread_mutex_bump" addr="0x002107a4">
+ <function name="xos_thread_mutex_bump" addr="0x00210704">
   <sample key="0x50404c4" count="6"/>
   <sample key="0x4f4" count="4"/>
   <sample key="0x5000509" count="3"/>
@@ -11510,7 +11510,7 @@
   <sample key="0x659" count="1"/>
   <sample key="0x5040659" count="1"/>
  </function>
- <function name="DbgConsole_Scanf" addr="0x0020e73c">
+ <function name="DbgConsole_Scanf" addr="0x0020e69c">
   <sample key="0x10004c8" count="8"/>
   <sample key="0x4cb" count="5"/>
   <sample key="0x10004c3" count="5"/>
@@ -11523,7 +11523,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_SendData" addr="0x0020e2ec">
+ <function name="DbgConsole_SendData" addr="0x0020e24c">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f9" count="7"/>
   <sample key="0x20004c5" count="6"/>
@@ -11535,7 +11535,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="PrintOutputdifFobpu" addr="0x0020ea04">
+ <function name="PrintOutputdifFobpu" addr="0x0020e964">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4f8" count="4"/>
@@ -11551,7 +11551,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="PrintOutputxX" addr="0x0020ea64">
+ <function name="PrintOutputxX" addr="0x0020e9c4">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4f8" count="4"/>
@@ -11568,7 +11568,7 @@
   <sample key="0x50b" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="xos_system_timer_select" addr="0x00211d80">
+ <function name="xos_system_timer_select" addr="0x00211ce0">
   <sample key="0x4f9" count="5"/>
   <sample key="0x20004b3" count="3"/>
   <sample key="0x10004be" count="2"/>
@@ -11596,7 +11596,7 @@
   <sample key="0x4080505" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="DMA_DisableChannel" addr="0x00208f80">
+ <function name="DMA_DisableChannel" addr="0x00208f10">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f2" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -11616,7 +11616,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="DMA_DisableChannelInterrupts" addr="0x0020c6b4">
+ <function name="DMA_DisableChannelInterrupts" addr="0x0020c644">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f2" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -11636,7 +11636,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="DMA_EnableChannel" addr="0x0020d894">
+ <function name="DMA_EnableChannel" addr="0x0020d7f4">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f2" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -11656,7 +11656,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="DMA_EnableChannel" addr="0x00208f1c">
+ <function name="DMA_EnableChannel" addr="0x00208eac">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f2" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -11676,7 +11676,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="DMA_EnableChannelInterrupts" addr="0x00208eb8">
+ <function name="DMA_EnableChannelInterrupts" addr="0x0020c5e0">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f2" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -11696,7 +11696,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="DMA_EnableChannelInterrupts" addr="0x0020c650">
+ <function name="DMA_EnableChannelInterrupts" addr="0x00208e48">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f2" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -11716,7 +11716,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x50e" count="1"/>
  </function>
- <function name="LIST_Error_Check" addr="0x00204850">
+ <function name="LIST_Error_Check" addr="0x002047e0">
   <sample key="0x10004c3" count="12"/>
   <sample key="0x10004c8" count="7"/>
   <sample key="0x20004c5" count="4"/>
@@ -11728,7 +11728,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferAbortSend" addr="0x002084a0">
+ <function name="USART_TransferAbortSend" addr="0x00208430">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x518" count="6"/>
   <sample key="0x20004c5" count="5"/>
@@ -11744,7 +11744,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="USART_TransferGetRxRingBufferLength" addr="0x002079a8">
+ <function name="USART_TransferGetRxRingBufferLength" addr="0x00207938">
   <sample key="0x4f6" count="8"/>
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4f9" count="3"/>
@@ -11761,7 +11761,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_SetChannelPriority" addr="0x0020d8f8">
+ <function name="DMA_SetChannelPriority" addr="0x0020d858">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4f9" count="5"/>
   <sample key="0x10004c8" count="4"/>
@@ -11779,7 +11779,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="main" addr="0x0020d9b4">
+ <function name="main" addr="0x0020d914">
   <sample key="0x20004c5" count="10"/>
   <sample key="0x4f9" count="8"/>
   <sample key="0x4aa" count="7"/>
@@ -11789,7 +11789,7 @@
   <sample key="0x10004c3" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_thread_mutex_add" addr="0x002106d8">
+ <function name="xos_thread_mutex_add" addr="0x00210638">
   <sample key="0x4f4" count="3"/>
   <sample key="0x20004c0" count="2"/>
   <sample key="0x4e5" count="2"/>
@@ -11819,7 +11819,7 @@
   <sample key="0x5000659" count="1"/>
   <sample key="0x659" count="1"/>
  </function>
- <function name="CLOCK_GetI3cClkFreq" addr="0x0020647c">
+ <function name="CLOCK_GetI3cClkFreq" addr="0x0020640c">
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f4" count="4"/>
   <sample key="0x518" count="4"/>
@@ -11837,7 +11837,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_mutex_unlock" addr="0x00211b98">
+ <function name="xos_mutex_unlock" addr="0x00211af8">
   <sample key="0x4aa" count="6"/>
   <sample key="0x4f9" count="4"/>
   <sample key="0x4cb" count="2"/>
@@ -11859,7 +11859,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x534" count="1"/>
  </function>
- <function name="xos_thread_yield" addr="0x00210048">
+ <function name="xos_thread_yield" addr="0x0020ffa8">
   <sample key="0x4aa" count="3"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x50004d5" count="2"/>
@@ -11885,7 +11885,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x659" count="1"/>
  </function>
- <function name="DMIC_EnableChannelDma" addr="0x0020a8a0">
+ <function name="DMIC_EnableChannelDma" addr="0x0020a830">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x10004be" count="3"/>
@@ -11904,7 +11904,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="DMIC_FifoChannel" addr="0x0020a6c8">
+ <function name="DMIC_FifoChannel" addr="0x0020a658">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x515" count="4"/>
@@ -11920,7 +11920,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="I2S_RxTransferAbort" addr="0x0020bbb4">
+ <function name="I2S_RxTransferAbort" addr="0x0020bb44">
   <sample key="0x20004c5" count="8"/>
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4aa" count="3"/>
@@ -11935,7 +11935,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_TxTransferAbort" addr="0x0020b974">
+ <function name="I2S_TxTransferAbort" addr="0x0020b904">
   <sample key="0x20004c5" count="8"/>
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4aa" count="3"/>
@@ -11950,7 +11950,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="ScanIgnoreWhiteSpace" addr="0x0020ebc0">
+ <function name="ScanIgnoreWhiteSpace" addr="0x0020eb20">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4fa" count="4"/>
@@ -11964,7 +11964,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="StrFormatScanCheckSymbol" addr="0x0020f1e0">
+ <function name="StrFormatScanCheckSymbol" addr="0x0020f140">
   <sample key="0x20004c5" count="8"/>
   <sample key="0x10004c3" count="6"/>
   <sample key="0x50b" count="6"/>
@@ -11976,7 +11976,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x659" count="1"/>
  </function>
- <function name="_raise_r" addr="0x00215420">
+ <function name="_raise_r" addr="0x00215380">
   <sample key="0x20004b3" count="5"/>
   <sample key="0x4d6" count="3"/>
   <sample key="0x5000509" count="3"/>
@@ -11999,7 +11999,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x4080505" count="1"/>
  </function>
- <function name="wcrtomb" addr="0x002158d0">
+ <function name="wcrtomb" addr="0x00215830">
   <sample key="0x50404c4" count="6"/>
   <sample key="0x50004f8" count="4"/>
   <sample key="0x4aa" count="2"/>
@@ -12019,7 +12019,7 @@
   <sample key="0x50004fe" count="1"/>
   <sample key="0x20004c5" count="1"/>
  </function>
- <function name="xos_thread_mutex_rem" addr="0x00210740">
+ <function name="xos_thread_mutex_rem" addr="0x002106a0">
   <sample key="0x50404c4" count="3"/>
   <sample key="0x4f4" count="2"/>
   <sample key="0x4fa" count="2"/>
@@ -12048,7 +12048,7 @@
   <sample key="0x4040659" count="1"/>
   <sample key="0x5040659" count="1"/>
  </function>
- <function name="DMA_Init" addr="0x00209104">
+ <function name="DMA_Init" addr="0x00209094">
   <sample key="0x10004c3" count="11"/>
   <sample key="0x4aa" count="5"/>
   <sample key="0x10004c8" count="4"/>
@@ -12060,7 +12060,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM_GetInstance" addr="0x00206cc4">
+ <function name="FLEXCOMM_GetInstance" addr="0x00206c54">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x20004c5" count="5"/>
   <sample key="0x4f9" count="4"/>
@@ -12076,7 +12076,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="GPIO_PinClearInterruptFlag" addr="0x0020752c">
+ <function name="GPIO_PinClearInterruptFlag" addr="0x002074bc">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x20004c5" count="3"/>
@@ -12093,7 +12093,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_SetBitClockRate" addr="0x0020b004">
+ <function name="I2S_SetBitClockRate" addr="0x0020af94">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x10004c8" count="7"/>
   <sample key="0x4f9" count="3"/>
@@ -12110,7 +12110,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_TransferAbortReceiveDMA" addr="0x0020ae38">
+ <function name="DMIC_TransferAbortReceiveDMA" addr="0x0020adc8">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4f9" count="6"/>
   <sample key="0x20004c5" count="5"/>
@@ -12124,7 +12124,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="DbgConsole_ReadCharacter" addr="0x0020e474">
+ <function name="DbgConsole_ReadCharacter" addr="0x0020e3d4">
   <sample key="0x20004c5" count="7"/>
   <sample key="0x10004c3" count="5"/>
   <sample key="0x10004c8" count="5"/>
@@ -12136,7 +12136,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="StrFormatScanGetBase" addr="0x0020f188">
+ <function name="StrFormatScanGetBase" addr="0x0020f0e8">
   <sample key="0x20004c5" count="6"/>
   <sample key="0x4fa" count="5"/>
   <sample key="0x50b" count="4"/>
@@ -12151,7 +12151,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="restore_common" addr="0x00211338">
+ <function name="restore_common" addr="0x00211298">
   <sample key="0x50404f8" count="8"/>
   <sample key="0x50004f8" count="6"/>
   <sample key="0x10004c3" count="4"/>
@@ -12169,7 +12169,7 @@
   <sample key="0x535" count="1"/>
   <sample key="0x529" count="1"/>
  </function>
- <function name="xos_system_timer_set" addr="0x00211cf0">
+ <function name="xos_system_timer_set" addr="0x00211c50">
   <sample key="0x4d5" count="2"/>
   <sample key="0x51a" count="2"/>
   <sample key="0x4f4" count="2"/>
@@ -12195,7 +12195,7 @@
   <sample key="0x615" count="1"/>
   <sample key="0x618" count="1"/>
  </function>
- <function name="CLOCK_GetMclkClkFreq" addr="0x0020628c">
+ <function name="CLOCK_GetMclkClkFreq" addr="0x0020621c">
   <sample key="0x518" count="6"/>
   <sample key="0x4cc" count="3"/>
   <sample key="0x4f8" count="3"/>
@@ -12213,7 +12213,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetUsbClkFreq" addr="0x002064d8">
+ <function name="CLOCK_GetUsbClkFreq" addr="0x00206468">
   <sample key="0x518" count="6"/>
   <sample key="0x4cc" count="3"/>
   <sample key="0x4f8" count="3"/>
@@ -12231,7 +12231,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_GetInstance" addr="0x0020907c">
+ <function name="DMA_GetInstance" addr="0x0020900c">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x20004c5" count="6"/>
   <sample key="0x4f9" count="4"/>
@@ -12246,7 +12246,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_GetInstance" addr="0x0020a3c8">
+ <function name="DMIC_GetInstance" addr="0x0020a358">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x20004c5" count="6"/>
   <sample key="0x4f9" count="4"/>
@@ -12261,7 +12261,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM14_DriverIRQHandler" addr="0x00206fc0">
+ <function name="FLEXCOMM14_DriverIRQHandler" addr="0x00206f50">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x4f9" count="8"/>
   <sample key="0x4cf" count="4"/>
@@ -12275,7 +12275,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="FLEXCOMM15_DriverIRQHandler" addr="0x00207014">
+ <function name="FLEXCOMM15_DriverIRQHandler" addr="0x00206fa4">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x4f9" count="8"/>
   <sample key="0x4cf" count="4"/>
@@ -12289,7 +12289,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="_fwalk_reent" addr="0x00216b00">
+ <function name="_fwalk_reent" addr="0x00216a60">
   <sample key="0x4d8" count="2"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -12317,7 +12317,7 @@
   <sample key="0x576" count="1"/>
   <sample key="0x4d6" count="1"/>
  </function>
- <function name="xos_mutex_trylock" addr="0x00211bfc">
+ <function name="xos_mutex_trylock" addr="0x00211b5c">
   <sample key="0x4aa" count="4"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x4f4" count="2"/>
@@ -12340,7 +12340,7 @@
   <sample key="0x534" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="xos_q_move" addr="0x00210814">
+ <function name="xos_q_move" addr="0x00210774">
   <sample key="0x4aa" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x50404c4" count="2"/>
@@ -12370,7 +12370,7 @@
   <sample key="0x50e" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="xos_thread_exit" addr="0x002103b4">
+ <function name="xos_thread_exit" addr="0x00210314">
   <sample key="0x4aa" count="4"/>
   <sample key="0x20004c4" count="3"/>
   <sample key="0x50404fe" count="3"/>
@@ -12393,7 +12393,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="DMA_DisableChannelPeriphRq" addr="0x00209030">
+ <function name="DMA_DisableChannelPeriphRq" addr="0x00208fc0">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
@@ -12410,7 +12410,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_EnableChannelPeriphRq" addr="0x00208fe4">
+ <function name="DMA_EnableChannelPeriphRq" addr="0x00208f74">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
@@ -12427,7 +12427,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_EnableChannelPeriphRq" addr="0x0020c718">
+ <function name="DMA_EnableChannelPeriphRq" addr="0x0020c6a8">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
@@ -12444,7 +12444,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_Deinit" addr="0x0020e644">
+ <function name="DbgConsole_Deinit" addr="0x0020e5a4">
   <sample key="0x4f9" count="8"/>
   <sample key="0x20004c5" count="7"/>
   <sample key="0x10004c3" count="4"/>
@@ -12455,7 +12455,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_RxEnable" addr="0x0020b408">
+ <function name="I2S_RxEnable" addr="0x0020b398">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4aa" count="4"/>
   <sample key="0x518" count="4"/>
@@ -12472,7 +12472,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="I2S_TxEnable" addr="0x0020b3b8">
+ <function name="I2S_TxEnable" addr="0x0020b348">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4aa" count="4"/>
   <sample key="0x518" count="4"/>
@@ -12489,7 +12489,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="ScanIsWhiteSpace" addr="0x0020eb6c">
+ <function name="ScanIsWhiteSpace" addr="0x0020eacc">
   <sample key="0x659" count="7"/>
   <sample key="0x4fa" count="6"/>
   <sample key="0x20004c5" count="5"/>
@@ -12502,7 +12502,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="SerialManager_EnterLowpower" addr="0x0020501c">
+ <function name="SerialManager_EnterLowpower" addr="0x00204fac">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f4" count="4"/>
@@ -12516,7 +12516,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_ExitLowpower" addr="0x00205068">
+ <function name="SerialManager_ExitLowpower" addr="0x00204ff8">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f4" count="4"/>
@@ -12530,7 +12530,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sigtramp_r" addr="0x00215490">
+ <function name="__sigtramp_r" addr="0x002153f0">
   <sample key="0x20004b3" count="5"/>
   <sample key="0x20004c5" count="4"/>
   <sample key="0x4f8" count="2"/>
@@ -12553,7 +12553,7 @@
   <sample key="0x20004c6" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="_init" addr="0x002043f4">
+ <function name="_init" addr="0x00204354">
   <sample key="0x4f9" count="5"/>
   <sample key="0x4fe" count="4"/>
   <sample key="0x507" count="4"/>
@@ -12568,7 +12568,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_wcrtomb_r" addr="0x00215870">
+ <function name="_wcrtomb_r" addr="0x002157d0">
   <sample key="0x50404c4" count="6"/>
   <sample key="0x50004c4" count="3"/>
   <sample key="0x4aa" count="2"/>
@@ -12587,7 +12587,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x505" count="1"/>
  </function>
- <function name="xos_register_exception_handler" addr="0x0020f980">
+ <function name="xos_register_exception_handler" addr="0x0020f8e0">
   <sample key="0x50004d5" count="2"/>
   <sample key="0x50004f8" count="2"/>
   <sample key="0x4f9" count="2"/>
@@ -12610,7 +12610,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x53c" count="1"/>
  </function>
- <function name="xos_resume_preempted_thread" addr="0x002112a6">
+ <function name="xos_resume_preempted_thread" addr="0x00211206">
   <sample key="0x10004c3" count="13"/>
   <sample key="0x4ec" count="1"/>
   <sample key="0x50004f6" count="1"/>
@@ -12630,7 +12630,7 @@
   <sample key="0x6a8" count="1"/>
   <sample key="0x4ca" count="1"/>
  </function>
- <function name="xthal_set_cacheattr" addr="0x002163f0">
+ <function name="xthal_set_cacheattr" addr="0x00216350">
   <sample key="0x4f9" count="3"/>
   <sample key="0x4d1" count="3"/>
   <sample key="0x4de" count="2"/>
@@ -12650,7 +12650,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x649" count="1"/>
  </function>
- <function name="GPIO_PortGetInterruptStatus" addr="0x002073f0">
+ <function name="GPIO_PortGetInterruptStatus" addr="0x00207380">
   <sample key="0x10004c3" count="9"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4cf" count="2"/>
@@ -12665,7 +12665,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_GetInstance" addr="0x0020c918">
+ <function name="I2S_GetInstance" addr="0x0020c8a8">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f9" count="4"/>
@@ -12681,7 +12681,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_GetInstance" addr="0x0020afbc">
+ <function name="I2S_GetInstance" addr="0x0020af4c">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f9" count="4"/>
@@ -12696,7 +12696,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_fwalk" addr="0x00216aa0">
+ <function name="_fwalk" addr="0x00216a00">
   <sample key="0x4d8" count="2"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4fe" count="2"/>
@@ -12722,7 +12722,7 @@
   <sample key="0x576" count="1"/>
   <sample key="0x4d6" count="1"/>
  </function>
- <function name="xos_resume_by_restart" addr="0x002113e4">
+ <function name="xos_resume_by_restart" addr="0x00211344">
   <sample key="0x4f8" count="3"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x509" count="3"/>
@@ -12745,7 +12745,7 @@
   <sample key="0x523" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="DMA_ChannelIsActive" addr="0x00208e6c">
+ <function name="DMA_ChannelIsActive" addr="0x00208dfc">
   <sample key="0x4f2" count="5"/>
   <sample key="0x10004c3" count="5"/>
   <sample key="0x4f9" count="3"/>
@@ -12763,7 +12763,7 @@
   <sample key="0x517" count="1"/>
   <sample key="0x50f" count="1"/>
  </function>
- <function name="DMA_InstallDescriptorMemory" addr="0x00209ca4">
+ <function name="DMA_InstallDescriptorMemory" addr="0x00209c34">
   <sample key="0x4f9" count="6"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4fe" count="3"/>
@@ -12777,7 +12777,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="PrintGetRadixFromobpu" addr="0x0020eb1c">
+ <function name="PrintGetRadixFromobpu" addr="0x0020ea7c">
   <sample key="0x50b" count="5"/>
   <sample key="0x4fa" count="4"/>
   <sample key="0x20004c5" count="4"/>
@@ -12788,7 +12788,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_GetInstance" addr="0x00207964">
+ <function name="USART_GetInstance" addr="0x002078f4">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x4f9" count="4"/>
   <sample key="0x20004c5" count="3"/>
@@ -12803,7 +12803,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_init_signal_r" addr="0x00215370">
+ <function name="_init_signal_r" addr="0x002152d0">
   <sample key="0x20004b3" count="3"/>
   <sample key="0x5000509" count="3"/>
   <sample key="0x50404cb" count="2"/>
@@ -12823,7 +12823,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x20004c6" count="1"/>
  </function>
- <function name="xos_dispatch_from_idle" addr="0x00210f9d">
+ <function name="xos_dispatch_from_idle" addr="0x00210efd">
   <sample key="0x4f8" count="3"/>
   <sample key="0x509" count="3"/>
   <sample key="0x4f4" count="2"/>
@@ -12844,7 +12844,7 @@
   <sample key="0x50004d1" count="1"/>
   <sample key="0x53b" count="1"/>
  </function>
- <function name="xos_switch_rtc_thread" addr="0x00211394">
+ <function name="xos_switch_rtc_thread" addr="0x002112f4">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4f8" count="2"/>
   <sample key="0x10004c3" count="2"/>
@@ -12868,7 +12868,7 @@
   <sample key="0x50004d1" count="1"/>
   <sample key="0x4bc" count="1"/>
  </function>
- <function name="xos_thread_setup_tie_save" addr="0x002164e8">
+ <function name="xos_thread_setup_tie_save" addr="0x00216448">
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4d5" count="3"/>
   <sample key="0x10004c3" count="2"/>
@@ -12889,7 +12889,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="CLOCK_GetFFroFreq" addr="0x0020577c">
+ <function name="CLOCK_GetFFroFreq" addr="0x0020570c">
   <sample key="0x4f9" count="5"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f4" count="4"/>
@@ -12902,7 +12902,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_GetVirtualStartChannel" addr="0x002090c8">
+ <function name="DMA_GetVirtualStartChannel" addr="0x00209058">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="8"/>
   <sample key="0x20004c5" count="4"/>
@@ -12914,7 +12914,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="GPIO_PortClearInterruptFlags" addr="0x002073b0">
+ <function name="GPIO_PortClearInterruptFlags" addr="0x00207340">
   <sample key="0x10004c3" count="8"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x4cf" count="2"/>
@@ -12929,7 +12929,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_gdbio_big_endian_8" addr="0x00215fbc">
+ <function name="_gdbio_big_endian_8" addr="0x00215f1c">
   <sample key="0x50004f2" count="4"/>
   <sample key="0x5000515" count="4"/>
   <sample key="0x50404d6" count="3"/>
@@ -12945,7 +12945,7 @@
   <sample key="0x3000512" count="1"/>
   <sample key="0x3040510" count="1"/>
  </function>
- <function name="xos_once" addr="0x00211c7c">
+ <function name="xos_once" addr="0x00211bdc">
   <sample key="0x4aa" count="3"/>
   <sample key="0x20004c5" count="3"/>
   <sample key="0x4f4" count="2"/>
@@ -12966,7 +12966,7 @@
   <sample key="0x50404fe" count="1"/>
   <sample key="0x4d6" count="1"/>
  </function>
- <function name="xos_wake_queue" addr="0x00210334">
+ <function name="xos_wake_queue" addr="0x00210294">
   <sample key="0x4aa" count="3"/>
   <sample key="0x50004d5" count="2"/>
   <sample key="0x50004c4" count="2"/>
@@ -12987,7 +12987,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetXtalInClkFreq" addr="0x002055b8">
+ <function name="CLOCK_GetXtalInClkFreq" addr="0x00205548">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4f9" count="4"/>
   <sample key="0x518" count="4"/>
@@ -13000,7 +13000,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_CfgChannelDc" addr="0x0020a63c">
+ <function name="DMIC_CfgChannelDc" addr="0x0020a5cc">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x515" count="3"/>
@@ -13016,7 +13016,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xos_mutex_create" addr="0x00211974">
+ <function name="xos_mutex_create" addr="0x002118d4">
   <sample key="0x50404fe" count="4"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x5000509" count="3"/>
@@ -13035,7 +13035,7 @@
   <sample key="0x5000508" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xos_resume_cooperative_thread" addr="0x002114c8">
+ <function name="xos_resume_cooperative_thread" addr="0x00211428">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x10004c8" count="3"/>
@@ -13055,7 +13055,7 @@
   <sample key="0x523" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="xos_thread_get_state" addr="0x00210644">
+ <function name="xos_thread_get_state" addr="0x002105a4">
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4f4" count="2"/>
   <sample key="0x50004f9" count="2"/>
@@ -13075,7 +13075,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="PrintIsobpu" addr="0x0020e98c">
+ <function name="PrintIsobpu" addr="0x0020e8ec">
   <sample key="0x659" count="5"/>
   <sample key="0x4fa" count="4"/>
   <sample key="0x4fe" count="4"/>
@@ -13088,7 +13088,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="Serial_UartEnterLowpower" addr="0x0020525c">
+ <function name="Serial_UartEnterLowpower" addr="0x002051ec">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4f9" count="4"/>
   <sample key="0x20004c5" count="4"/>
@@ -13101,7 +13101,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="Serial_UartExitLowpower" addr="0x0020529c">
+ <function name="Serial_UartExitLowpower" addr="0x0020522c">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4f9" count="4"/>
   <sample key="0x20004c5" count="4"/>
@@ -13114,7 +13114,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="USART_TransferIsRxRingBufferFull" addr="0x00207a0c">
+ <function name="USART_TransferIsRxRingBufferFull" addr="0x0020799c">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="4"/>
   <sample key="0x4f9" count="3"/>
@@ -13129,7 +13129,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="getFFroFreq" addr="0x0020458c">
+ <function name="getFFroFreq" addr="0x002044ec">
   <sample key="0x4f9" count="5"/>
   <sample key="0x4f4" count="4"/>
   <sample key="0x10004c8" count="4"/>
@@ -13142,7 +13142,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_dispatch_from_restore" addr="0x00210ff1">
+ <function name="xos_dispatch_from_restore" addr="0x00210f51">
   <sample key="0x4f9" count="3"/>
   <sample key="0x4f4" count="2"/>
   <sample key="0x4f8" count="2"/>
@@ -13163,7 +13163,7 @@
   <sample key="0x50004d1" count="1"/>
   <sample key="0x53b" count="1"/>
  </function>
- <function name="USART_EnableContinuousSCLK" addr="0x00207928">
+ <function name="USART_EnableContinuousSCLK" addr="0x002078b8">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x518" count="3"/>
@@ -13178,7 +13178,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="__do_global_dtors_aux" addr="0x00204500">
+ <function name="__do_global_dtors_aux" addr="0x00204460">
   <sample key="0x4f9" count="5"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4ad" count="2"/>
@@ -13194,7 +13194,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="_gdbio_from_xtensa_flags" addr="0x00215e80">
+ <function name="_gdbio_from_xtensa_flags" addr="0x00215de0">
   <sample key="0x50404f2" count="5"/>
   <sample key="0x50004d6" count="5"/>
   <sample key="0x50004fe" count="2"/>
@@ -13208,7 +13208,7 @@
   <sample key="0x5000502" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_signal_r" addr="0x002153d0">
+ <function name="_signal_r" addr="0x00215330">
   <sample key="0x20004b3" count="4"/>
   <sample key="0x4f8" count="2"/>
   <sample key="0x10004c3" count="2"/>
@@ -13228,7 +13228,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="resume_preempted_thread_notie" addr="0x002112f2">
+ <function name="resume_preempted_thread_notie" addr="0x00211252">
   <sample key="0x4f8" count="3"/>
   <sample key="0x50004f9" count="3"/>
   <sample key="0x50404cb" count="2"/>
@@ -13245,7 +13245,7 @@
   <sample key="0x5d7" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="xos_register_hp_interrupt_handler" addr="0x0020f828">
+ <function name="xos_register_hp_interrupt_handler" addr="0x0020f788">
   <sample key="0x4d5" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x4d6" count="2"/>
@@ -13264,7 +13264,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="xos_schedule" addr="0x00210000">
+ <function name="xos_schedule" addr="0x0020ff60">
   <sample key="0x4aa" count="2"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -13285,7 +13285,7 @@
   <sample key="0x4b2" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="CLOCK_GetWakeClk32KFreq" addr="0x00205638">
+ <function name="CLOCK_GetWakeClk32KFreq" addr="0x002055c8">
   <sample key="0x518" count="4"/>
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4cc" count="2"/>
@@ -13301,7 +13301,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_SubmitChannelDescriptor" addr="0x00209d84">
+ <function name="DMA_SubmitChannelDescriptor" addr="0x00209d14">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
@@ -13315,7 +13315,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM_SetIRQHandler" addr="0x00206dc8">
+ <function name="FLEXCOMM_SetIRQHandler" addr="0x00206d58">
   <sample key="0x10004c8" count="7"/>
   <sample key="0x10004c3" count="6"/>
   <sample key="0x4cf" count="3"/>
@@ -13325,7 +13325,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="GPIO_PortInit" addr="0x00207150">
+ <function name="GPIO_PortInit" addr="0x002070e0">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x4f9" count="5"/>
   <sample key="0x4aa" count="3"/>
@@ -13337,7 +13337,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="BOARD_InitClock" addr="0x0020dcb4">
+ <function name="BOARD_InitClock" addr="0x0020dc14">
   <sample key="0x4aa" count="7"/>
   <sample key="0x4f9" count="7"/>
   <sample key="0x20004c5" count="3"/>
@@ -13347,7 +13347,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="FLEXCOMM_Init" addr="0x00206d90">
+ <function name="FLEXCOMM_Init" addr="0x00206d20">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4aa" count="4"/>
   <sample key="0x10004c8" count="3"/>
@@ -13358,7 +13358,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="HAL_UartDeinit" addr="0x00205434">
+ <function name="HAL_UartDeinit" addr="0x002053c4">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x4f9" count="4"/>
   <sample key="0x20004c5" count="3"/>
@@ -13372,7 +13372,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_SetCallback" addr="0x00209920">
+ <function name="DMA_SetCallback" addr="0x002098b0">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f9" count="3"/>
@@ -13384,7 +13384,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_InstallDMADescriptorMemory" addr="0x0020a970">
+ <function name="DMIC_InstallDMADescriptorMemory" addr="0x0020a900">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4f9" count="3"/>
@@ -13395,7 +13395,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="StrFormatScanIsFormatStarting" addr="0x0020f150">
+ <function name="StrFormatScanIsFormatStarting" addr="0x0020f0b0">
   <sample key="0x20004c5" count="5"/>
   <sample key="0x4fa" count="3"/>
   <sample key="0x50b" count="3"/>
@@ -13408,7 +13408,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="__sseek" addr="0x002155e0">
+ <function name="__sseek" addr="0x00215540">
   <sample key="0x50404c4" count="4"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x20004b3" count="2"/>
@@ -13425,7 +13425,7 @@
   <sample key="0x50404d6" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="_wrapup_reent" addr="0x00212550">
+ <function name="_wrapup_reent" addr="0x002124b0">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x20004c0" count="2"/>
   <sample key="0x4ad" count="2"/>
@@ -13442,7 +13442,7 @@
   <sample key="0x4080505" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_interrupt_disable" addr="0x0020f8c4">
+ <function name="xos_interrupt_disable" addr="0x0020f824">
   <sample key="0x4d5" count="2"/>
   <sample key="0x50004f8" count="2"/>
   <sample key="0x4f9" count="2"/>
@@ -13461,7 +13461,7 @@
   <sample key="0x535" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="xos_timer_set_period" addr="0x00210d84">
+ <function name="xos_timer_set_period" addr="0x00210ce4">
   <sample key="0x50004d5" count="2"/>
   <sample key="0x20004c5" count="2"/>
   <sample key="0x4d6" count="2"/>
@@ -13476,7 +13476,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x50404fe" count="1"/>
  </function>
- <function name="FLEXCOMM0_DriverIRQHandler" addr="0x00206e00">
+ <function name="FLEXCOMM0_DriverIRQHandler" addr="0x00206d90">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13488,7 +13488,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM1_DriverIRQHandler" addr="0x00206e38">
+ <function name="FLEXCOMM1_DriverIRQHandler" addr="0x00206dc8">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13500,7 +13500,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM2_DriverIRQHandler" addr="0x00206e70">
+ <function name="FLEXCOMM2_DriverIRQHandler" addr="0x00206e00">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13512,7 +13512,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM3_DriverIRQHandler" addr="0x00206ea8">
+ <function name="FLEXCOMM3_DriverIRQHandler" addr="0x00206e38">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13524,7 +13524,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM4_DriverIRQHandler" addr="0x00206ee0">
+ <function name="FLEXCOMM4_DriverIRQHandler" addr="0x00206e70">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13536,7 +13536,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM5_DriverIRQHandler" addr="0x00206f18">
+ <function name="FLEXCOMM5_DriverIRQHandler" addr="0x00206ea8">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13548,7 +13548,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM6_DriverIRQHandler" addr="0x00206f50">
+ <function name="FLEXCOMM6_DriverIRQHandler" addr="0x00206ee0">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13560,7 +13560,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="FLEXCOMM7_DriverIRQHandler" addr="0x00206f88">
+ <function name="FLEXCOMM7_DriverIRQHandler" addr="0x00206f18">
   <sample key="0x4f9" count="7"/>
   <sample key="0x10004c3" count="4"/>
   <sample key="0x20004c5" count="2"/>
@@ -13572,7 +13572,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="INPUTMUX_AttachSignal" addr="0x0020d6b0">
+ <function name="INPUTMUX_AttachSignal" addr="0x0020d640">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x10004be" count="1"/>
@@ -13584,7 +13584,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SDK_Free" addr="0x00206920">
+ <function name="SDK_Free" addr="0x002068b0">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4f6" count="2"/>
@@ -13597,7 +13597,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="__swrite" addr="0x002155a0">
+ <function name="__swrite" addr="0x00215500">
   <sample key="0x50404c4" count="3"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x50004f7" count="2"/>
@@ -13614,7 +13614,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x5000508" count="1"/>
  </function>
- <function name="xos_interrupt_enable" addr="0x0020f870">
+ <function name="xos_interrupt_enable" addr="0x0020f7d0">
   <sample key="0x4f9" count="2"/>
   <sample key="0x4d5" count="1"/>
   <sample key="0x4db" count="1"/>
@@ -13635,7 +13635,7 @@
   <sample key="0x5d7" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="xos_switch_to" addr="0x00210870">
+ <function name="xos_switch_to" addr="0x002107d0">
   <sample key="0x4f4" count="2"/>
   <sample key="0x4f8" count="2"/>
   <sample key="0x4f9" count="2"/>
@@ -13653,7 +13653,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="DMIC_DeInit" addr="0x0020a4a4">
+ <function name="DMIC_DeInit" addr="0x0020a434">
   <sample key="0x4f9" count="4"/>
   <sample key="0x4aa" count="3"/>
   <sample key="0x10004c3" count="3"/>
@@ -13666,7 +13666,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="DbgConsole_ReadOneCharacter" addr="0x0020e2c0">
+ <function name="DbgConsole_ReadOneCharacter" addr="0x0020e220">
   <sample key="0x10004c8" count="5"/>
   <sample key="0x20004c5" count="4"/>
   <sample key="0x10004c3" count="3"/>
@@ -13677,7 +13677,7 @@
   <sample key="0x4f4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sread" addr="0x00215560">
+ <function name="__sread" addr="0x002154c0">
   <sample key="0x50404c4" count="4"/>
   <sample key="0x20004b3" count="2"/>
   <sample key="0x10004be" count="1"/>
@@ -13694,7 +13694,7 @@
   <sample key="0x5000508" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="xos_q_pri_insert" addr="0x002164b8">
+ <function name="xos_q_pri_insert" addr="0x00216418">
   <sample key="0x10004c8" count="5"/>
   <sample key="0x20004c0" count="2"/>
   <sample key="0x20004c4" count="2"/>
@@ -13709,7 +13709,7 @@
   <sample key="0x5040659" count="1"/>
   <sample key="0x5000659" count="1"/>
  </function>
- <function name="xos_timer_wait" addr="0x00210e4c">
+ <function name="xos_timer_wait" addr="0x00210dac">
   <sample key="0x4aa" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x50404fe" count="2"/>
@@ -13726,7 +13726,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x534" count="1"/>
  </function>
- <function name="SerialManager_StartReading" addr="0x00204ba8">
+ <function name="SerialManager_StartReading" addr="0x00204b38">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x10004bf" count="1"/>
@@ -13736,7 +13736,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_StartWriting" addr="0x00204b80">
+ <function name="SerialManager_StartWriting" addr="0x00204b10">
   <sample key="0x10004c3" count="6"/>
   <sample key="0x10004c8" count="6"/>
   <sample key="0x10004bf" count="1"/>
@@ -13746,7 +13746,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="Serial_UartDeinit" addr="0x00205154">
+ <function name="Serial_UartDeinit" addr="0x002050e4">
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
@@ -13758,7 +13758,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sfmoreglue" addr="0x00214160">
+ <function name="__sfmoreglue" addr="0x002140c0">
   <sample key="0x5000509" count="3"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x50404c4" count="2"/>
@@ -13773,7 +13773,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x576" count="1"/>
  </function>
- <function name="_atexit" addr="0x00213e70">
+ <function name="_atexit" addr="0x00213dd0">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004b3" count="2"/>
   <sample key="0x5000509" count="2"/>
@@ -13790,7 +13790,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="_setlocale_r" addr="0x00214be0">
+ <function name="_setlocale_r" addr="0x00214b40">
   <sample key="0x4ec" count="3"/>
   <sample key="0x4aa" count="3"/>
   <sample key="0x50004f9" count="3"/>
@@ -13801,7 +13801,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x60404c5" count="1"/>
  </function>
- <function name="fiprintf" addr="0x00211ef0">
+ <function name="fiprintf" addr="0x00211e50">
   <sample key="0x509" count="4"/>
   <sample key="0x5000509" count="3"/>
   <sample key="0x50404cb" count="2"/>
@@ -13814,7 +13814,7 @@
   <sample key="0x50004fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA_Deinit" addr="0x00209158">
+ <function name="DMA_Deinit" addr="0x002090e8">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x518" count="2"/>
@@ -13826,7 +13826,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_DisableIntCallback" addr="0x0020a7e4">
+ <function name="DMIC_DisableIntCallback" addr="0x0020a774">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4cf" count="2"/>
@@ -13836,7 +13836,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_EnableIntCallback" addr="0x0020a7b8">
+ <function name="DMIC_EnableIntCallback" addr="0x0020a748">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4cf" count="2"/>
@@ -13845,7 +13845,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_HwvadDisableIntCallback" addr="0x0020a83c">
+ <function name="DMIC_HwvadDisableIntCallback" addr="0x0020a7cc">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4cf" count="2"/>
@@ -13855,7 +13855,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_HwvadEnableIntCallback" addr="0x0020a810">
+ <function name="DMIC_HwvadEnableIntCallback" addr="0x0020a7a0">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4cf" count="2"/>
@@ -13864,7 +13864,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="IOPCTL_PinMuxSet" addr="0x0020e180">
+ <function name="IOPCTL_PinMuxSet" addr="0x00204770">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4f2" count="2"/>
   <sample key="0x10004c3" count="2"/>
@@ -13877,7 +13877,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="IOPCTL_PinMuxSet" addr="0x002047e0">
+ <function name="IOPCTL_PinMuxSet" addr="0x0020e0e0">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4f2" count="2"/>
   <sample key="0x10004c3" count="2"/>
@@ -13890,7 +13890,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="PrintIsdi" addr="0x0020e9d4">
+ <function name="PrintIsdi" addr="0x0020e934">
   <sample key="0x659" count="3"/>
   <sample key="0x4fa" count="2"/>
   <sample key="0x4fe" count="2"/>
@@ -13903,7 +13903,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="PrintIsfF" addr="0x0020eac4">
+ <function name="PrintIsfF" addr="0x0020ea24">
   <sample key="0x20004c5" count="3"/>
   <sample key="0x659" count="3"/>
   <sample key="0x4fa" count="2"/>
@@ -13916,7 +13916,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="PrintIsxX" addr="0x0020eaf0">
+ <function name="PrintIsxX" addr="0x0020ea50">
   <sample key="0x20004c5" count="3"/>
   <sample key="0x659" count="3"/>
   <sample key="0x4fa" count="2"/>
@@ -13929,7 +13929,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="__malloc_lock" addr="0x00211510">
+ <function name="__malloc_lock" addr="0x00211470">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x20004b3" count="2"/>
@@ -13945,7 +13945,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="xos_thread_resume" addr="0x00210530">
+ <function name="xos_thread_resume" addr="0x00210490">
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004b3" count="2"/>
   <sample key="0x4e4" count="1"/>
@@ -13961,7 +13961,7 @@
   <sample key="0x50404fe" count="1"/>
   <sample key="0x20004c5" count="1"/>
  </function>
- <function name="BOARD_InitPins" addr="0x00204814">
+ <function name="BOARD_InitPins" addr="0x002047a4">
   <sample key="0x20004c5" count="6"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x10004c3" count="2"/>
@@ -13970,7 +13970,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMIC_EnableChannnel" addr="0x0020a6a0">
+ <function name="DMIC_EnableChannnel" addr="0x0020a630">
   <sample key="0x10004c3" count="4"/>
   <sample key="0x518" count="4"/>
   <sample key="0x10004c8" count="3"/>
@@ -13979,7 +13979,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="LIST_Init" addr="0x002048a8">
+ <function name="LIST_Init" addr="0x00204838">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x10004c8" count="4"/>
   <sample key="0x20004c5" count="3"/>
@@ -13987,7 +13987,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__assert_func" addr="0x00211e50">
+ <function name="__assert_func" addr="0x00211db0">
   <sample key="0x50004f9" count="3"/>
   <sample key="0x50404c4" count="3"/>
   <sample key="0x4aa" count="2"/>
@@ -13999,7 +13999,7 @@
   <sample key="0x5040502" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="_fflush_r" addr="0x00214100">
+ <function name="_fflush_r" addr="0x00214060">
   <sample key="0x20004c0" count="2"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x20004c4" count="2"/>
@@ -14013,7 +14013,7 @@
   <sample key="0x50404c4" count="1"/>
   <sample key="0x20004c5" count="1"/>
  </function>
- <function name="_fiprintf_r" addr="0x00211ec0">
+ <function name="_fiprintf_r" addr="0x00211e20">
   <sample key="0x5000509" count="6"/>
   <sample key="0x50404c4" count="3"/>
   <sample key="0x50404cb" count="2"/>
@@ -14023,7 +14023,7 @@
   <sample key="0x50404fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_isatty_r" addr="0x00215970">
+ <function name="_isatty_r" addr="0x002158d0">
   <sample key="0x20004b3" count="2"/>
   <sample key="0x4cc" count="1"/>
   <sample key="0x4d5" count="1"/>
@@ -14040,7 +14040,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x505" count="1"/>
  </function>
- <function name="_sbrk_r" addr="0x00211584">
+ <function name="_sbrk_r" addr="0x002114e4">
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004b3" count="2"/>
   <sample key="0x10004c8" count="2"/>
@@ -14054,7 +14054,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="dmic_Callback" addr="0x0020d954">
+ <function name="dmic_Callback" addr="0x0020d8b4">
   <sample key="0x10004c8" count="6"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -14065,7 +14065,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="getOscClk" addr="0x00204560">
+ <function name="getOscClk" addr="0x002044c0">
   <sample key="0x4f9" count="3"/>
   <sample key="0x4f8" count="2"/>
   <sample key="0x518" count="2"/>
@@ -14077,7 +14077,7 @@
   <sample key="0x10004c3" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_preemption_enable" addr="0x002106a8">
+ <function name="xos_preemption_enable" addr="0x00210608">
   <sample key="0x4f8" count="3"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x4f9" count="2"/>
@@ -14091,7 +14091,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="xos_thread_set_exit_handler" addr="0x00210388">
+ <function name="xos_thread_set_exit_handler" addr="0x002102e8">
   <sample key="0x4f9" count="4"/>
   <sample key="0x20004b3" count="3"/>
   <sample key="0x4ea" count="2"/>
@@ -14103,7 +14103,7 @@
   <sample key="0x50404fe" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="I2S_Disable" addr="0x0020c78c">
+ <function name="I2S_Disable" addr="0x0020aef4">
   <sample key="0x518" count="4"/>
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4cc" count="2"/>
@@ -14113,7 +14113,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_Disable" addr="0x0020af64">
+ <function name="I2S_Disable" addr="0x0020c71c">
   <sample key="0x518" count="4"/>
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4cc" count="2"/>
@@ -14123,7 +14123,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_Enable" addr="0x0020af3c">
+ <function name="I2S_Enable" addr="0x0020aecc">
   <sample key="0x518" count="4"/>
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4cc" count="2"/>
@@ -14133,7 +14133,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_Enable" addr="0x0020c764">
+ <function name="I2S_Enable" addr="0x0020c6f4">
   <sample key="0x518" count="4"/>
   <sample key="0x10004c3" count="3"/>
   <sample key="0x4cc" count="2"/>
@@ -14143,7 +14143,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__malloc_unlock" addr="0x00211540">
+ <function name="__malloc_unlock" addr="0x002114a0">
   <sample key="0x6000669" count="2"/>
   <sample key="0x4f8" count="2"/>
   <sample key="0x4f9" count="2"/>
@@ -14157,7 +14157,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="_gdbio_new_fd" addr="0x00216054">
+ <function name="_gdbio_new_fd" addr="0x00215fb4">
   <sample key="0x50404fe" count="4"/>
   <sample key="0x20004b3" count="2"/>
   <sample key="0x10004bf" count="1"/>
@@ -14183,7 +14183,7 @@
   <sample key="0x515" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="_xos_coproc_restorecs" addr="0x0021194c">
+ <function name="_xos_coproc_restorecs" addr="0x002118ac">
   <sample key="0x20004c0" count="2"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c4" count="2"/>
@@ -14197,7 +14197,7 @@
   <sample key="0x508" count="1"/>
   <sample key="0x4d7" count="1"/>
  </function>
- <function name="_xos_coproc_savecs" addr="0x00211928">
+ <function name="_xos_coproc_savecs" addr="0x00211888">
   <sample key="0x20004c0" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c4" count="2"/>
@@ -14210,7 +14210,7 @@
   <sample key="0x64f" count="1"/>
   <sample key="0x508" count="1"/>
  </function>
- <function name="xos_clib_thread_cleanup" addr="0x00211700">
+ <function name="xos_clib_thread_cleanup" addr="0x00211660">
   <sample key="0x4cb" count="2"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x4d6" count="2"/>
@@ -14224,7 +14224,7 @@
   <sample key="0x4b2" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="xos_debug_dispatch" addr="0x0021655c">
+ <function name="xos_debug_dispatch" addr="0x002164bc">
   <sample key="0x4cb" count="2"/>
   <sample key="0x20004c5" count="2"/>
   <sample key="0x54c" count="2"/>
@@ -14237,7 +14237,7 @@
   <sample key="0x54d" count="1"/>
   <sample key="0x53c" count="1"/>
  </function>
- <function name="xos_resume_idle_thread" addr="0x00211258">
+ <function name="xos_resume_idle_thread" addr="0x002111b8">
   <sample key="0x4f9" count="3"/>
   <sample key="0x4d5" count="1"/>
   <sample key="0x4f4" count="1"/>
@@ -14252,7 +14252,7 @@
   <sample key="0x5d7" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="BOARD_InitDebugConsole" addr="0x0020d770">
+ <function name="BOARD_InitDebugConsole" addr="0x00204740">
   <sample key="0x4aa" count="4"/>
   <sample key="0x20004c5" count="3"/>
   <sample key="0x4f9" count="2"/>
@@ -14262,7 +14262,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="HAL_UartEnterLowpower" addr="0x00205564">
+ <function name="HAL_UartEnterLowpower" addr="0x002054f4">
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
   <sample key="0x4ea" count="1"/>
@@ -14274,7 +14274,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="HAL_UartExitLowpower" addr="0x00205588">
+ <function name="HAL_UartExitLowpower" addr="0x00205518">
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
   <sample key="0x4ea" count="1"/>
@@ -14286,7 +14286,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="I2S_EnableDMAInterrupts" addr="0x0020c978">
+ <function name="I2S_EnableDMAInterrupts" addr="0x0020c908">
   <sample key="0x10004c3" count="7"/>
   <sample key="0x4e4" count="1"/>
   <sample key="0x4aa" count="1"/>
@@ -14305,7 +14305,7 @@
   <sample key="0x4b6" count="13"/>
   <sample key="0x4b5" count="1"/>
  </function>
- <function name="_gdbio_map_fd" addr="0x0021600c">
+ <function name="_gdbio_map_fd" addr="0x00215f6c">
   <sample key="0x20004b3" count="2"/>
   <sample key="0x10004be" count="1"/>
   <sample key="0x10004bf" count="1"/>
@@ -14320,7 +14320,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="fflush" addr="0x00214130">
+ <function name="fflush" addr="0x00214090">
   <sample key="0x4f9" count="3"/>
   <sample key="0x4d6" count="3"/>
   <sample key="0x4aa" count="2"/>
@@ -14329,7 +14329,7 @@
   <sample key="0x4ef" count="1"/>
   <sample key="0x4af" count="1"/>
  </function>
- <function name="fputwc" addr="0x002144e0">
+ <function name="fputwc" addr="0x00214440">
   <sample key="0x4ec" count="2"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x4f8" count="2"/>
@@ -14342,7 +14342,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_default_exception_handler" addr="0x0020f954">
+ <function name="xos_default_exception_handler" addr="0x0020f8b4">
   <sample key="0x4f9" count="3"/>
   <sample key="0x4aa" count="2"/>
   <sample key="0x4dc" count="1"/>
@@ -14355,7 +14355,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x534" count="1"/>
  </function>
- <function name="xos_system_timer_get" addr="0x00211cc8">
+ <function name="xos_system_timer_get" addr="0x00211c28">
   <sample key="0x20004b3" count="3"/>
   <sample key="0x4d8" count="1"/>
   <sample key="0x4ec" count="1"/>
@@ -14369,7 +14369,7 @@
   <sample key="0x614" count="1"/>
   <sample key="0x617" count="1"/>
  </function>
- <function name="xos_system_timer_pending" addr="0x00211d50">
+ <function name="xos_system_timer_pending" addr="0x00211cb0">
   <sample key="0x20004c5" count="2"/>
   <sample key="0x4d5" count="1"/>
   <sample key="0x4de" count="1"/>
@@ -14384,7 +14384,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x504050e" count="1"/>
  </function>
- <function name="CLOCK_GetOsc32KFreq" addr="0x00205614">
+ <function name="CLOCK_GetOsc32KFreq" addr="0x002055a4">
   <sample key="0x4f9" count="2"/>
   <sample key="0x10004c8" count="2"/>
   <sample key="0x20004c0" count="1"/>
@@ -14397,7 +14397,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="HAL_UartGetStatus" addr="0x002052e0">
+ <function name="HAL_UartGetStatus" addr="0x00205270">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4f4" count="2"/>
   <sample key="0x10004c3" count="2"/>
@@ -14407,14 +14407,14 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_RxTransferCreateHandleDMA" addr="0x0020cc48">
+ <function name="I2S_RxTransferCreateHandleDMA" addr="0x0020cbd8">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x10004c8" count="5"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__ascii_wctomb" addr="0x00216c60">
+ <function name="__ascii_wctomb" addr="0x00216bc0">
   <sample key="0x20004b3" count="3"/>
   <sample key="0x50404fe" count="2"/>
   <sample key="0x20004c0" count="1"/>
@@ -14426,7 +14426,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x500050b" count="1"/>
  </function>
- <function name="__clibrary_init" addr="0x00211e20">
+ <function name="__clibrary_init" addr="0x00211d80">
   <sample key="0x4ec" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x509" count="2"/>
@@ -14438,7 +14438,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_gdbio_close_fd" addr="0x00216030">
+ <function name="_gdbio_close_fd" addr="0x00215f90">
   <sample key="0x50404c4" count="2"/>
   <sample key="0x20004b3" count="2"/>
   <sample key="0x10004be" count="1"/>
@@ -14451,7 +14451,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x500050b" count="1"/>
  </function>
- <function name="xos_interrupt_in_use" addr="0x0020f904">
+ <function name="xos_interrupt_in_use" addr="0x0020f864">
   <sample key="0x20004b3" count="2"/>
   <sample key="0x50404cd" count="1"/>
   <sample key="0x4df" count="1"/>
@@ -14465,7 +14465,7 @@
   <sample key="0x515" count="1"/>
   <sample key="0x50404d1" count="1"/>
  </function>
- <function name="xos_timer_init" addr="0x0021653c">
+ <function name="xos_timer_init" addr="0x0021649c">
   <sample key="0x10004c8" count="6"/>
   <sample key="0x50404cb" count="1"/>
   <sample key="0x6000669" count="1"/>
@@ -14475,7 +14475,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xthal_icache_all_invalidate" addr="0x00216d40">
+ <function name="xthal_icache_all_invalidate" addr="0x00216ca0">
   <sample key="0x61f" count="4"/>
   <sample key="0x51a" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -14485,7 +14485,7 @@
   <sample key="0x4fb" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xthal_window_spill" addr="0x0021623c">
+ <function name="xthal_window_spill" addr="0x0021619c">
   <sample key="0x51d" count="2"/>
   <sample key="0x535" count="2"/>
   <sample key="0x10004bf" count="1"/>
@@ -14498,7 +14498,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x534" count="1"/>
  </function>
- <function name="DisableIRQ" addr="0x0020a3ac">
+ <function name="DisableIRQ" addr="0x0020a33c">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -14508,7 +14508,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="Disable_Cache" addr="0x0020dd7c">
+ <function name="Disable_Cache" addr="0x0020dcdc">
   <sample key="0x4f9" count="3"/>
   <sample key="0x20004c5" count="3"/>
   <sample key="0x4aa" count="2"/>
@@ -14516,7 +14516,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="EnableIRQ" addr="0x0020af20">
+ <function name="EnableIRQ" addr="0x00208de0">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -14526,7 +14526,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="EnableIRQ" addr="0x002078e0">
+ <function name="EnableIRQ" addr="0x00207870">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -14536,7 +14536,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="EnableIRQ" addr="0x00208e50">
+ <function name="EnableIRQ" addr="0x0020aeb0">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -14546,7 +14546,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="EnableIRQ" addr="0x0020a390">
+ <function name="EnableIRQ" addr="0x0020a320">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c5" count="2"/>
@@ -14556,7 +14556,7 @@
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_wctomb_r" addr="0x00215940">
+ <function name="_wctomb_r" addr="0x002158a0">
   <sample key="0x50404c4" count="3"/>
   <sample key="0x50004c4" count="2"/>
   <sample key="0x4aa" count="1"/>
@@ -14567,7 +14567,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="return_nested_interrupt" addr="0x00211283">
+ <function name="return_nested_interrupt" addr="0x002111e3">
   <sample key="0x50404f8" count="3"/>
   <sample key="0x50004cb" count="1"/>
   <sample key="0x50004cc" count="1"/>
@@ -14579,7 +14579,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x5d7" count="1"/>
  </function>
- <function name="xthal_get_cacheattr" addr="0x002163d0">
+ <function name="xthal_get_cacheattr" addr="0x00216330">
   <sample key="0x20004c5" count="2"/>
   <sample key="0x10004be" count="1"/>
   <sample key="0x4de" count="1"/>
@@ -14592,7 +14592,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="DMIC0_3_U16CovU32_Callback" addr="0x0020d97c">
+ <function name="DMIC0_3_U16CovU32_Callback" addr="0x0020d8dc">
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f2" count="1"/>
@@ -14602,7 +14602,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="DMIC4_7_U16CovU32_Callback" addr="0x0020d998">
+ <function name="DMIC4_7_U16CovU32_Callback" addr="0x0020d8f8">
   <sample key="0x10004c8" count="4"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f2" count="1"/>
@@ -14612,7 +14612,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="DMIC_Use2fs" addr="0x0020a680">
+ <function name="DMIC_Use2fs" addr="0x0020a610">
   <sample key="0x518" count="2"/>
   <sample key="0x10004c8" count="2"/>
   <sample key="0x4cc" count="1"/>
@@ -14623,7 +14623,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="USART_DisableInterrupts" addr="0x0020790c">
+ <function name="USART_DisableInterrupts" addr="0x0020789c">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x518" count="2"/>
@@ -14632,7 +14632,7 @@
   <sample key="0x4f2" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__do_global_ctors_aux" addr="0x00216450">
+ <function name="__do_global_ctors_aux" addr="0x002163b0">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x4cb" count="1"/>
@@ -14643,7 +14643,7 @@
   <sample key="0x4f8" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_exit" addr="0x00216100">
+ <function name="_exit" addr="0x00216060">
   <sample key="0x20004c4" count="3"/>
   <sample key="0x5d9" count="1"/>
   <sample key="0x4ab" count="1"/>
@@ -14654,14 +14654,14 @@
   <sample key="0x507" count="1"/>
   <sample key="0x5d2" count="1"/>
  </function>
- <function name="_gdbio_from_xtensa_whence" addr="0x00215f80">
+ <function name="_gdbio_from_xtensa_whence" addr="0x00215ee0">
   <sample key="0x20004b3" count="4"/>
   <sample key="0x20004c5" count="3"/>
   <sample key="0x4d8" count="2"/>
   <sample key="0x20004c0" count="1"/>
   <sample key="0x4af" count="1"/>
  </function>
- <function name="exit" addr="0x00211ea0">
+ <function name="exit" addr="0x00211e00">
   <sample key="0x4aa" count="2"/>
   <sample key="0x4f8" count="2"/>
   <sample key="0x4ec" count="1"/>
@@ -14672,7 +14672,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x50404fe" count="1"/>
  </function>
- <function name="vfiprintf" addr="0x00212940">
+ <function name="vfiprintf" addr="0x002128a0">
   <sample key="0x50404c4" count="3"/>
   <sample key="0x50004c4" count="2"/>
   <sample key="0x4aa" count="1"/>
@@ -14682,7 +14682,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_clib_init" addr="0x002115b0">
+ <function name="xos_clib_init" addr="0x00211510">
   <sample key="0x4fe" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14694,7 +14694,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="xos_q_insert" addr="0x0021649c">
+ <function name="xos_q_insert" addr="0x002163fc">
   <sample key="0x10004c8" count="5"/>
   <sample key="0x20004c1" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14703,7 +14703,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="xos_q_remove" addr="0x00216470">
+ <function name="xos_q_remove" addr="0x002163d0">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x50004f8" count="1"/>
@@ -14714,7 +14714,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x5000509" count="1"/>
  </function>
- <function name="xos_register_interrupt_handler" addr="0x0020f7e0">
+ <function name="xos_register_interrupt_handler" addr="0x0020f740">
   <sample key="0x4f9" count="2"/>
   <sample key="0x20004b3" count="2"/>
   <sample key="0x10004be" count="1"/>
@@ -14725,7 +14725,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x515" count="1"/>
  </function>
- <function name="xos_system_timer_init" addr="0x00211dec">
+ <function name="xos_system_timer_init" addr="0x00211d4c">
   <sample key="0x4aa" count="3"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x4af" count="1"/>
@@ -14735,7 +14735,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetAudioPllClkFreq" addr="0x00205b38">
+ <function name="CLOCK_GetAudioPllClkFreq" addr="0x00205ac8">
   <sample key="0x10004bf" count="1"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14747,7 +14747,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetAux0PllClkFreq" addr="0x0020597c">
+ <function name="CLOCK_GetAux0PllClkFreq" addr="0x0020590c">
   <sample key="0x10004bf" count="1"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14759,7 +14759,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetAux1PllClkFreq" addr="0x00205998">
+ <function name="CLOCK_GetAux1PllClkFreq" addr="0x00205928">
   <sample key="0x10004bf" count="1"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14771,7 +14771,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetDspPllClkFreq" addr="0x00205960">
+ <function name="CLOCK_GetDspPllClkFreq" addr="0x002058f0">
   <sample key="0x10004bf" count="1"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14783,7 +14783,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetMainPllClkFreq" addr="0x00205944">
+ <function name="CLOCK_GetMainPllClkFreq" addr="0x002058d4">
   <sample key="0x10004bf" count="1"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14795,7 +14795,7 @@
   <sample key="0x664" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_DisableDMAInterrupts" addr="0x0020c960">
+ <function name="I2S_DisableDMAInterrupts" addr="0x0020c8f0">
   <sample key="0x10004c3" count="5"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14803,7 +14803,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="I2S_DisableInterrupts" addr="0x0020afa4">
+ <function name="I2S_DisableInterrupts" addr="0x0020af34">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x518" count="2"/>
@@ -14811,7 +14811,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="I2S_EnableInterrupts" addr="0x0020af8c">
+ <function name="I2S_EnableInterrupts" addr="0x0020af1c">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x518" count="2"/>
@@ -14819,7 +14819,7 @@
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_ReadBlocking" addr="0x00205004">
+ <function name="SerialManager_ReadBlocking" addr="0x00204f94">
   <sample key="0x10004c3" count="3"/>
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4aa" count="1"/>
@@ -14827,7 +14827,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="SerialManager_WriteBlocking" addr="0x00204fec">
+ <function name="SerialManager_WriteBlocking" addr="0x00204f7c">
   <sample key="0x10004c3" count="3"/>
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4aa" count="1"/>
@@ -14844,7 +14844,7 @@
   <sample key="0x4b6" count="9"/>
   <sample key="0x4b5" count="1"/>
  </function>
- <function name="_gdbio_big_endian_4" addr="0x00215f9c">
+ <function name="_gdbio_big_endian_4" addr="0x00215efc">
   <sample key="0x4af" count="1"/>
   <sample key="0x50004f2" count="1"/>
   <sample key="0x50404f2" count="1"/>
@@ -14856,7 +14856,7 @@
   <sample key="0x5040512" count="1"/>
   <sample key="0x510" count="1"/>
  </function>
- <function name="_kill_r" addr="0x00215c80">
+ <function name="_kill_r" addr="0x00215be0">
   <sample key="0x4d8" count="1"/>
   <sample key="0x600066d" count="1"/>
   <sample key="0x4db" count="1"/>
@@ -14868,7 +14868,7 @@
   <sample key="0x60404c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="cleanup_glue" addr="0x002124a0">
+ <function name="cleanup_glue" addr="0x00212400">
   <sample key="0x4aa" count="2"/>
   <sample key="0x4ec" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14879,12 +14879,12 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x4b2" count="1"/>
  </function>
- <function name="take_interrupt_from_restore" addr="0x002110ed">
+ <function name="take_interrupt_from_restore" addr="0x0021104d">
   <sample key="0x4f8" count="5"/>
   <sample key="0x4b7" count="4"/>
   <sample key="0x4f9" count="1"/>
  </function>
- <function name="xos_fatal_error" addr="0x0020f938">
+ <function name="xos_fatal_error" addr="0x0020f898">
   <sample key="0x20004c0" count="1"/>
   <sample key="0x5d9" count="1"/>
   <sample key="0x4aa" count="1"/>
@@ -14896,7 +14896,7 @@
   <sample key="0x50404c4" count="1"/>
   <sample key="0x50004c4" count="1"/>
  </function>
- <function name="xos_level2_interrupt_dispatch" addr="0x00210f4c">
+ <function name="xos_level2_interrupt_dispatch" addr="0x00210eac">
   <sample key="0x4f9" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c0" count="1"/>
@@ -14905,7 +14905,7 @@
   <sample key="0x540" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="xos_level3_interrupt_dispatch" addr="0x00210f68">
+ <function name="xos_level3_interrupt_dispatch" addr="0x00210ec8">
   <sample key="0x4f9" count="3"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c0" count="1"/>
@@ -14914,7 +14914,7 @@
   <sample key="0x546" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="xthal_set_ccompare" addr="0x00216ce8">
+ <function name="xthal_set_ccompare" addr="0x00216c48">
   <sample key="0x20004b3" count="3"/>
   <sample key="0x51d" count="2"/>
   <sample key="0x4db" count="1"/>
@@ -14923,7 +14923,7 @@
   <sample key="0x615" count="1"/>
   <sample key="0x618" count="1"/>
  </function>
- <function name="DMIC0_DriverIRQHandler" addr="0x0020a868">
+ <function name="DMIC0_DriverIRQHandler" addr="0x0020a7f8">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x4e4" count="1"/>
@@ -14932,7 +14932,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_Putchar" addr="0x0020e724">
+ <function name="DbgConsole_Putchar" addr="0x0020e684">
   <sample key="0x20004c4" count="2"/>
   <sample key="0x10004be" count="1"/>
   <sample key="0x4aa" count="1"/>
@@ -14942,7 +14942,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="HWVAD0_DriverIRQHandler" addr="0x0020a880">
+ <function name="HWVAD0_DriverIRQHandler" addr="0x0020a810">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x4e4" count="1"/>
@@ -14961,7 +14961,7 @@
   <sample key="0x568" count="1"/>
   <sample key="0x53c" count="1"/>
  </function>
- <function name="__muldi3" addr="0x00216590">
+ <function name="__muldi3" addr="0x002164f0">
   <sample key="0x576" count="3"/>
   <sample key="0x10004be" count="2"/>
   <sample key="0x4af" count="1"/>
@@ -14969,7 +14969,7 @@
   <sample key="0x578" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_xos_cp_state" addr="0x00211910">
+ <function name="_xos_cp_state" addr="0x00211870">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x20004c7" count="2"/>
   <sample key="0x4dc" count="1"/>
@@ -14978,7 +14978,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x534" count="1"/>
  </function>
- <function name="frame_dummy" addr="0x0020453c">
+ <function name="frame_dummy" addr="0x0020449c">
   <sample key="0x4f9" count="4"/>
   <sample key="0x4e4" count="1"/>
   <sample key="0x4ad" count="1"/>
@@ -14986,7 +14986,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="strtoul" addr="0x002127c0">
+ <function name="strtoul" addr="0x00212720">
   <sample key="0x50404c4" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -14996,7 +14996,7 @@
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_dispatch_from_nest" addr="0x00211038">
+ <function name="xos_dispatch_from_nest" addr="0x00210f98">
   <sample key="0x4f4" count="2"/>
   <sample key="0x509" count="2"/>
   <sample key="0x4cb" count="1"/>
@@ -15005,7 +15005,7 @@
   <sample key="0x6040505" count="1"/>
   <sample key="0x567" count="1"/>
  </function>
- <function name="xos_interrupt_enabled" addr="0x0020f8ac">
+ <function name="xos_interrupt_enabled" addr="0x0020f80c">
   <sample key="0x4d5" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
@@ -15016,7 +15016,7 @@
   <sample key="0x511" count="1"/>
   <sample key="0x504050e" count="1"/>
  </function>
- <function name="xos_preemption_disable" addr="0x0021068c">
+ <function name="xos_preemption_disable" addr="0x002105ec">
   <sample key="0x4f8" count="2"/>
   <sample key="0x10004bf" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15026,7 +15026,7 @@
   <sample key="0x509" count="1"/>
   <sample key="0x535" count="1"/>
  </function>
- <function name="xthal_dcache_all_writeback" addr="0x00216cc0">
+ <function name="xthal_dcache_all_writeback" addr="0x00216c20">
   <sample key="0x4cc" count="1"/>
   <sample key="0x4db" count="1"/>
   <sample key="0x627" count="1"/>
@@ -15037,7 +15037,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xthal_dcache_all_writeback_inv" addr="0x00216d20">
+ <function name="xthal_dcache_all_writeback_inv" addr="0x00216c80">
   <sample key="0x4cc" count="1"/>
   <sample key="0x4db" count="1"/>
   <sample key="0x628" count="1"/>
@@ -15048,7 +15048,7 @@
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xthal_get_ccompare" addr="0x00216d04">
+ <function name="xthal_get_ccompare" addr="0x00216c64">
   <sample key="0x20004b3" count="3"/>
   <sample key="0x4db" count="1"/>
   <sample key="0x20004c1" count="1"/>
@@ -15057,7 +15057,7 @@
   <sample key="0x614" count="1"/>
   <sample key="0x617" count="1"/>
  </function>
- <function name="LIST_GetAvailableSize" addr="0x00204b58">
+ <function name="LIST_GetAvailableSize" addr="0x00204ae8">
   <sample key="0x4f6" count="2"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4af" count="1"/>
@@ -15065,7 +15065,7 @@
   <sample key="0x10004c8" count="1"/>
   <sample key="0x4d1" count="1"/>
  </function>
- <function name="__swbuf" addr="0x00215850">
+ <function name="__swbuf" addr="0x002157b0">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f8" count="1"/>
@@ -15083,7 +15083,7 @@
   <sample key="0x534" count="1"/>
   <sample key="0x53c" count="1"/>
  </function>
- <function name="setlocale" addr="0x00214c70">
+ <function name="setlocale" addr="0x00214bd0">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f8" count="1"/>
@@ -15093,7 +15093,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x4b2" count="1"/>
  </function>
- <function name="signal" addr="0x00215500">
+ <function name="signal" addr="0x00215460">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f8" count="1"/>
@@ -15103,7 +15103,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x4b2" count="1"/>
  </function>
- <function name="xos_dispatch_from_thread" addr="0x00211054">
+ <function name="xos_dispatch_from_thread" addr="0x00210fb4">
   <sample key="0x50404cb" count="1"/>
   <sample key="0x600066d" count="1"/>
   <sample key="0x4f4" count="1"/>
@@ -15113,7 +15113,7 @@
   <sample key="0x5000509" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="xos_nmi_dispatch" addr="0x00210f84">
+ <function name="xos_nmi_dispatch" addr="0x00210ee4">
   <sample key="0x20004c0" count="1"/>
   <sample key="0x5d9" count="1"/>
   <sample key="0x4f1" count="1"/>
@@ -15123,7 +15123,7 @@
   <sample key="0x552" count="1"/>
   <sample key="0x553" count="1"/>
  </function>
- <function name="CLOCK_SetXtalFreq" addr="0x0020d880">
+ <function name="CLOCK_SetXtalFreq" addr="0x0020d7e0">
   <sample key="0x10004c8" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
@@ -15131,7 +15131,7 @@
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_Getchar" addr="0x0020e850">
+ <function name="DbgConsole_Getchar" addr="0x0020e7b0">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4fa" count="1"/>
@@ -15140,28 +15140,28 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="RESET_PeripheralReset" addr="0x002078c0">
+ <function name="RESET_PeripheralReset" addr="0x00207850">
   <sample key="0x4aa" count="2"/>
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="__fp_lock_all" addr="0x00214390">
+ <function name="__fp_lock_all" addr="0x002142f0">
   <sample key="0x4aa" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__fp_unlock_all" addr="0x002143b0">
+ <function name="__fp_unlock_all" addr="0x00214310">
   <sample key="0x4aa" count="2"/>
   <sample key="0x4f9" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sigtramp" addr="0x00215540">
+ <function name="__sigtramp" addr="0x002154a0">
   <sample key="0x4d6" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15169,7 +15169,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="fclose" addr="0x00215a50">
+ <function name="fclose" addr="0x002159b0">
   <sample key="0x4d6" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15177,7 +15177,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="malloc" addr="0x00211f30">
+ <function name="malloc" addr="0x00211e90">
   <sample key="0x4d6" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15185,7 +15185,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="mutex_wakeup_cb" addr="0x00211c54">
+ <function name="mutex_wakeup_cb" addr="0x00211bb4">
   <sample key="0x4f9" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15193,7 +15193,7 @@
   <sample key="0x50404c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="raise" addr="0x002154e0">
+ <function name="raise" addr="0x00215440">
   <sample key="0x4d6" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15201,7 +15201,7 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="thread_wakeup_cb" addr="0x00210e84">
+ <function name="thread_wakeup_cb" addr="0x00210de4">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x50004f8" count="1"/>
@@ -15210,7 +15210,7 @@
   <sample key="0x50404fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_q_pop" addr="0x0020fc10">
+ <function name="xos_q_pop" addr="0x0020fb70">
   <sample key="0x4ec" count="1"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15219,14 +15219,14 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x4b2" count="1"/>
  </function>
- <function name="xos_q_push" addr="0x0021648c">
+ <function name="xos_q_push" addr="0x002163ec">
   <sample key="0x10004c8" count="3"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x509" count="1"/>
  </function>
- <function name="xos_unregister_interrupt_handler" addr="0x0020f810">
+ <function name="xos_unregister_interrupt_handler" addr="0x0020f770">
   <sample key="0x4d6" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15234,14 +15234,14 @@
   <sample key="0x50404fe" count="1"/>
   <sample key="0x4b2" count="1"/>
  </function>
- <function name="__assert" addr="0x00211e80">
+ <function name="__assert" addr="0x00211de0">
   <sample key="0x50004c4" count="2"/>
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x50404c4" count="1"/>
   <sample key="0x50404fe" count="1"/>
  </function>
- <function name="__sclose" addr="0x00215620">
+ <function name="__sclose" addr="0x00215580">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x50004f7" count="1"/>
@@ -15249,7 +15249,7 @@
   <sample key="0x50404c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_gdbio_set_fd" addr="0x00216080">
+ <function name="_gdbio_set_fd" addr="0x00215fe0">
   <sample key="0x10004be" count="1"/>
   <sample key="0x50404cb" count="1"/>
   <sample key="0x4af" count="1"/>
@@ -15257,7 +15257,7 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x50b" count="1"/>
  </function>
- <function name="_init_signal" addr="0x00215520">
+ <function name="_init_signal" addr="0x00215480">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f8" count="1"/>
@@ -15265,7 +15265,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x4b2" count="1"/>
  </function>
- <function name="free" addr="0x00211f50">
+ <function name="free" addr="0x00211eb0">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x50004f8" count="1"/>
@@ -15273,7 +15273,7 @@
   <sample key="0x50404c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="localeconv" addr="0x00214c90">
+ <function name="localeconv" addr="0x00214bf0">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f8" count="1"/>
@@ -15281,7 +15281,7 @@
   <sample key="0x4d6" count="1"/>
   <sample key="0x4b2" count="1"/>
  </function>
- <function name="xos_once_init" addr="0x00211c68">
+ <function name="xos_once_init" addr="0x00211bc8">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
@@ -15289,7 +15289,7 @@
   <sample key="0x50004fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_register_fatal_error_handler" addr="0x0020f928">
+ <function name="xos_register_fatal_error_handler" addr="0x0020f888">
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x50004f9" count="1"/>
@@ -15297,59 +15297,59 @@
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="xos_start_thread" addr="0x002114b8">
+ <function name="xos_start_thread" addr="0x00211418">
   <sample key="0x10004c8" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f5" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x4f9" count="1"/>
  </function>
- <function name="CLOCK_GetMclkInClkFreq" addr="0x002055fc">
+ <function name="CLOCK_GetMclkInClkFreq" addr="0x0020558c">
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x518" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="INPUTMUX_Deinit" addr="0x0020d758">
+ <function name="INPUTMUX_Deinit" addr="0x0020d6e8">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="INPUTMUX_Init" addr="0x0020d6a0">
+ <function name="INPUTMUX_Init" addr="0x0020d630">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="LIST_GetHead" addr="0x00204a18">
+ <function name="LIST_GetHead" addr="0x002049a8">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="LIST_GetList" addr="0x002048cc">
+ <function name="LIST_GetList" addr="0x0020485c">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="LIST_GetNext" addr="0x00204a24">
+ <function name="LIST_GetNext" addr="0x002049b4">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="LIST_GetPrev" addr="0x00204a30">
+ <function name="LIST_GetPrev" addr="0x002049c0">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="LIST_GetSize" addr="0x00204b4c">
+ <function name="LIST_GetSize" addr="0x00204adc">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f6" count="1"/>
   <sample key="0x10004c3" count="1"/>
@@ -15360,21 +15360,21 @@
   <sample key="0x4b6" count="4"/>
   <sample key="0x4b5" count="1"/>
  </function>
- <function name="_cleanup" addr="0x00214270">
+ <function name="_cleanup" addr="0x002141d0">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_cleanup_r" addr="0x00214260">
+ <function name="_cleanup_r" addr="0x002141c0">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x50004f9" count="1"/>
   <sample key="0x50404c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_fini" addr="0x00217020">
+ <function name="_fini" addr="0x00216f80">
   <sample key="0x4ad" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
@@ -15385,139 +15385,139 @@
   <sample key="0x4b7" count="4"/>
   <sample key="0x4b4" count="1"/>
  </function>
- <function name="abort" addr="0x00213f70">
+ <function name="abort" addr="0x00213ed0">
   <sample key="0x4aa" count="2"/>
   <sample key="0x20004c5" count="2"/>
   <sample key="0x4af" count="1"/>
  </function>
- <function name="xos_int_unhandled" addr="0x0020f800">
+ <function name="xos_int_unhandled" addr="0x0020f760">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x50004f9" count="1"/>
   <sample key="0x50404fe" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA0_DriverIRQHandler" addr="0x0020a1b4">
+ <function name="DMA0_DriverIRQHandler" addr="0x0020a144">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DMA1_DriverIRQHandler" addr="0x0020a1c0">
+ <function name="DMA1_DriverIRQHandler" addr="0x0020a150">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__env_lock" addr="0x0021156c">
-  <sample key="0x4aa" count="1"/>
-  <sample key="0x4af" count="1"/>
-  <sample key="0x20004c4" count="1"/>
-  <sample key="0x20004b3" count="1"/>
- </function>
- <function name="__env_unlock" addr="0x00211578">
+ <function name="__env_lock" addr="0x002114cc">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__locale_cjk_lang" addr="0x00214c50">
-  <sample key="0x4af" count="1"/>
-  <sample key="0x10004c3" count="1"/>
-  <sample key="0x4f9" count="1"/>
-  <sample key="0x20004b3" count="1"/>
- </function>
- <function name="__locale_mb_cur_max" addr="0x00214c30">
-  <sample key="0x4af" count="1"/>
-  <sample key="0x10004c3" count="1"/>
-  <sample key="0x4f9" count="1"/>
-  <sample key="0x20004b3" count="1"/>
- </function>
- <function name="getCpuCycleCount" addr="0x0020695c">
+ <function name="__env_unlock" addr="0x002114d8">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c4" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_get_system_timer_num" addr="0x00210b24">
+ <function name="__locale_cjk_lang" addr="0x00214bb0">
   <sample key="0x4af" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_init_done" addr="0x0020ff34">
+ <function name="__locale_mb_cur_max" addr="0x00214b90">
+  <sample key="0x4af" count="1"/>
+  <sample key="0x10004c3" count="1"/>
+  <sample key="0x4f9" count="1"/>
+  <sample key="0x20004b3" count="1"/>
+ </function>
+ <function name="getCpuCycleCount" addr="0x002068ec">
+  <sample key="0x4aa" count="1"/>
+  <sample key="0x4af" count="1"/>
+  <sample key="0x20004c4" count="1"/>
+  <sample key="0x20004b3" count="1"/>
+ </function>
+ <function name="xos_get_system_timer_num" addr="0x00210a84">
+  <sample key="0x4af" count="1"/>
+  <sample key="0x10004c3" count="1"/>
+  <sample key="0x4f9" count="1"/>
+  <sample key="0x20004b3" count="1"/>
+ </function>
+ <function name="xos_init_done" addr="0x0020fe94">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x4fa" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_started" addr="0x0020fff4">
+ <function name="xos_started" addr="0x0020ff54">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x4fa" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_thread_abort_stub" addr="0x00211440">
+ <function name="xos_thread_abort_stub" addr="0x002113a0">
   <sample key="0x10004c3" count="2"/>
   <sample key="0x4f4" count="1"/>
   <sample key="0x4f9" count="1"/>
  </function>
- <function name="BOARD_InitBootPins" addr="0x0020480c">
+ <function name="BOARD_InitBootPins" addr="0x0020479c">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetLpOscFreq" addr="0x0020560c">
+ <function name="CLOCK_GetLpOscFreq" addr="0x0020559c">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="CLOCK_GetSFroFreq" addr="0x002055b0">
+ <function name="CLOCK_GetSFroFreq" addr="0x00205540">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DbgConsole_Flush" addr="0x0020e690">
+ <function name="DbgConsole_Flush" addr="0x0020e5f0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DisableGlobalIRQ" addr="0x00204b70">
+ <function name="DisableGlobalIRQ" addr="0x00204b00">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DisableGlobalIRQ" addr="0x002078fc">
+ <function name="DisableGlobalIRQ" addr="0x0020788c">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="DisableGlobalIRQ" addr="0x00204840">
+ <function name="DisableGlobalIRQ" addr="0x002047d0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="EnableGlobalIRQ" addr="0x00204b78">
+ <function name="EnableGlobalIRQ" addr="0x002047d8">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="EnableGlobalIRQ" addr="0x00204848">
+ <function name="EnableGlobalIRQ" addr="0x00204b08">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="EnableGlobalIRQ" addr="0x00207904">
+ <function name="EnableGlobalIRQ" addr="0x00207894">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="I2S_Deinit" addr="0x0020b3b0">
+ <function name="I2S_Deinit" addr="0x0020b340">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="SystemInit" addr="0x00204678">
+ <function name="SystemInit" addr="0x002045d8">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
@@ -15531,42 +15531,42 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x553" count="1"/>
  </function>
- <function name="__fp_lock" addr="0x00216a80">
+ <function name="__fp_lock" addr="0x002169e0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__fp_unlock" addr="0x00216a90">
+ <function name="__fp_unlock" addr="0x002169f0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__locale_charset" addr="0x00214c20">
+ <function name="__locale_charset" addr="0x00214b80">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__locale_msgcharset" addr="0x00214c40">
+ <function name="__locale_msgcharset" addr="0x00214ba0">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__seofread" addr="0x00216c50">
+ <function name="__seofread" addr="0x00216bb0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_gdbio_syscall" addr="0x00216c90">
+ <function name="_gdbio_syscall" addr="0x00216bf0">
   <sample key="0x5d9" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_getpid_r" addr="0x00216ca0">
+ <function name="_getpid_r" addr="0x00216c00">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="_localeconv_r" addr="0x00214c60">
+ <function name="_localeconv_r" addr="0x00214bc0">
   <sample key="0x4af" count="1"/>
   <sample key="0x4f9" count="1"/>
   <sample key="0x20004b3" count="1"/>
@@ -15581,32 +15581,32 @@
   <sample key="0x4f9" count="1"/>
   <sample key="0x54d" count="1"/>
  </function>
- <function name="resume_thread" addr="0x0021124e">
+ <function name="resume_thread" addr="0x002111ae">
   <sample key="0x4f5" count="1"/>
   <sample key="0x10004c3" count="1"/>
   <sample key="0x10004c8" count="1"/>
  </function>
- <function name="timer_intr_handler" addr="0x00211e0c">
+ <function name="timer_intr_handler" addr="0x00211d6c">
   <sample key="0x4aa" count="1"/>
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_set_sched_interrupt" addr="0x00216534">
+ <function name="xos_set_sched_interrupt" addr="0x00216494">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004c5" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="xos_thread_exit_trap" addr="0x00211436">
+ <function name="xos_thread_exit_trap" addr="0x00211396">
   <sample key="0x5d9" count="1"/>
   <sample key="0x4ab" count="1"/>
   <sample key="0x4f4" count="1"/>
  </function>
- <function name="xthal_get_ccount" addr="0x00216ce0">
+ <function name="xthal_get_ccount" addr="0x00216c40">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
   <sample key="0x611" count="1"/>
  </function>
- <function name="SystemInitHook" addr="0x002047d4">
+ <function name="SystemInitHook" addr="0x00204734">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
@@ -15614,34 +15614,34 @@
   <sample key="0x5d9" count="1"/>
   <sample key="0x4f4" count="1"/>
  </function>
- <function name="__sfp_lock_acquire" addr="0x00216a40">
+ <function name="__sfp_lock_acquire" addr="0x002169a0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sfp_lock_release" addr="0x00216a50">
+ <function name="__sfp_lock_release" addr="0x002169b0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sinit_lock_acquire" addr="0x00216a60">
+ <function name="__sinit_lock_acquire" addr="0x002169c0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="__sinit_lock_release" addr="0x00216a70">
+ <function name="__sinit_lock_release" addr="0x002169d0">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="board_init" addr="0x00216cb0">
+ <function name="board_init" addr="0x00216c10">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
- <function name="enableCpuCycleCounter" addr="0x00206954">
+ <function name="enableCpuCycleCounter" addr="0x002068e4">
   <sample key="0x4af" count="1"/>
   <sample key="0x20004b3" count="1"/>
  </function>
  <function name="_ResetVector" addr="0x24020000">
   <sample key="0x4f4" count="1"/>
  </function>
- <function name="xos_dummy_handler" addr="0x00210f48">
+ <function name="xos_dummy_handler" addr="0x00210ea8">
   <sample key="0x20004c7" count="1"/>
  </function>
 </isa_profile>

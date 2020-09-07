@@ -1,5 +1,5 @@
 main.o:  \
- C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/user/main.c \
+ C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/user/main.c \
   C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/stdio.h \
   C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/_ansi.h \
   C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/newlib.h \
@@ -62,30 +62,30 @@ main.o:  \
   C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/xtensa-elf/include/xtensa/xos_timer.h \
   C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/xtensa-elf/include/xtensa/xos_stopwatch.h \
   C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/xtensa-elf/include/xtensa/xos_syslog.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_common.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_common.h \
   C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/nxp_rt600_RI2019_newlib/xtensa-elf/include/assert.h \
   C:/usr/xtensa/XtDevTools/install/tools/RI-2019.1-win32/XtensaTools/lib/xcc/include/stdbool.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/fsl_device_registers.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/MIMXRT685S_dsp.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../core_dsp.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/system_MIMXRT685S_dsp.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/MIMXRT685S_dsp_features.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_clock.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_reset.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_common.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_inputmux.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_inputmux_connections.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../pin_mux.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/utilities/debug_console/fsl_debug_console.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_common.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../components/serial_manager/serial_manager.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../components/serial_manager/serial_port_uart.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../components/uart/uart.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dma.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dmic.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dmic_dma.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dma.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_i2s.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_flexcomm.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_i2s_dma.h \
-  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/eight_channel_dmic_i2s_playback/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_i2s.h
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/fsl_device_registers.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/MIMXRT685S_dsp.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../core_dsp.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/system_MIMXRT685S_dsp.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/MIMXRT685S_dsp_features.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_clock.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_reset.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_common.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_inputmux.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_inputmux_connections.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../pin_mux.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/utilities/debug_console/fsl_debug_console.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_common.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../components/serial_manager/serial_manager.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../components/serial_manager/serial_port_uart.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../components/uart/uart.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dma.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dmic.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dmic_dma.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_dma.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_i2s.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_flexcomm.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_i2s_dma.h \
+  C:/Users/nxf55062/Documents/MCU_SDK/RT600/SDK_2.8.0_EVK-MIMXRT685_RC2_0/boards/evkmimxrt685/dsp_examples/RT600_DMIC_AUDIO/dsp/xtensa/../../../../../../devices/MIMXRT685S/drivers/fsl_i2s.h
